@@ -11,6 +11,12 @@ fetch(url)
       target: document.body,
       props: {
 		data: data
+		/*You can also pass each object in 'data' as an individual prop.
+		For example:
+			meta: data.meta,
+			menu: data.menu,
+			content: data.content
+		*/
       }
 	});
 });

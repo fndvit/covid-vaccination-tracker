@@ -59,11 +59,6 @@ Promise.all(
             })
   )).then(data => write(data, 'data'));
 
-
-//   const transform = (data) => {
-
-//   }
-
   const write = (json, filename) => {
     let data = JSON.stringify(json, null, 2);
 
