@@ -1,0 +1,29 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 92.5%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'neue-haas-grotesk-display', sans-serif;
+	font-style: normal;
+}
+
+h1, h2, h4, p {
+	text-align: left;
+}
+
+label {
+	display: block;
+}
+
+@media screen and (min-width: 640px) {
+	html {
+		font-size: 100%;
+	}
+}

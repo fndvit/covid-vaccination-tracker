@@ -1,0 +1,2494 @@
+[
+  [
+    {
+      "ccaa": "Andalucía",
+      "entregadas": "140.295",
+      "administradas": "25.809",
+      "admin_entregadas": "18,4%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "entregadas": "23.715",
+      "administradas": "2.004",
+      "admin_entregadas": "8,5%",
+      "hasta": "2021-01-01T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "entregadas": "23.720",
+      "administradas": "9.380",
+      "admin_entregadas": "39,5%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "entregadas": "8.940",
+      "administradas": "153",
+      "admin_entregadas": "1,7%",
+      "hasta": "2020-12-27T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "entregadas": "20.835",
+      "administradas": "4.846",
+      "admin_entregadas": "52,5%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "entregadas": "11.850",
+      "administradas": "304",
+      "admin_entregadas": "2,6%",
+      "hasta": "2020-12-29T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "entregadas": "51.390",
+      "administradas": "10.928",
+      "admin_entregadas": "9,4%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "entregadas": "35.550",
+      "administradas": "1.983",
+      "admin_entregadas": "5,6%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "entregadas": "120.545",
+      "administradas": "8.150",
+      "admin_entregadas": "6,8%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "entregadas": "61.225",
+      "administradas": "3.252",
+      "admin_entregadas": "5,3%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "entregadas": "21.725",
+      "administradas": "686",
+      "admin_entregadas": "3,2%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "entregadas": "37.555",
+      "administradas": "9.124",
+      "admin_entregadas": "24,3%",
+      "hasta": "2021-01-01T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "entregadas": "5.915",
+      "administradas": "324",
+      "admin_entregadas": "5,5%",
+      "hasta": "2020-12-30T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "entregadas": "89.040",
+      "administradas": "2.883",
+      "admin_entregadas": "3,2%",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "entregadas": "25.685",
+      "administradas": "442",
+      "admin_entregadas": "1,7%",
+      "hasta": "2021-01-03T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "entregadas": "6.975",
+      "administradas": "1.583",
+      "admin_entregadas": "22,7%",
+      "hasta": "2021-01-03T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "entregadas": "31.605",
+      "administradas": "396",
+      "admin_entregadas": "1,3%",
+      "hasta": "2021-01-01T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "entregadas": "1.005",
+      "administradas": "380",
+      "admin_entregadas": "37,8%",
+      "hasta": "2020-12-30T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "entregadas": "1.005",
+      "administradas": "207",
+      "admin_entregadas": "20,6%",
+      "hasta": "2020-12-29T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": "718.575",
+      "administradas": "82.834",
+      "admin_entregadas": "11,5%",
+      "hasta": null,
+      "fecha": "2021-01-03T23:00:00.000Z"
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "ccaa": "Andalucía",
+      "entregadas": "140.295",
+      "administradas": "53.934",
+      "admin_entregadas": "38,4%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "entregadas": "23.715",
+      "administradas": "6.186",
+      "admin_entregadas": "26,1%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "entregadas": "23.720",
+      "administradas": "14.406",
+      "admin_entregadas": "60,7%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "entregadas": "12.840",
+      "administradas": "3.190",
+      "admin_entregadas": "24,8%",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "entregadas": "27.660",
+      "administradas": "7.330",
+      "admin_entregadas": "26,5%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "entregadas": "11.850",
+      "administradas": "1.564",
+      "admin_entregadas": "13,2%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "entregadas": "51.390",
+      "administradas": "22.103",
+      "admin_entregadas": "43,0%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "entregadas": "35.550",
+      "administradas": "7.666",
+      "admin_entregadas": "21,6%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "entregadas": "120.545",
+      "administradas": "24.515",
+      "admin_entregadas": "20,3%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "entregadas": "61.225",
+      "administradas": "11.677",
+      "admin_entregadas": "19,1%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "entregadas": "21.725",
+      "administradas": "3.309",
+      "admin_entregadas": "15,2%",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "entregadas": "37.555",
+      "administradas": "20.265",
+      "admin_entregadas": "54,0%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "entregadas": "5.915",
+      "administradas": "858",
+      "admin_entregadas": "14,5%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "entregadas": "98.790",
+      "administradas": "11.337",
+      "admin_entregadas": "11,5%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "entregadas": "25.685",
+      "administradas": "7.287",
+      "admin_entregadas": "28,4%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "entregadas": "11.850",
+      "administradas": "2.960",
+      "admin_entregadas": "25,0%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "entregadas": "31.605",
+      "administradas": "7.734",
+      "admin_entregadas": "24,5%",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "entregadas": "1.005",
+      "administradas": "576",
+      "admin_entregadas": "57,3%",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "entregadas": "1.005",
+      "administradas": "426",
+      "admin_entregadas": "42,4%",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": "743.925",
+      "administradas": "207.323",
+      "admin_entregadas": "27,9%",
+      "hasta": null,
+      "fecha": "2021-01-06T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "entregadas": "140.295",
+      "administradas": "69.445",
+      "admin_entregadas": "49,5%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "entregadas": "23.715",
+      "administradas": "9.944",
+      "admin_entregadas": "41,9%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "entregadas": "23.720",
+      "administradas": "17.843",
+      "admin_entregadas": "75,2%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "entregadas": "12.840",
+      "administradas": "4.257",
+      "admin_entregadas": "33,2%",
+      "hasta": "2021-12-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "entregadas": "27.660",
+      "administradas": "9.572",
+      "admin_entregadas": "34,6%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "entregadas": "11.850",
+      "administradas": "2.334",
+      "admin_entregadas": "19,7%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "entregadas": "51.390",
+      "administradas": "28.325",
+      "admin_entregadas": "55,1%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "entregadas": "35.550",
+      "administradas": "12.380",
+      "admin_entregadas": "34,8%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "entregadas": "120.545",
+      "administradas": "38.826",
+      "admin_entregadas": "32,2%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "entregadas": "61.225",
+      "administradas": "15.965",
+      "admin_entregadas": "26,1%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "entregadas": "21.725",
+      "administradas": "4.727",
+      "admin_entregadas": "21,8%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "entregadas": "37.555",
+      "administradas": "24.750",
+      "admin_entregadas": "65,9%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "entregadas": "5.915",
+      "administradas": "1.674",
+      "admin_entregadas": "28,3%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "entregadas": "98.790",
+      "administradas": "14.152",
+      "admin_entregadas": "14,3%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "entregadas": "25.685",
+      "administradas": "8.958",
+      "admin_entregadas": "34,9%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "entregadas": "11.850",
+      "administradas": "3.703",
+      "admin_entregadas": "31,2%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "entregadas": "31.605",
+      "administradas": "9.811",
+      "admin_entregadas": "31,0%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "entregadas": "1.005",
+      "administradas": "637",
+      "admin_entregadas": "63,4%",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "entregadas": "1.005",
+      "administradas": "673",
+      "admin_entregadas": "67,0%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": "743.925",
+      "administradas": "277.976",
+      "admin_entregadas": "37,4%",
+      "hasta": null,
+      "fecha": "2021-01-07T23:00:00.000Z"
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "ccaa": "Andalucía",
+      "entregadas": "140.295",
+      "administradas": "81.387",
+      "admin_entregadas": "58,0%",
+      "hasta": "2021-01-08T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "entregadas": "23.715",
+      "administradas": "10.998",
+      "admin_entregadas": "46,4%",
+      "hasta": "2021-01-08T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "entregadas": "23.720",
+      "administradas": "18.943",
+      "admin_entregadas": "79,9%",
+      "hasta": "2021-01-08T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "entregadas": "12.840",
+      "administradas": "4.652",
+      "admin_entregadas": "36,2%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "entregadas": "27.660",
+      "administradas": "13.607",
+      "admin_entregadas": "49,2%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "entregadas": "11.850",
+      "administradas": "8.474",
+      "admin_entregadas": "71,5%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "entregadas": "51.390",
+      "administradas": "36.205",
+      "admin_entregadas": "70,5%",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "entregadas": "35.550",
+      "administradas": "19.209",
+      "admin_entregadas": "54,0%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "entregadas": "120.545",
+      "administradas": "68.405",
+      "admin_entregadas": "56,7%",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "entregadas": "61.225",
+      "administradas": "45.674",
+      "admin_entregadas": "74,6%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "entregadas": "21.725",
+      "administradas": "9.303",
+      "admin_entregadas": "42,8%",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "entregadas": "37.555",
+      "administradas": "30.418",
+      "admin_entregadas": "81,0%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "entregadas": "5.915",
+      "administradas": "3.457",
+      "admin_entregadas": "58,4%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "entregadas": "98.790",
+      "administradas": "24.897",
+      "admin_entregadas": "25,2%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "entregadas": "25.685",
+      "administradas": "10.361",
+      "admin_entregadas": "40,3%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "entregadas": "11.850",
+      "administradas": "5.468",
+      "admin_entregadas": "46,1%",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "entregadas": "31.605",
+      "administradas": "13.103",
+      "admin_entregadas": "41,5%",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "entregadas": "1.005",
+      "administradas": "698",
+      "admin_entregadas": "69,5%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "entregadas": "1.005",
+      "administradas": "832",
+      "admin_entregadas": "82,8%",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": "743.925",
+      "administradas": "406.091",
+      "admin_entregadas": "54,6%",
+      "hasta": null,
+      "fecha": "2021-01-10T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "entregadas": "140.295",
+      "administradas": "94.879",
+      "admin_entregadas": "67,6%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "entregadas": "23.715",
+      "administradas": "11.983",
+      "admin_entregadas": "50,5%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "entregadas": "23.720",
+      "administradas": "22.428",
+      "admin_entregadas": "94,6%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "entregadas": "12.840",
+      "administradas": "4.835",
+      "admin_entregadas": "37,7%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "entregadas": "27.660",
+      "administradas": "15.328",
+      "admin_entregadas": "55,4%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "entregadas": "11.850",
+      "administradas": "9.527",
+      "admin_entregadas": "80,4%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "entregadas": "51.390",
+      "administradas": "41.340",
+      "admin_entregadas": "80,4%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "entregadas": "35.550",
+      "administradas": "23.342",
+      "admin_entregadas": "65,7%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "entregadas": "120.545",
+      "administradas": "82.785",
+      "admin_entregadas": "68,7%",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "entregadas": "61.225",
+      "administradas": "57.223",
+      "admin_entregadas": "93,5%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "entregadas": "21.725",
+      "administradas": "11.346",
+      "admin_entregadas": "52,2%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "entregadas": "37.555",
+      "administradas": "33.346",
+      "admin_entregadas": "88,8%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "entregadas": "5.915",
+      "administradas": "3.826",
+      "admin_entregadas": "64,7%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "entregadas": "98.790",
+      "administradas": "35.949",
+      "admin_entregadas": "36,4%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "entregadas": "25.685",
+      "administradas": "16.191",
+      "admin_entregadas": "63,0%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "entregadas": "11.850",
+      "administradas": "6.557",
+      "admin_entregadas": "55,3%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "entregadas": "31.605",
+      "administradas": "15.393",
+      "admin_entregadas": "48,7%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "entregadas": "1.005",
+      "administradas": "758",
+      "admin_entregadas": "75,4%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "entregadas": "1.005",
+      "administradas": "1.005",
+      "admin_entregadas": "100,0%",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": "743.925",
+      "administradas": "488.041",
+      "admin_entregadas": "65,6%",
+      "hasta": null,
+      "fecha": "2021-01-11T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "entregadas": "209.520",
+      "administradas": "109.831",
+      "admin_entregadas": "52,4%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "entregadas": "35.415",
+      "administradas": "17.043",
+      "admin_entregadas": "48,1%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "entregadas": "35.420",
+      "administradas": "25.278",
+      "admin_entregadas": "71,4%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "entregadas": "12.840",
+      "administradas": "4.931",
+      "admin_entregadas": "38,4%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "entregadas": "41.310",
+      "administradas": "22.290",
+      "admin_entregadas": "54,0%",
+      "hasta": "2022-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "entregadas": "17.700",
+      "administradas": "11.302",
+      "admin_entregadas": "63,9%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "entregadas": "76.740",
+      "administradas": "48.243",
+      "admin_entregadas": "62,9%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "entregadas": "53.100",
+      "administradas": "26.879",
+      "admin_entregadas": "50,6%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "entregadas": "180.020",
+      "administradas": "92.133",
+      "admin_entregadas": "51,2%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "entregadas": "91.450",
+      "administradas": "70.870",
+      "admin_entregadas": "77,5%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "entregadas": "32.450",
+      "administradas": "14.293",
+      "admin_entregadas": "44,0%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "entregadas": "56.080",
+      "administradas": "37.745",
+      "admin_entregadas": "67,3%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "entregadas": "8.840",
+      "administradas": "4.651",
+      "admin_entregadas": "52,6%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "entregadas": "147.540",
+      "administradas": "49.228",
+      "admin_entregadas": "33,4%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "entregadas": "38.360",
+      "administradas": "19.905",
+      "admin_entregadas": "51,9%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "entregadas": "17.700",
+      "administradas": "7.420",
+      "admin_entregadas": "41,9%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "entregadas": "47.205",
+      "administradas": "17.771",
+      "admin_entregadas": "37,6%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "entregadas": "1.005",
+      "administradas": "820",
+      "admin_entregadas": "81,6%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "entregadas": "1.005",
+      "administradas": "1.005",
+      "admin_entregadas": "100,0%",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": "1.103.700",
+      "administradas": "581.638",
+      "admin_entregadas": "52,7%",
+      "hasta": null,
+      "fecha": "2021-01-12T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "209.520",
+      "moderna": "6.800",
+      "entregadas": "216.320",
+      "administradas": "123.459",
+      "admin_entregadas": "57%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "35.415",
+      "moderna": "1.200",
+      "entregadas": "36.615",
+      "administradas": "20.854",
+      "admin_entregadas": "57%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "35.420",
+      "moderna": "1.200",
+      "entregadas": "36.620",
+      "administradas": "29.074",
+      "admin_entregadas": "79%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "12.840",
+      "moderna": "600",
+      "entregadas": "13.440",
+      "administradas": "7.552",
+      "admin_entregadas": "56%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "41.310",
+      "moderna": "1.300",
+      "entregadas": "42.610",
+      "administradas": "25.159",
+      "admin_entregadas": "59%",
+      "hasta": "2022-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "12.779",
+      "admin_entregadas": "70%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "76.740",
+      "moderna": "2.500",
+      "entregadas": "79.240",
+      "administradas": "57.969",
+      "admin_entregadas": "73%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "53.100",
+      "moderna": "1.700",
+      "entregadas": "54.800",
+      "administradas": "30.613",
+      "admin_entregadas": "56%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "180.020",
+      "moderna": "5.800",
+      "entregadas": "185.820",
+      "administradas": "105.587",
+      "admin_entregadas": "57%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "91.450",
+      "moderna": "2.900",
+      "entregadas": "94.350",
+      "administradas": "80.429",
+      "admin_entregadas": "85%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "32.450",
+      "moderna": "1.000",
+      "entregadas": "33.450",
+      "administradas": "17.862",
+      "admin_entregadas": "53%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "56.080",
+      "moderna": "1.800",
+      "entregadas": "57.880",
+      "administradas": "44.014",
+      "admin_entregadas": "76%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "8.840",
+      "moderna": "200",
+      "entregadas": "9.040",
+      "administradas": "5.385",
+      "admin_entregadas": "60%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "147.540",
+      "moderna": "4.700",
+      "entregadas": "152.240",
+      "administradas": "63.385",
+      "admin_entregadas": "42%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "38.360",
+      "moderna": "1.200",
+      "entregadas": "39.560",
+      "administradas": "21.739",
+      "admin_entregadas": "55%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "8.314",
+      "admin_entregadas": "46%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "47.205",
+      "moderna": "1.400",
+      "entregadas": "48.605",
+      "administradas": "20.003",
+      "admin_entregadas": "41%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "911",
+      "admin_entregadas": "76%",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "1.098",
+      "admin_entregadas": "91%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.103.700",
+      "moderna": "35.700",
+      "entregadas": "1.139.400",
+      "administradas": "676.186",
+      "admin_entregadas": "59%",
+      "hasta": null,
+      "fecha": "2021-01-13T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "209.520",
+      "moderna": "6.800",
+      "entregadas": "216.320",
+      "administradas": "139.718",
+      "admin_entregadas": "65%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "35.415",
+      "moderna": "1.200",
+      "entregadas": "36.615",
+      "administradas": "23.619",
+      "admin_entregadas": "65%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "35.420",
+      "moderna": "1.200",
+      "entregadas": "36.620",
+      "administradas": "31.247",
+      "admin_entregadas": "85%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "12.840",
+      "moderna": "600",
+      "entregadas": "13.440",
+      "administradas": "9.366",
+      "admin_entregadas": "70%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "41.310",
+      "moderna": "1.300",
+      "entregadas": "42.610",
+      "administradas": "30.732",
+      "admin_entregadas": "72%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "14.639",
+      "admin_entregadas": "80%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "76.740",
+      "moderna": "2.500",
+      "entregadas": "79.240",
+      "administradas": "59.411",
+      "admin_entregadas": "75%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "53.100",
+      "moderna": "1.700",
+      "entregadas": "54.800",
+      "administradas": "33.809",
+      "admin_entregadas": "62%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "180.020",
+      "moderna": "5.800",
+      "entregadas": "185.820",
+      "administradas": "122.577",
+      "admin_entregadas": "66%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "91.450",
+      "moderna": "2.900",
+      "entregadas": "94.350",
+      "administradas": "86.927",
+      "admin_entregadas": "92%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "32.450",
+      "moderna": "1.000",
+      "entregadas": "33.450",
+      "administradas": "22.322",
+      "admin_entregadas": "67%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "56.080",
+      "moderna": "1.800",
+      "entregadas": "57.880",
+      "administradas": "49.768",
+      "admin_entregadas": "86%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "8.840",
+      "moderna": "200",
+      "entregadas": "9.040",
+      "administradas": "5.953",
+      "admin_entregadas": "66%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "147.540",
+      "moderna": "4.700",
+      "entregadas": "152.240",
+      "administradas": "77.921",
+      "admin_entregadas": "51%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "38.360",
+      "moderna": "1.200",
+      "entregadas": "39.560",
+      "administradas": "27.001",
+      "admin_entregadas": "68%",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "9.305",
+      "admin_entregadas": "51%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "47.205",
+      "moderna": "1.400",
+      "entregadas": "48.605",
+      "administradas": "22.464",
+      "admin_entregadas": "46%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "941",
+      "admin_entregadas": "78%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "1.230",
+      "admin_entregadas": "102%",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.103.700",
+      "moderna": "35.700",
+      "entregadas": "1.139.400",
+      "administradas": "768.950",
+      "admin_entregadas": "67%",
+      "hasta": null,
+      "fecha": "2021-01-14T23:00:00.000Z"
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "209.520",
+      "moderna": "6.800",
+      "entregadas": "216.320",
+      "administradas": "151.404",
+      "admin_entregadas": "70%",
+      "vacuna_completa": "533",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "35.415",
+      "moderna": "1.200",
+      "entregadas": "36.615",
+      "administradas": "25.133",
+      "admin_entregadas": "69%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "35.420",
+      "moderna": "1.200",
+      "entregadas": "36.620",
+      "administradas": "33.572",
+      "admin_entregadas": "92%",
+      "vacuna_completa": "202",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "16.740",
+      "moderna": "600",
+      "entregadas": "17.340",
+      "administradas": "13.750",
+      "admin_entregadas": "79%",
+      "vacuna_completa": "155",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "41.310",
+      "moderna": "1.300",
+      "entregadas": "42.610",
+      "administradas": "42.113",
+      "admin_entregadas": "99%",
+      "vacuna_completa": "327",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "17.724",
+      "admin_entregadas": "97%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-15T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "76.740",
+      "moderna": "2.500",
+      "entregadas": "79.240",
+      "administradas": "67.079",
+      "admin_entregadas": "85%",
+      "vacuna_completa": "124",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "53.100",
+      "moderna": "1.700",
+      "entregadas": "54.800",
+      "administradas": "38.321",
+      "admin_entregadas": "70%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "180.020",
+      "moderna": "5.800",
+      "entregadas": "185.820",
+      "administradas": "145.073",
+      "admin_entregadas": "78%",
+      "vacuna_completa": "167",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "91.450",
+      "moderna": "2.900",
+      "entregadas": "94.350",
+      "administradas": "93.695",
+      "admin_entregadas": "99%",
+      "vacuna_completa": "152",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "32.450",
+      "moderna": "1.000",
+      "entregadas": "33.450",
+      "administradas": "27.613",
+      "admin_entregadas": "83%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "56.080",
+      "moderna": "1.800",
+      "entregadas": "57.880",
+      "administradas": "56.481",
+      "admin_entregadas": "98%",
+      "vacuna_completa": "150",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "8.840",
+      "moderna": "200",
+      "entregadas": "9.040",
+      "administradas": "7.761",
+      "admin_entregadas": "86%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "147.540",
+      "moderna": "4.700",
+      "entregadas": "152.240",
+      "administradas": "104.490",
+      "admin_entregadas": "69%",
+      "vacuna_completa": "476",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "38.360",
+      "moderna": "1.200",
+      "entregadas": "39.560",
+      "administradas": "34.103",
+      "admin_entregadas": "86%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "11.834",
+      "admin_entregadas": "65%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "47.205",
+      "moderna": "1.400",
+      "entregadas": "48.605",
+      "administradas": "25.526",
+      "admin_entregadas": "53%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "981",
+      "admin_entregadas": "81%",
+      "vacuna_completa": "29",
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "1.289",
+      "admin_entregadas": "107%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.107.600",
+      "moderna": "35.700",
+      "entregadas": "1.143.300",
+      "administradas": "897.942",
+      "admin_entregadas": "79%",
+      "vacuna_completa": "2.315",
+      "hasta": null,
+      "fecha": "2021-01-17T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "209.520",
+      "moderna": "6.800",
+      "entregadas": "216.320",
+      "administradas": "164.820",
+      "admin_entregadas": "76,2%",
+      "vacuna_completa": "1.773",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "35.415",
+      "moderna": "1.200",
+      "entregadas": "36.615",
+      "administradas": "28.316",
+      "admin_entregadas": "77,3%",
+      "vacuna_completa": "250",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "35.420",
+      "moderna": "1.200",
+      "entregadas": "36.620",
+      "administradas": "34.293",
+      "admin_entregadas": "93,6%",
+      "vacuna_completa": "1.285",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "16.740",
+      "moderna": "600",
+      "entregadas": "17.340",
+      "administradas": "14.658",
+      "admin_entregadas": "84,5%",
+      "vacuna_completa": "164",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "41.310",
+      "moderna": "1.300",
+      "entregadas": "42.610",
+      "administradas": "43.209",
+      "admin_entregadas": "101,4%",
+      "vacuna_completa": "339",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "18.967",
+      "admin_entregadas": "104,2%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "76.740",
+      "moderna": "2.500",
+      "entregadas": "79.240",
+      "administradas": "70.885",
+      "admin_entregadas": "89,5%",
+      "vacuna_completa": "432",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "53.100",
+      "moderna": "1.700",
+      "entregadas": "54.800",
+      "administradas": "43.682",
+      "admin_entregadas": "79,7%",
+      "vacuna_completa": "189",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "180.020",
+      "moderna": "5.800",
+      "entregadas": "185.820",
+      "administradas": "156.627",
+      "admin_entregadas": "84,3%",
+      "vacuna_completa": "432",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "91.450",
+      "moderna": "2.900",
+      "entregadas": "94.350",
+      "administradas": "95.260",
+      "admin_entregadas": "101,0%",
+      "vacuna_completa": "588",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "32.450",
+      "moderna": "1.000",
+      "entregadas": "33.450",
+      "administradas": "29.125",
+      "admin_entregadas": "87,1%",
+      "vacuna_completa": "254",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "56.080",
+      "moderna": "1.800",
+      "entregadas": "57.880",
+      "administradas": "57.871",
+      "admin_entregadas": "100,0%",
+      "vacuna_completa": "1.191",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "8.840",
+      "moderna": "200",
+      "entregadas": "9.040",
+      "administradas": "8.049",
+      "admin_entregadas": "89,0%",
+      "vacuna_completa": "44",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "147.540",
+      "moderna": "4.700",
+      "entregadas": "152.240",
+      "administradas": "120.168",
+      "admin_entregadas": "78,9%",
+      "vacuna_completa": "719",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "38.360",
+      "moderna": "1.200",
+      "entregadas": "39.560",
+      "administradas": "36.730",
+      "admin_entregadas": "92,8%",
+      "vacuna_completa": "934",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "17.700",
+      "moderna": "500",
+      "entregadas": "18.200",
+      "administradas": "12.991",
+      "admin_entregadas": "71,4%",
+      "vacuna_completa": "299",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "47.205",
+      "moderna": "1.400",
+      "entregadas": "48.605",
+      "administradas": "28.069",
+      "admin_entregadas": "57,7%",
+      "vacuna_completa": "390",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "1.080",
+      "admin_entregadas": "89,6%",
+      "vacuna_completa": "29",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.005",
+      "moderna": "200",
+      "entregadas": "1.205",
+      "administradas": "1.297",
+      "admin_entregadas": "107,6%",
+      "vacuna_completa": "29",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.107.600",
+      "moderna": "35.700",
+      "entregadas": "1.143.300",
+      "administradas": "966.097",
+      "admin_entregadas": "84,5%",
+      "vacuna_completa": "9.341",
+      "hasta": null,
+      "fecha": "2021-01-18T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "244.620",
+      "moderna": "6.800",
+      "entregadas": "251.420",
+      "administradas": "174.279",
+      "admin_entregadas": "69,3%",
+      "vacuna_completa": "4.568",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "41.265",
+      "moderna": "1.200",
+      "entregadas": "42.465",
+      "administradas": "33.734",
+      "admin_entregadas": "79,4%",
+      "vacuna_completa": "623",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "44.195",
+      "moderna": "1.200",
+      "entregadas": "45.395",
+      "administradas": "36.054",
+      "admin_entregadas": "79,4%",
+      "vacuna_completa": "1.687",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "22.590",
+      "moderna": "600",
+      "entregadas": "23.190",
+      "administradas": "15.697",
+      "admin_entregadas": "67,7%",
+      "vacuna_completa": "167",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "46.185",
+      "moderna": "1.300",
+      "entregadas": "47.485",
+      "administradas": "43.599",
+      "admin_entregadas": "91,8%",
+      "vacuna_completa": "339",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "20.625",
+      "moderna": "500",
+      "entregadas": "21.125",
+      "administradas": "19.473",
+      "admin_entregadas": "92,2%",
+      "vacuna_completa": "0",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "93.315",
+      "moderna": "2.500",
+      "entregadas": "95.815",
+      "administradas": "74.350",
+      "admin_entregadas": "77,6%",
+      "vacuna_completa": "633",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "61.875",
+      "moderna": "1.700",
+      "entregadas": "63.575",
+      "administradas": "48.755",
+      "admin_entregadas": "76,7%",
+      "vacuna_completa": "195",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "211.220",
+      "moderna": "5.800",
+      "entregadas": "217.020",
+      "administradas": "162.830",
+      "admin_entregadas": "75,0%",
+      "vacuna_completa": "913",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "109.000",
+      "moderna": "2.900",
+      "entregadas": "111.900",
+      "administradas": "99.932",
+      "admin_entregadas": "89,3%",
+      "vacuna_completa": "1.737",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "39.275",
+      "moderna": "1.000",
+      "entregadas": "40.275",
+      "administradas": "30.941",
+      "admin_entregadas": "76,8%",
+      "vacuna_completa": "254",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "66.805",
+      "moderna": "1.800",
+      "entregadas": "68.605",
+      "administradas": "59.104",
+      "admin_entregadas": "86,2%",
+      "vacuna_completa": "1.197",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "11.765",
+      "moderna": "200",
+      "entregadas": "11.965",
+      "administradas": "8.335",
+      "admin_entregadas": "69,7%",
+      "vacuna_completa": "44",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "171.915",
+      "moderna": "4.700",
+      "entregadas": "176.615",
+      "administradas": "129.194",
+      "admin_entregadas": "73,2%",
+      "vacuna_completa": "812",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "45.185",
+      "moderna": "1.200",
+      "entregadas": "46.385",
+      "administradas": "39.142",
+      "admin_entregadas": "84,4%",
+      "vacuna_completa": "1.522",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "20.625",
+      "moderna": "500",
+      "entregadas": "21.125",
+      "administradas": "14.559",
+      "admin_entregadas": "68,9%",
+      "vacuna_completa": "503",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "55.980",
+      "moderna": "1.400",
+      "entregadas": "57.380",
+      "administradas": "33.523",
+      "admin_entregadas": "58,4%",
+      "vacuna_completa": "390",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.980",
+      "moderna": "200",
+      "entregadas": "2.180",
+      "administradas": "1.110",
+      "admin_entregadas": "50,9%",
+      "vacuna_completa": "29",
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.980",
+      "moderna": "200",
+      "entregadas": "2.180",
+      "administradas": "1.326",
+      "admin_entregadas": "60,8%",
+      "vacuna_completa": "29",
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.310.400",
+      "moderna": "35.700",
+      "entregadas": "1.346.100",
+      "administradas": "1.025.937",
+      "admin_entregadas": "76,2%",
+      "vacuna_completa": "15.642",
+      "hasta": null,
+      "fecha": "2021-01-19T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "244.620",
+      "moderna": "6.800",
+      "entregadas": "251.420",
+      "administradas": "194.101",
+      "admin_entregadas": "77,2%",
+      "vacuna_completa": "15.193",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "41.265",
+      "moderna": "1.200",
+      "entregadas": "42.465",
+      "administradas": "38.170",
+      "admin_entregadas": "89,9%",
+      "vacuna_completa": "1.731",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "44.195",
+      "moderna": "1.200",
+      "entregadas": "45.395",
+      "administradas": "40.011",
+      "admin_entregadas": "88,1%",
+      "vacuna_completa": "5.664",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "22.590",
+      "moderna": "600",
+      "entregadas": "23.190",
+      "administradas": "18.105",
+      "admin_entregadas": "78,1%",
+      "vacuna_completa": "1.514",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "46.185",
+      "moderna": "1.300",
+      "entregadas": "47.485",
+      "administradas": "45.482",
+      "admin_entregadas": "95,8%",
+      "vacuna_completa": "1.744",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "20.625",
+      "moderna": "500",
+      "entregadas": "21.125",
+      "administradas": "19.980",
+      "admin_entregadas": "94,6%",
+      "vacuna_completa": "241",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "93.315",
+      "moderna": "2.500",
+      "entregadas": "95.815",
+      "administradas": "82.162",
+      "admin_entregadas": "85,8%",
+      "vacuna_completa": "5.296",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "61.875",
+      "moderna": "1.700",
+      "entregadas": "63.575",
+      "administradas": "53.880",
+      "admin_entregadas": "84,8%",
+      "vacuna_completa": "1.202",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "211.220",
+      "moderna": "5.800",
+      "entregadas": "217.020",
+      "administradas": "168.054",
+      "admin_entregadas": "77,4%",
+      "vacuna_completa": "2.598",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "109.000",
+      "moderna": "2.900",
+      "entregadas": "111.900",
+      "administradas": "101.437",
+      "admin_entregadas": "90,6%",
+      "vacuna_completa": "2.956",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "39.275",
+      "moderna": "1.000",
+      "entregadas": "40.275",
+      "administradas": "32.039",
+      "admin_entregadas": "79,6%",
+      "vacuna_completa": "638",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "66.805",
+      "moderna": "1.800",
+      "entregadas": "68.605",
+      "administradas": "62.011",
+      "admin_entregadas": "90,4%",
+      "vacuna_completa": "3.861",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "11.765",
+      "moderna": "200",
+      "entregadas": "11.965",
+      "administradas": "8.684",
+      "admin_entregadas": "72,6%",
+      "vacuna_completa": "267",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "171.915",
+      "moderna": "4.700",
+      "entregadas": "176.615",
+      "administradas": "142.765",
+      "admin_entregadas": "80,8%",
+      "vacuna_completa": "1.738",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "45.185",
+      "moderna": "1.200",
+      "entregadas": "46.385",
+      "administradas": "40.757",
+      "admin_entregadas": "87,9%",
+      "vacuna_completa": "1.784",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "20.625",
+      "moderna": "500",
+      "entregadas": "21.125",
+      "administradas": "15.754",
+      "admin_entregadas": "74,6%",
+      "vacuna_completa": "767",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "55.980",
+      "moderna": "1.400",
+      "entregadas": "57.380",
+      "administradas": "36.864",
+      "admin_entregadas": "64,2%",
+      "vacuna_completa": "1.333",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.980",
+      "moderna": "200",
+      "entregadas": "2.180",
+      "administradas": "1.545",
+      "admin_entregadas": "70,9%",
+      "vacuna_completa": "326",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.980",
+      "moderna": "200",
+      "entregadas": "2.180",
+      "administradas": "1.500",
+      "admin_entregadas": "68,8%",
+      "vacuna_completa": "203",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.310.400",
+      "moderna": "35.700",
+      "entregadas": "1.346.100",
+      "administradas": "1.103.301",
+      "admin_entregadas": "82,0%",
+      "vacuna_completa": "49.056",
+      "hasta": null,
+      "fecha": "2021-01-20T23:00:00.000Z"
+    }
+  ],
+  [
+    {
+      "ccaa": "Andalucía",
+      "pfizer": "244.620",
+      "moderna": "6.800",
+      "entregadas": "251.420",
+      "administradas": "209.766",
+      "admin_entregadas": "83,4%",
+      "vacuna_completa": "20.846",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": "41.265",
+      "moderna": "1.200",
+      "entregadas": "42.465",
+      "administradas": "41.287",
+      "admin_entregadas": "97,2%",
+      "vacuna_completa": "2.165",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias ",
+      "pfizer": "44.195",
+      "moderna": "1.200",
+      "entregadas": "45.395",
+      "administradas": "41.465",
+      "admin_entregadas": "91,3%",
+      "vacuna_completa": "6.851",
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": "22.590",
+      "moderna": "600",
+      "entregadas": "23.190",
+      "administradas": "20.499",
+      "admin_entregadas": "88,4%",
+      "vacuna_completa": "2.660",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": "46.185",
+      "moderna": "1.300",
+      "entregadas": "47.485",
+      "administradas": "47.068",
+      "admin_entregadas": "99,1%",
+      "vacuna_completa": "2.865",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": "20.625",
+      "moderna": "500",
+      "entregadas": "21.125",
+      "administradas": "20.462",
+      "admin_entregadas": "96,9%",
+      "vacuna_completa": "241",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y Leon ",
+      "pfizer": "93.315",
+      "moderna": "2.500",
+      "entregadas": "95.815",
+      "administradas": "86.370",
+      "admin_entregadas": "90,1%",
+      "vacuna_completa": "6.060",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla La Mancha",
+      "pfizer": "61.875",
+      "moderna": "1.700",
+      "entregadas": "63.575",
+      "administradas": "57.031",
+      "admin_entregadas": "89,7%",
+      "vacuna_completa": "1.593",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": "211.220",
+      "moderna": "5.800",
+      "entregadas": "217.020",
+      "administradas": "173.147",
+      "admin_entregadas": "79,8%",
+      "vacuna_completa": "4.101",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "C. Valenciana",
+      "pfizer": "109.000",
+      "moderna": "2.900",
+      "entregadas": "111.900",
+      "administradas": "103.426",
+      "admin_entregadas": "92,4%",
+      "vacuna_completa": "4.139",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": "39.275",
+      "moderna": "1.000",
+      "entregadas": "40.275",
+      "administradas": "32.979",
+      "admin_entregadas": "81,9%",
+      "vacuna_completa": "638",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": "66.805",
+      "moderna": "1.800",
+      "entregadas": "68.605",
+      "administradas": "65.394",
+      "admin_entregadas": "95,3%",
+      "vacuna_completa": "7.204",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": "11.765",
+      "moderna": "200",
+      "entregadas": "11.965",
+      "administradas": "8.967",
+      "admin_entregadas": "74,9%",
+      "vacuna_completa": "317",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": "171.915",
+      "moderna": "4.700",
+      "entregadas": "176.615",
+      "administradas": "154.778",
+      "admin_entregadas": "87,6%",
+      "vacuna_completa": "2.263",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia ",
+      "pfizer": "45.185",
+      "moderna": "1.200",
+      "entregadas": "46.385",
+      "administradas": "42.261",
+      "admin_entregadas": "91,1%",
+      "vacuna_completa": "2.086",
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": "20.625",
+      "moderna": "500",
+      "entregadas": "21.125",
+      "administradas": "16.310",
+      "admin_entregadas": "77,2%",
+      "vacuna_completa": "807",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": "55.980",
+      "moderna": "1.400",
+      "entregadas": "57.380",
+      "administradas": "41.474",
+      "admin_entregadas": "72,3%",
+      "vacuna_completa": "3.044",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": "1.980",
+      "moderna": "200",
+      "entregadas": "2.180",
+      "administradas": "1.641",
+      "admin_entregadas": "75,3%",
+      "vacuna_completa": "373",
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": "1.980",
+      "moderna": "200",
+      "entregadas": "2.180",
+      "administradas": "1.500",
+      "admin_entregadas": "68,8%",
+      "vacuna_completa": "203",
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": "1.310.400",
+      "moderna": "35.700",
+      "entregadas": "1.346.100",
+      "administradas": "1.165.825",
+      "admin_entregadas": "86,6%",
+      "vacuna_completa": "68.456",
+      "hasta": null,
+      "fecha": "2021-01-21T23:00:00.000Z"
+    }
+  ]
+]

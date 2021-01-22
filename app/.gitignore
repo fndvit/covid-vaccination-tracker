@@ -1,0 +1,22 @@
+/.git/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+public/build/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# DS_Store
+.DS_Store
+
+# Package lock
+package-lock.json

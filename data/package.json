@@ -1,0 +1,24 @@
+{
+  "name": "covid-19-vaccination-tracker-spain",
+  "version": "1.0.0",
+  "description": "Data parsing and transformations for the tracker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid-19",
+    "vaccine",
+    "tracker"
+  ],
+  "author": "Xaquín G.V. / Fundació ViT",
+  "license": "MIT",
+  "dependencies": {
+    "arquero": "^2.2.0",
+    "d3-time-format": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "officeparser": "^2.2.2",
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.16.9"
+  }
+}
