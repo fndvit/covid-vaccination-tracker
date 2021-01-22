@@ -1,10 +1,13 @@
 <script>
-	export let name;
+	import Comunidad from './components/Comunidad.svelte'
+	export let data;
+
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<!-- {#each data as d} -->
+	<Comunidad data={data[0]} />
+	<!-- {/each} -->
 </main>
 
 <style>
@@ -13,18 +16,5 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
 	}
 </style>

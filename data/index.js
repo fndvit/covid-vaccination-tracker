@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const xlsx = require('xlsx');
 const d3time = require('d3-time-format');
 const fs = require('fs');
-const aq = require('arquero');
+const groupby = require('lodash/groupBy')
 
 //List of days since January 4, 2021, the first date with data
 const listDates = (start, end) => {
@@ -57,7 +57,12 @@ Promise.all(
 
                 return json;
             })
-  )).then(data => write(data, 'data'));
+  )).then(json => transform(json));
+
+  const transform = (json) => {
+    const data = groupby(json.flat(), d => d.ccaa);
+    write(data, 'data')
+  }
 
   const write = (json, filename) => {
     let data = JSON.stringify(json, null, 2);
