@@ -2,7 +2,7 @@
 The project has two folders, `app` and `data`.
 
 To do:
-- :white_check_mark: Transform data (to visualize it)
+:white_check_mark: Transform data (to visualize it)
 - [ ] Combine it with population data by age groups
 - [x] Visualize it —obviously
 - [x] Export data in multiple reusable formats
