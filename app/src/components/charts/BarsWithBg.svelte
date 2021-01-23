@@ -22,7 +22,14 @@
 </script> 
 
 {#if width}
-<svg viewBox="0 0 {width} {height}" {width} {height}>
+<svg xmlns:svg="https://www.w3.org/2000/svg" 
+	viewBox="0 0 {width} {height}"
+	{width} {height}
+	role="graphics-document document"
+	xml:lang="es"
+	>
+	<title>Dosis entregadas en {data[0].ccaa}</title>
+	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc>
 	<g>
 		{#each data as d}
 		<rect 
@@ -31,6 +38,10 @@
 			x={x(d[key.x])}
 			y={y(d[key.bg])}
 			class="bar gray"
+			role="graphics-symbol img"
+			aria-roledescription="barra vacunas entregadas"
+			aria-label={d[key.bg]}
+			tabindex="0"
 		/>
 		<rect 
 			height={height - margin.top - margin.bottom - y(d[key.y])}
@@ -38,6 +49,10 @@
 			x={x(d[key.x])}
 			y={y(d[key.y])}
 			class="bar red"
+			role="graphics-symbol img"
+			aria-roledescription="barra vacunas administradas"
+			aria-label={d[key.y]}
+			tabindex="0"
 		/>
 		{/each}
 	</g>

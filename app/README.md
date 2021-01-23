@@ -2,19 +2,24 @@
 
 ---
 
-# svelte app
+# Tracking the COVID-19 vaccine rollout in Spain
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+Objectives:
+* Track the daily evolution of the vaccine rollout
+* Estimate when the rollout will be complete
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+The instructions below come from the project template for Svelte apps at https://github.com/sveltejs/template.
+
+## Download
+
+You can grab this project using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit fndvit/covid-vaccination-tracker
+cd covid-vaccination-trackers
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
 
 ## Get started
 

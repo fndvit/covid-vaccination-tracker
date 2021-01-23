@@ -9,12 +9,12 @@
 
 	$: y = scaleLinear()
 		.domain(extent(_data.flat(), d => d.entregadas))
-		.range([24, 200]);
+		.range([24, 240]);
 
 	// $: x = scaleLinear()
 	// 	.domain(extent(_data.flat(), d => d.entregadas))
 	// 	.range([24, 200]);
-	
+
 	const dateDiff = (start, end) => {
 		const difference = start.getTime() - end.getTime();
 		const days = Math.ceil(difference / (1000 * 3600 * 24));
@@ -33,9 +33,17 @@
 
 <style>
 	main {
-		text-align: center;
 		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
+	}
+	:global(ul) {
+		list-style-type: none;
+	}
+	@media screen and (min-width: 640px) {
+		main {
+			padding: 1em;
+			margin: 0 auto;
+			max-width: 45rem;
+		}
 	}
 </style>
