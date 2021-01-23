@@ -10,7 +10,7 @@ You can grab this project using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit fndvit/covid-vaccination-tracker
-cd covid-vaccination-trackers
+cd covid-vaccination-tracker
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
