@@ -37,25 +37,26 @@
 <svg xmlns:svg="https://www.w3.org/2000/svg" 
 	viewBox="0 0 {width} {height}"
 	{width} {height}
-	aria-label='Gráfico de las dosis entregadas en {data[0].ccaa}'
+	role="graphics-document"
+	aria-labelledby="title  desc"
 	xml:lang="es"
 	>
-	<!-- <title>Dosis entregadas en {data[0].ccaa}</title>
-	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc> -->
+	<title>Dosis entregadas en {data[0].ccaa}</title>
+	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc>
 	<g role="graphics-symbol">
 		<path 
 			d={path_gray(data)}
+			role="graphics-object"
 			aria-roledescription="barra vacunas entregadas"
 			aria-label="Vacunas entregadas: {data[data.length - 1][key.bg]}"
-			tabindex="0"
 			fill='url(#diagonalHatch)'
 		/>
 		<path 
 			d={path_blue(data)}
 			class="bar blue"
+			role="graphics-symbol"
 			aria-roledescription="barra vacunas administradas"
 			aria-label="Vacunas entregadas: {data[data.length - 1][key.y]}"
-			tabindex="0"
 		/>
 	</g>
 	<Axis {width} {height} {margin} scale={x} position='bottom' format={format.x} />
