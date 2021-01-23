@@ -2,11 +2,13 @@
 	import Comunidad from './components/Comunidad.svelte'
 	export let data;
 
+	const _data = Object.values(data)
+
 </script>
 
 <main>
 	<!-- {#each data as d} -->
-	<Comunidad data={data[0]} />
+	<Comunidad data={_data[0]} />
 	<!-- {/each} -->
 </main>
 

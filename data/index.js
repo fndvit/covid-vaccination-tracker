@@ -2,7 +2,8 @@ const fetch = require('node-fetch');
 const xlsx = require('xlsx');
 const d3time = require('d3-time-format');
 const fs = require('fs');
-const groupby = require('lodash/groupBy')
+const groupby = require('lodash/groupBy');
+const d2lIntl = require('d2l-intl');
 
 //List of days since January 4, 2021, the first date with data
 const listDates = (start, end) => {
@@ -40,8 +41,10 @@ const baseUrl = 'https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/aler
 //Output folder in the Svelte app
 const pathTo = '../app/public/'
 
+const parser = new d2lIntl.NumberParse('es-ES');
+
 Promise.all(
-    days.map(date => 
+    days.reverse().map(date => 
         fetch(`${baseUrl}${date.replaceAll('-','')}.ods`)
             .then(res => res.buffer())
             .then(data => {
@@ -50,8 +53,8 @@ Promise.all(
                 const workbook = xlsx.read(data, {type:'buffer'});
                 const json = xlsx.utils.sheet_to_json(workbook.Sheets.Hoja3, {raw: false, range: 1, header:headers});
                 json.map(d=> {
-                    d.hasta = d3time.timeParse('%d/%m/%Y')(d.hasta)
                     d.fecha = d3time.timeParse('%Y-%m-%d')(date);
+                    d.hasta = d3time.timeParse('%d/%m/%Y')(d.hasta)
                     return {...d}
                 })
 
@@ -60,15 +63,40 @@ Promise.all(
   )).then(json => transform(json));
 
   const transform = (json) => {
+    json.flat().forEach(d => {
+        d.entregadas = parser.parse(d.entregadas);
+        d.pfizer = (d.pfizer) ? parser.parse(d.pfizer) : '';
+        d.moderna = (d.moderna) ? parser.parse(d.moderna) : '';
+        d.administradas = parser.parse(d.administradas);
+        d.admin_entregadas = (d.admin_entregadas) ? parser.parse(d.admin_entregadas) : '';
+        d.vacuna_completa = (d.vacuna_completa) ? parser.parse(d.vacuna_completa) : '';
+    })
+
     const data = groupby(json.flat(), d => d.ccaa);
-    write(data, 'data')
+    writeJSON(data, 'data');
+    writeCSV(data, 'data');
   }
 
-  const write = (json, filename) => {
+  const writeJSON = (json, filename) => {
     let data = JSON.stringify(json, null, 2);
 
     fs.writeFile(`${pathTo}${filename}.json`, data, (err) => {
         if (err) throw err;
         console.log(`Yay!! You can find ${filename}.json in ${pathTo}`);
+    });
+  }
+
+  const writeCSV = (json, filename) => {
+    const items = Object.values(json).flat();
+    const replacer = (key, value) => value === null ? '' : value;
+    const header = Object.keys(items[0]);
+    const csv = [
+      header.join(','),
+      ...items.map(row => header.map(fieldName => JSON.stringify(row[fieldName], replacer)).join(','))
+    ].join('\r\n')
+
+    fs.writeFile(`${pathTo}${filename}.csv`, csv, (err) => {
+        if (err) throw err;
+        console.log(`Yay!! You can find ${filename}.csv in ${pathTo}`);
     });
   }
