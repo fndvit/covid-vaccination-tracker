@@ -54,7 +54,7 @@ Promise.all(
                 const json = xlsx.utils.sheet_to_json(workbook.Sheets.Hoja3, {raw: false, range: 1, header:headers});
                 json.map(d=> {
                     d.fecha = d3time.timeParse('%Y-%m-%d')(date);
-                    d.hasta = d3time.timeParse('%d/%m/%Y')(d.hasta)
+                    d.hasta = d3time.timeParse('%d/%m/%Y')(d.hasta);
                     return {...d}
                 })
 

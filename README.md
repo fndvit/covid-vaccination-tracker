@@ -2,10 +2,10 @@
 The project has two folders, `app` and `data`.
 
 To do:
-* Transform data (to visualize it)
-* Combine it with population data by age groups
-* Visualize it —obviously
-* Export data in multiple reusable formats
+- [x] Transform data (to visualize it)
+- [ ] Combine it with population data by age groups
+- [ ] Visualize it —obviously
+- [~] Export data in multiple reusable formats
 
 *(We'll add a more detailed 'to do' later ...)*
 
@@ -18,6 +18,8 @@ node index.js
 It will output two fresh [`JSON`](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.json) and [`CSV`](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.csv) files to `app/public/`. (It's good to know you have options.)
 
 The data comes from the `.ods` files that the [Health Alert and Emergency Coordination Centre (CCAES in Spanish)](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm) has published daily since January 4.
+
+<span style="color:red">**Important!**</span> A few dates in the 'Fecha de la última vacuna registrada' column (renamed as 'hasta' in our data) are wrong —for Baleares and Canarias. Until they fix it —or we write something to catch that— use 'fecha' which is the date of the report.
 
 We renamed the columns as:
 
