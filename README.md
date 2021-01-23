@@ -5,7 +5,7 @@ To do:
 - [x] Transform data (to visualize it)
 - [ ] Combine it with population data by age groups
 - [ ] Visualize it —obviously
-- [~] Export data in multiple reusable formats
+- [x] Export data in multiple reusable formats
 
 *(We'll add a more detailed 'to do' later ...)*
 
