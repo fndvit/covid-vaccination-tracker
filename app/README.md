@@ -1,14 +1,8 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
-
 # Tracking the COVID-19 vaccine rollout in Spain
 
 Objectives:
 * Track the daily evolution of the vaccine rollout
 * Estimate when the rollout will be complete
-
-The instructions below come from the project template for Svelte apps at https://github.com/sveltejs/template.
 
 ## Download
 
@@ -20,6 +14,12 @@ cd covid-vaccination-trackers
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
+
+The instructions below come from the project template for Svelte apps at https://github.com/sveltejs/template.
+
+*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+
+---
 
 ## Get started
 
