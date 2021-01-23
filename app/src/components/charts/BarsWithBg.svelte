@@ -1,6 +1,6 @@
 <script>
 	import Axis from './Axis.svelte';
-	// import {scaleLinear, scaleTime, max, extent} from 'd3';
+	import {area, curveStep} from 'd3-shape';
 	import {scaleTime, scaleLinear} from 'd3-scale';
 	import {max, extent} from 'd3-array'
     
@@ -19,54 +19,50 @@
 		.domain([0, max(data, d => d[key.y])])
 		.range([height - margin.bottom - margin.top, margin.top]);
 
+	$: path_blue = area()
+		.x(d => x(d[key.x]))
+		.y0(d => y(0))
+		.y1(d => y(d[key.y]))
+		.curve(curveStep);
+
+	$: path_gray = area()
+		.x(d => x(d[key.x]))
+		.y0(d => y(0))
+		.y1(d => y(d[key.bg]))
+		.curve(curveStep);
+
 </script> 
 
 {#if width}
 <svg xmlns:svg="https://www.w3.org/2000/svg" 
 	viewBox="0 0 {width} {height}"
 	{width} {height}
-	role="graphics-document document"
+	aria-label='Gráfico de las dosis entregadas en {data[0].ccaa}'
 	xml:lang="es"
 	>
-	<title>Dosis entregadas en {data[0].ccaa}</title>
-	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc>
-	<g>
-		{#each data as d}
-		<rect 
-			height={height - margin.top - margin.bottom - y(d[key.bg])}
-			width={(width - margin.left - margin.right) / data.length}
-			x={x(d[key.x])}
-			y={y(d[key.bg])}
-			class="bar gray"
-			role="graphics-symbol img"
+	<!-- <title>Dosis entregadas en {data[0].ccaa}</title>
+	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc> -->
+	<g role="graphics-symbol">
+		<path 
+			d={path_gray(data)}
 			aria-roledescription="barra vacunas entregadas"
-			aria-label={d[key.bg]}
+			aria-label="Vacunas entregadas: {data[data.length - 1][key.bg]}"
 			tabindex="0"
+			fill='url(#diagonalHatch)'
 		/>
-		<rect 
-			height={height - margin.top - margin.bottom - y(d[key.y])}
-			width={(width - margin.left - margin.right) / data.length}
-			x={x(d[key.x])}
-			y={y(d[key.y])}
-			class="bar red"
-			role="graphics-symbol img"
+		<path 
+			d={path_blue(data)}
+			class="bar blue"
 			aria-roledescription="barra vacunas administradas"
-			aria-label={d[key.y]}
+			aria-label="Vacunas entregadas: {data[data.length - 1][key.y]}"
 			tabindex="0"
 		/>
-		{/each}
 	</g>
+	<Axis {width} {height} {margin} scale={x} position='bottom' format={format.x} />
 </svg>
 {/if}
 
 <style>
-	.bar {
-
-	}
-	.red { fill: red}
-	.gray { fill: #e0e0e0}
-	path {
-		fill:none;
-		stroke-width: 2;
-	}
+	.blue { fill: #00bbc4}
+	.gray { fill: #ffffff}
 </style>
