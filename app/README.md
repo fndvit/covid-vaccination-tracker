@@ -1,4 +1,4 @@
-# Tracking the COVID-19 vaccine rollout in Spain
+# Visualization of the COVID-19 vaccination in Spain
 
 Objectives:
 * Track the daily evolution of the vaccine rollout
