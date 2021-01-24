@@ -16,5 +16,5 @@ jobs:
           node-version: '12.x'
       - name: Generate data
         run: |
-        npm install
-        node index.js 
+          npm install
+          node index.js
