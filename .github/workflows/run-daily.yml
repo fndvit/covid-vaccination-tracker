@@ -1,4 +1,4 @@
-name: Run Node.js script on a schedule
+name: Generate data daily
 
 on:
   push:
@@ -14,6 +14,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: | 
-        npm install
-        node index.js
+      - name: Generate data
+        run: npm install
+        run: node index.js 
