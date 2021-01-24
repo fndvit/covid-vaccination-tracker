@@ -14,10 +14,10 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-        name: Generate data
-        main: 'index.js'
-        run: |
-          npm install
+     - name: Generate data
+        run: npm install
+          using: 'node12'
+      - name: Generate data
+        runs:
+          using: 'node12'
+          main: 'index.js'  
