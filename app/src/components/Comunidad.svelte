@@ -22,8 +22,8 @@
     <div class='numbers'>
         <h2>{data[0].ccaa}</h2>
         <p class='number'>{f.y(data[0].entregadas)}</p>
-        <p class='number'>{f.y(data[0].administradas)}</p>
-        <p class='number'>{f.pct(data[0].admin_entregadas)}%</p>
+        <p class='number bold'>{f.y(data[0].administradas)}</p>
+        <p class='number bold'>{f.pct(data[0].admin_entregadas)}%</p>
         <p class='number'>{f.y(data[0].vacuna_completa)}</p>
     </div>
     <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}> 

@@ -4,25 +4,51 @@
 	import {extent, max} from 'd3-array'
 	export let data;
 
+	Object.values(data)
+		.flat()
+		.forEach(d => { 
+			d.fecha = new Date(d.fecha);
+			d.hasta = new Date(d.hasta);
+	});
+
 	const { Totales, ...newData } = data;
 	const _data = Object.values(newData);
-
-	_data.flat().forEach(d => { 
-		d.fecha = new Date(d.fecha);
-		d.hasta = new Date(d.hasta);
-	});
 
 	$: y = scaleLinear()
 		.domain(extent(_data.flat(), d => d.entregadas))
 		.range([36, 240]);
 
-	const dateRange = extent(_data.flat(), d => d.fecha);
+	const range = extent(_data.flat(), d => d.fecha);
 
 	const dateDiff = (start, end) => {
-		const difference = start.getTime() - end.getTime();
+		const difference = end.getTime() - start.getTime();
 		const days = Math.ceil(difference / (1000 * 3600 * 24));
 		return days;
 	}
+
+	const dateRange = dateDiff(range[0], range[1]);
+
+	const latestNumbers = Object.values(data)
+		.flat()
+		.sort((a, b) => b.fecha - a.fecha)
+		.slice(0,20);
+
+	const totalVacc = 5190735;
+	const totalCurrent = latestNumbers.find(d => d.ccaa === 'Totales' ).entregadas;
+
+	latestNumbers.map(d => {
+			const total = totalCurrent;
+			d.share = d.entregadas / totalCurrent;
+			d.sharePeople = d.share * totalVacc / 2;
+			d.daily = (d.administradas / 2) / dateRange;
+			d.dateComplete  = new Date();
+			d.dateComplete.setDate(d.fecha.getDate() + 1 / (d.daily / d.sharePeople))
+
+			return {...d}
+		});
+
+	console.log(latestNumbers)
+
 
 </script>
 
@@ -55,6 +81,12 @@
 		list-style-type: none;
 		padding: 0;
 	}
+	:global(.blue) { 
+		fill: #00bbc4;
+		background-color: #00bac47c;
+	}
+	:global(.gray) { fill: #ffffff}
+	:global(.bold) { font-weight: 600;}
 	main {
 		padding: 1em;
 		margin: 0 auto;

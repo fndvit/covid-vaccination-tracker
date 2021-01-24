@@ -4,9 +4,11 @@ The project has two folders, `app` and `data`.
 To do:
 
 - [x] Transform data (to visualize it)
-- [ ] Combine it with population data by age groups
 - [x] Visualize it —obviously
 - [x] Export data in multiple reusable formats
+- [ ] Combine it with population data by age groups
+- [ ] Add Github Action to generate data daily
+- [ ] Calculate expected dates based on the current progress of the rollout (methodology and implementation)
 
 *(We'll add a more detailed 'to do' later ...)*
 

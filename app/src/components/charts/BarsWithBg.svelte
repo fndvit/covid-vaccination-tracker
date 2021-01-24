@@ -62,8 +62,3 @@
 	<Axis {width} {height} {margin} scale={x} position='bottom' format={format.x} />
 </svg>
 {/if}
-
-<style>
-	.blue { fill: #00bbc4}
-	.gray { fill: #ffffff}
-</style>
