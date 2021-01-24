@@ -7,13 +7,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
       - name: Generate data
-        working-directory: ./data
+        working-directory: data
         run: |
           npm install
           node index.js
