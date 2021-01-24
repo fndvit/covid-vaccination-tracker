@@ -5,12 +5,12 @@ Objectives:
 * Estimate when the rollout will be complete
 
 To do:
-[ ] Explanatory intro
-[ ] Legends and labels
-[ ] Hovers
-[ ] Search field or drop down to filter by region
-[ ] Get `dateComplete` math checked
-[ ] Sticky top X-axis and Y-axis
+- [ ] Explanatory intro
+- [ ] Legends and labels
+- [ ] Hovers
+- [ ] Search field or drop down to filter by region
+- [ ] Get `dateComplete` math checked
+- [ ] Sticky top X-axis and Y-axis
 
 ## Download
 
