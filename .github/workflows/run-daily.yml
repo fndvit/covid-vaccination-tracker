@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: npm install
-      - name: Run script
-        run: node index.js
+      - run: | 
+        cd data
+        npm install
+        node index.js
