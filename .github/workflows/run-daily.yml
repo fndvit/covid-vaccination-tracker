@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: cd data
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: cd data
-      - run: npm install
-      - name: Generate data
-      - run: node index.js
+      - run: | 
+        npm install
+        node index.js
