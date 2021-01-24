@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: "* * * * *"
 
+defaults:
+  run:
+    shell: bash
+    working-directory: data
+
 jobs:
   build:
     runs-on: macos-latest
@@ -13,7 +18,6 @@ jobs:
         with:
           node-version: '12.x'
       - name: Generate data
-        working-directory: data
         run: |
           npm install
           node index.js
