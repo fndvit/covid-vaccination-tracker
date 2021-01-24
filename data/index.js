@@ -45,7 +45,7 @@ const parser = new d2lIntl.NumberParse('es-ES');
 
 Promise.all(
     days.reverse().map(date => 
-        fetch(`${baseUrl}${date.replaceAll('-','')}.ods`)
+        fetch(`${baseUrl}${date.replace(/-/g,'')}.ods`)
             .then(res => res.buffer())
             .then(data => {
                 const headers = find(schema, d => d.date <= new Date(date)).header;
