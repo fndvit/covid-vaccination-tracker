@@ -20,9 +20,6 @@ jobs:
           node-version: '12.x'
       - run: npm install
       - run: node index.js
-      - name: Commit files
-        run: |
-          git commit -m "Update data" -a
       - name: Push changes
         uses: mikeal/publish-to-github-action@master
         env:
