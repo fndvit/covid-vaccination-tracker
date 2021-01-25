@@ -2,7 +2,7 @@ name: Generate data daily
 
 on:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "*/5 * * * *"
 
 defaults:
   run:
