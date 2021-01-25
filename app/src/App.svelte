@@ -1,7 +1,8 @@
 <script>
 	import Comunidad from './components/Comunidad.svelte'
 	import {scaleLinear, scaleTime} from 'd3-scale'
-	import {extent, max} from 'd3-array'
+	import {extent, max, min} from 'd3-array'
+	import {dateDiff} from './dateDiff'
 	export let data;
 
 	Object.values(data)
@@ -20,12 +21,6 @@
 
 	const range = extent(_data.flat(), d => d.fecha);
 
-	const dateDiff = (start, end) => {
-		const difference = end.getTime() - start.getTime();
-		const days = Math.ceil(difference / (1000 * 3600 * 24));
-		return days;
-	}
-
 	const dateRange = dateDiff(range[0], range[1]);
 
 	const latestNumbers = Object.values(data)
@@ -43,12 +38,14 @@
 			d.daily = (d.administradas / 2) / dateRange;
 			d.dateComplete  = new Date();
 			d.dateComplete.setDate(d.fecha.getDate() + 1 / (d.daily / d.sharePeople))
-
 			return {...d}
 		});
+	
+	_data.forEach(d => {
+		d.latest = latestNumbers.find(dd => d[0].ccaa === dd.ccaa);
+	})
 
-	console.log(latestNumbers)
-
+	const scaleTimeRange = [min(_data.flat(), d => d.fecha), max(latestNumbers, d => d.dateComplete)]
 
 </script>
 
@@ -87,6 +84,14 @@
 	}
 	:global(.gray) { fill: #ffffff}
 	:global(.bold) { font-weight: 600;}
+	:global(.text) {
+		font-family: neue-haas-grotesk-text, sans-serif;
+		font-size: .9rem;
+		line-height: 1.5;
+		color: #505050;
+		padding:0 0 1.5rem 0;
+		margin:0;
+	}
 	main {
 		padding: 1em;
 		margin: 0 auto;
@@ -95,7 +100,7 @@
 		main {
 			padding: 1em;
 			margin: 0 auto;
-			max-width: 36rem;
+			max-width: 42rem;
 		}
 	}
 </style>

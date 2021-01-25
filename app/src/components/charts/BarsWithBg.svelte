@@ -9,7 +9,7 @@
 	export let width;
 	export let height;
 	export let format;
-    export let key;
+	export let key;
 		
 	$: x = scaleTime()
 		.domain(extent(data, d => d[key.x]))
@@ -37,16 +37,16 @@
 <svg xmlns:svg="https://www.w3.org/2000/svg" 
 	viewBox="0 0 {width} {height}"
 	{width} {height}
-	role="graphics-document"
-	aria-labelledby="title  desc"
+	role="document"
+	aria-describedby="title  desc"
 	xml:lang="es"
 	>
 	<title>Dosis entregadas en {data[0].ccaa}</title>
 	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc>
-	<g role="graphics-symbol">
+	<g>
 		<path 
 			d={path_gray(data)}
-			role="graphics-object"
+			role="img"
 			aria-roledescription="barra vacunas entregadas"
 			aria-label="Vacunas entregadas: {data[data.length - 1][key.bg]}"
 			fill='url(#diagonalHatch)'
@@ -54,7 +54,7 @@
 		<path 
 			d={path_blue(data)}
 			class="bar blue"
-			role="graphics-symbol"
+			role="img"
 			aria-roledescription="barra vacunas administradas"
 			aria-label="Vacunas entregadas: {data[data.length - 1][key.y]}"
 		/>

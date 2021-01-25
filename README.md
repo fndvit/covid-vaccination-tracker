@@ -6,6 +6,7 @@ To do:
 - [x] Transform data (to visualize it)
 - [x] Visualize it —obviously
 - [x] Export data in multiple reusable formats
+- [ ] Download `.ods` files to repo in case they take them offline
 - [ ] Combine it with population data by age groups
 - [ ] Add Github Action to generate data daily
 - [ ] Calculate expected dates based on the current progress of the rollout (methodology and implementation)
