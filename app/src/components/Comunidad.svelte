@@ -72,7 +72,7 @@
         padding:.5rem 0;
         border-top: 1px solid #dcdcdc;
         position:sticky;
-        top:0;
+        top:4rem;
         background-color: #f2f2f2;
         z-index:10;
     }
@@ -82,7 +82,7 @@
     }
     .numbers {
         display: grid;
-        grid-template-columns: 20% auto auto auto auto;
+        grid-template-columns: 28% 18% 18% 18% 18%;
     }
     .estimates {
         display: grid;
@@ -95,7 +95,7 @@
     @media screen and (min-width: 640px) {
 		.numbers {
             display: grid;
-            grid-template-columns: 20% auto auto auto auto;
+            grid-template-columns: 28% 18% 18% 18% 18%;
         }
 	}
 </style>

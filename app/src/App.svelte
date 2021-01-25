@@ -62,6 +62,14 @@
 				  style="stroke:#808080; stroke-width:.3" />
 		</pattern>
 	</svg>
+	<h1>Frase título aquí</h1>
+	<div class="headers">
+		<h2 class='header' style="visibility: hidden">Comunidad</h2>
+        <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
+        <p class='header bold'>Vacunas administradas</p>
+        <p class='header bold'>% de vacunas administradas</p>
+        <p class='header'>Personas con el tratamiento completo</p>
+	</div>
 	<ul>
 		{#each _data as d}
 		<Comunidad data={d} height={y(max(d, d => d.entregadas))}/>
@@ -95,6 +103,29 @@
 	main {
 		padding: 1em;
 		margin: 0 auto;
+	}
+	h1 {
+		font-size:5rem;
+		font-weight: 100;
+	}
+	.headers {
+        display: grid;
+        grid-template-columns: 28% 18% 18% 18% 18%;
+		padding:.5rem 0;
+		position:sticky;
+		top: 0;
+		z-index: 100;
+		text-align:right;
+		font-size:.7rem;
+		text-transform: uppercase;
+		background-color: #f2f2f2;
+		height:3rem;
+		align-content: end;
+    }
+	.header {
+		margin:0;
+		padding:0;
+		
 	}
 	@media screen and (min-width: 640px) {
 		main {
