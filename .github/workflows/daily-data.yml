@@ -1,8 +1,9 @@
 name: Generate data daily
 
 on:
+  push:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
 
 defaults:
   run:
