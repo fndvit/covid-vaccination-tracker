@@ -18,8 +18,8 @@
 
     const diff = dateDiff(new Date('2021-03-15'), data.latest.dateComplete);
 
-    const sentenceTarget = `${data.latest.ccaa} podría vacunar a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas si el reparto de vacunas continúa como hasta ahora.`;
-    const sentenceDiff = `Si las administra al mismo ritmo que hasta ahora, completaría la primera fase a <b>${approxDate(data.latest.dateComplete)}.`
+    const sentenceTarget = `${data.latest.ccaa} podría vacunar a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas si el reparto de vacunas no varía.`;
+    const sentenceDiff = `Y si las administra al mismo ritmo que hasta ahora, completaría la primera fase a <b>${approxDate(data.latest.dateComplete)}.`
     const sentence = `${sentenceTarget} ${sentenceDiff}`;
 
     const tardy = ( diff <= 7)
