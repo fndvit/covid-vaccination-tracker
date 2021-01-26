@@ -18,8 +18,15 @@
 
     const diff = dateDiff(new Date('2021-03-15'), data.latest.dateComplete);
 
-    const sentenceTarget = `${data.latest.ccaa} podría vacunar a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas si el reparto de vacunas no varía.`;
-    const sentenceDiff = `Y si las administra al mismo ritmo que hasta ahora, completaría la primera fase a <b>${approxDate(data.latest.dateComplete)}.`
+    // const sentenceTotal = `${data.latest.ccaa} podría vacunar a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas si el reparto de vacunas continúa como hasta ahora.`;
+    const sentenceTarget = `Tal y como se están repartiendo las vacunas, ${data.latest.ccaa} vacunará a <b>${loc.format(`,.2r`)(data.latest.shareTarget)}</b> personas en esta primera fase.`;
+    const sentenceDiff = (diff <= -7)
+        ? `Al ritmo de vacunación actual, ${data.latest.ccaa} completará la primera fase <b>${approxDate(data.latest.dateComplete)}</b>, <b>antes de la previsión de mediados de marzo</b> del Ministerio de Sanidad.`
+        : ( diff <= 7 && diff > -7)
+        ? 'Si continúa con el mismo ritmo de vacunación, completará la primera fase <b>dentro del plazo previsto</b> por el Ministerio de Sanidad — <b>mediados de marzo</b>.'
+        : ( diff > 7 && diff <= 21)
+        ? `No completará la primera fase hasta <b>${approxDate(data.latest.dateComplete)}</b>; <b>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} más tarde</b> de lo previsto por el Ministerio de Sanidad.`
+        : `Acumula <b>${sNumber(Math.floor(diff / 7), 'f')} semanas de retraso</b> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <b>${approxDate(data.latest.dateComplete)}</b>.`
     const sentence = `${sentenceTarget} ${sentenceDiff}`;
 
     const tardy = ( diff <= 7)

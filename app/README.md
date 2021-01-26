@@ -9,8 +9,13 @@ To do:
 - [ ] Legends and labels
 - [ ] Hovers
 - [ ] Search field or drop down to filter by region
-- [ ] Get `dateComplete` math checked
-- [ ] Sticky top X-axis and Y-axis
+- [x] Get `dateComplete` math checked
+- [ ] X-axis sticky on top, and add Y-axis
+
+## Mockup
+Looks like this for now ... 
+
+![Mockup of the app](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/mockup.png?raw=true)
 
 ## Download
 

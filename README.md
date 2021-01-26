@@ -8,8 +8,10 @@ To do:
 - [x] Export data in multiple reusable formats
 - [ ] Download `.ods` files to repo in case they take them offline
 - [ ] Combine it with population data by age groups
-- [ ] Add Github Action to generate data daily
-- [ ] Calculate expected dates based on the current progress of the rollout (methodology and implementation)
+- [x] Add Github Action to generate data daily
+- [x] Calculate expected dates based on the current progress of the rollout (implemented in the app)
+- [ ] Add expected dates to data output instead of calculating in the browser
+- [ ] Separate latest data and historical data into two files —or maybe two objects in the same `JSON`
 
 *(We'll add a more detailed 'to do' later ...)*
 
@@ -21,8 +23,8 @@ node index.js
 ```
 It outputs two fresh [`JSON`](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.json) and [`CSV`](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.csv) files to `app/public/`. (It's good to know you have options.)
 
-* `JSON` [raw](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.json) and [preview](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.json) on GitHub
-* `CSV` [raw](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.csv) and [preview](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.csv) on GitHub
+* `JSON` [raw](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.json) and [preview](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.json)
+* `CSV` [raw](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.csv) and [preview](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.csv)
 
 The data comes from the `.ods` files that the [Health Alert and Emergency Coordination Centre (CCAES in Spanish)](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm) has published daily since January 4.
 
