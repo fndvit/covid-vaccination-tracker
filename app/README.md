@@ -15,7 +15,7 @@ To do:
 ## Mockup
 Looks like this for now ... 
 
-![Mockup of the app](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/mockup.png?raw=true)
+![Mockup of the app]<img src='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/mockup.png?raw=true' width='698px' height='740px' />
 
 ## Download
 
