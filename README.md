@@ -8,7 +8,7 @@ To do:
 - [x] Export data in multiple reusable formats
 - [ ] Download `.ods` files to repo in case they take them offline
 - [ ] Combine it with population data by age groups
-- [x] Add Github Action to generate data daily
+- [ ] Correct Github Action to generate data daily (not working properly now)
 - [x] Calculate expected dates based on the current progress of the rollout (implemented in the app)
 - [ ] Add expected dates to data output instead of calculating in the browser
 - [ ] Separate latest data and historical data into two files —or maybe two objects in the same `JSON`

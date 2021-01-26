@@ -1,6 +1,7 @@
 name: Generate data daily
 
 on:
+  push:
   schedule:
     - cron: "45 18 * * *"
 
