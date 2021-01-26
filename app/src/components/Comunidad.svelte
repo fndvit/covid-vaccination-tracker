@@ -8,7 +8,7 @@
 
     let width;
     let margin = {bottom:20, top:20, left:0, right:0};
-    let loc = new locale('es');
+    const loc = new locale('es');
 
     const f = {
 		x: loc.formatTime('%b %e'),
@@ -18,16 +18,8 @@
 
     const diff = dateDiff(new Date('2021-03-15'), data.latest.dateComplete);
 
-    const sentenceTarget = `Según las cifras de reparto de vacunas, ${data.latest.ccaa} vacunaría en la primera fase a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas.`;
-    
-    const sentenceDiff = (diff <= -7)
-        ? `Al ritmo de vacunación actual ${data.latest.ccaa} completará la primera fase <b>${approxDate(data.latest.dateComplete)}</b>, <b>antes de la previsión de mediados de marzo</b> del Ministerio de Sanidad.`
-        : ( diff <= 7 && diff > -7)
-        ? 'Si continúa con el ritmo actual de vacunación, la completará <b>dentro del plazo previsto</b> por el Ministerio de Sanidad — <b>mediados de marzo</b>.'
-        : ( diff > 7 && diff <= 21)
-        ? `Al ritmo de vacunación actual, ${data.latest.ccaa} no la completará hasta <b>${approxDate(data.latest.dateComplete)}</b>; <b>${sNumber(Math.floor(diff / 7))} semanas más tarde</b> de lo previsto por el Ministerio de Sanidad.`
-        : `Acumula <b>${sNumber(Math.floor(diff / 7))} semanas de retraso</b> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <b>${approxDate(data.latest.dateComplete)}</b>.`
-
+    const sentenceTarget = `${data.latest.ccaa} podría vacunar a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas si el reparto de vacunas continúa como hasta ahora.`;
+    const sentenceDiff = `Si las administra al mismo ritmo que hasta ahora, completaría la primera fase a <b>${approxDate(data.latest.dateComplete)}.`
     const sentence = `${sentenceTarget} ${sentenceDiff}`;
 
     const tardy = ( diff <= 7)
@@ -67,7 +59,10 @@
         color: #505050;
     }
     h2, h3 { font-weight: 600;}
-    .icon { width: 50%;}
+    .icon { 
+        width: 40%;
+        margin: 0 auto;
+    }
     .numbers {
         padding:.5rem 0;
         border-top: 1px solid #dcdcdc;

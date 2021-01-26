@@ -4,9 +4,10 @@
   export let margin;
   export let scale;
   export let position;
-	export let format;
+  export let format;
+  export let time;
 	
-	$: nTicks = (position === 'bottom' || position === 'top') 
+	$: nTicks = (position === 'bottom' || position === 'top' ) 
 		? width / 50
 		: height / 50;
 
@@ -16,7 +17,7 @@
 		? `translate(0, ${margin.top})`
     : `translate(0, 0)`
 
-  $: ticks = scale.ticks(nTicks)
+  $: ticks = scale.ticks((!time)? nTicks : time)
 		.map(d => ({value: format(d), offset: scale(d)}));
 </script>
 

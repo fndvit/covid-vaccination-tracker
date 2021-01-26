@@ -3,6 +3,7 @@
 	import {area, curveStep} from 'd3-shape';
 	import {scaleTime, scaleLinear} from 'd3-scale';
 	import {max, extent} from 'd3-array'
+	import {timeFriday} from 'd3-time'
     
     export let data;
 	export let margin = {top: 0, right: 0, bottom: 0, left: 0};
@@ -59,6 +60,6 @@
 			aria-label="Vacunas entregadas: {data[data.length - 1][key.y]}"
 		/>
 	</g>
-	<Axis {width} {height} {margin} scale={x} position='bottom' format={format.x} />
+	<Axis {width} {height} {margin} scale={x} position='bottom' format={format.x} time={timeFriday}/>
 </svg>
 {/if}
