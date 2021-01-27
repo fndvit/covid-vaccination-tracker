@@ -4,6 +4,10 @@ on:
     branches:	
       - main
 
+defaults:
+  run:
+    working-directory: app
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
@@ -24,5 +28,5 @@ jobs:
       env:
         REPO: self
         BRANCH: gh-pages
-        FOLDER: app/public
+        FOLDER: public
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
