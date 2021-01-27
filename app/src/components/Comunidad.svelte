@@ -7,7 +7,7 @@
     export let height;
 
     let width;
-    let margin = {bottom:20, top:20, left:0, right:0};
+    let margin = {bottom:20, top:20, left:4, right:4};
     const loc = new locale('es');
 
     const f = {

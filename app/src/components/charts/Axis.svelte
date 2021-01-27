@@ -9,13 +9,15 @@
 	
 	$: nTicks = (position === 'bottom' || position === 'top' ) 
 		? width / 50
-		: height / 50;
+    : height / 50;
 
   $: transform = position === 'bottom'
     ? `translate(0, ${height - margin.bottom - margin.top})`
 		: position === 'top'
-		? `translate(0, ${margin.top})`
-    : `translate(0, 0)`
+    ? `translate(0, ${margin.top})`
+    : position === 'left'
+    ? `translate(${margin.left}, 0)`
+    : `translate(0, ${margin.right})`
 
   $: ticks = scale.ticks((!time)? nTicks : time)
 		.map(d => ({value: format(d), offset: scale(d)}));
@@ -37,27 +39,27 @@
         {tick.value}
       </text>
     </g>
-		{:else if position === 'right'}
+    {:else if position === 'right'}
     <g class='tick' transform='translate(0, {tick.offset})'>
 			{#if tick.value === '0'}
       <line x2={width}/>
 			{:else}
-			<line x2={width} stroke-dasharray="2 3" />
-			{/if}
+      <line x2={width} stroke-dasharray="2 3" />
       <text x={width} y=-5 text-anchor='end'>
         {tick.value}
       </text>
+			{/if}
     </g>
     {:else if position === 'left'}
     <g class='tick' transform='translate(0, {tick.offset})'>
       {#if tick.value === '0'}
       <line x2={width}/>
 			{:else}
-			<line x2={width} stroke-dasharray="2 3" />
-			{/if}
+      <line x2={width} stroke-dasharray="2 3" />
       <text x=0 y=-5 text-anchor='start'>
         {tick.value}
       </text>
+			{/if}
     </g>
     {/if}
   {/each}
@@ -68,7 +70,7 @@
 		stroke: #DCDCDC;
 	}
 	text {
-		fill: #AAA;
+		fill: #999;
 		font-size: .75rem;
 	}
 </style>

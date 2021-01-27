@@ -39,14 +39,9 @@
 		.curve(curveStep);
 
 	const mouseMove = (m) => {
-
-		// const index = x.invert(m.offsetX + 10);
-		// index.setHours(0,0,0,0);
-
-		// const datum = data.find(d => d[key.x].getTime() === index.getTime())
-
-
-		// console.log(datum)
+		const index = x.invert(m.offsetX + 10);
+		index.setHours(0,0,0,0);
+		datum = data.find(d => d[key.x].getTime() === index.getTime())
 	}
 
 	const leave = (m) => {
@@ -84,6 +79,103 @@
 			aria-label="Dosis administradas: {data[data.length - 1][key.y]}"
 		/>
 	</g>
+	<Axis {width} {height} {margin} scale={y} position='left' format={format.y} />
 	<Axis {width} {height} {margin} scale={x} position='bottom' format={format.x} time={timeFriday}/>
+	<g>
+		{#if datum !== undefined}
+		<line
+			x1={x(datum[key.x])}
+			y1={y(0)}
+			x2={x(datum[key.x])}
+			y2={y(datum[key.y])}
+			stroke="rgba(0,0,0,.5)"
+			stroke-width=.3
+			class="tooltip"
+		/>
+		<circle
+			r=3
+			cx={x(datum[key.x])}
+			cy={y(datum[key.y])}
+			stroke="rgba(0,0,0,1)"
+			stroke-width=2
+			class="tooltip blue"
+		/>
+		{#if x(datum[key.x]) < 20}
+		<text
+			x={x(datum[key.x])}
+			y={y(datum[key.y]) - 8}
+			text-anchor='start'
+			class="tooltip value"
+		>
+			{format.y(datum[key.y])}
+		</text>
+		{:else if x(datum[key.x]) > width - 40}
+		<text
+			x={x(datum[key.x])}
+			y={y(datum[key.y]) - 8}
+			text-anchor='end'
+			class="tooltip value"
+		>
+			{format.y(datum[key.y])}
+		</text>
+		{:else}
+		<text
+			x={x(datum[key.x])}
+			y={y(datum[key.y]) - 8}
+			text-anchor='middle'
+			class="tooltip value"
+		>
+			{format.y(datum[key.y])}
+		</text>
+		{/if}
+		{#if x(datum[key.x]) < 20}
+		<text
+			x={x(datum[key.x])}
+			y={y(0) + 20}
+			text-anchor='start'
+			class="tooltip date"
+		>
+			{format.x(datum[key.x])}
+		</text>
+		{:else if x(datum[key.x]) > width - 40}
+		<text
+			x={x(datum[key.x])}
+			y={y(0) + 20}
+			text-anchor='end'
+			class="tooltip date"
+		>
+			{format.x(datum[key.x])}
+		</text>
+		{:else}
+		<text
+			x={x(datum[key.x])}
+			y={y(0) + 20}
+			text-anchor='middle'
+			class="tooltip date"
+		>
+			{format.x(datum[key.x])}
+		</text>
+		{/if}
+		{/if}
+	</g>
 </svg>
 {/if}
+
+<style>
+	text.tooltip {
+		paint-order: stroke;
+		stroke:#f2f2f2;
+		stroke-width: 5px;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+	.value {
+		fill: #333;
+		font-size: .9rem;
+		font-weight: 600;
+	}
+	.date {
+		fill: #505050;
+		font-size: .75rem;
+	}
+</style>
