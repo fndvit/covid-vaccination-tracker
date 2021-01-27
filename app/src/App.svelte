@@ -1,4 +1,5 @@
 <script>
+	import Meta from './components/Meta.svelte'
 	import Menu from './components/Menu.svelte'
 	import Credits from './components/Credits.svelte'
 	import SummaryTable from './components/SummaryTable.svelte'
