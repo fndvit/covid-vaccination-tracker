@@ -10,7 +10,10 @@ To do:
 - [ ] Hovers
 - [ ] Search field or drop down to filter by region
 - [x] Get `dateComplete` math checked
-- [ ] X-axis sticky on top, and add Y-axis
+- [ ] X-axis sticky on top (maybe), and add Y-axis
+- [ ] Translate to Catalan
+- [ ] Add logo, credits, and link to repo
+
 
 ## Mockup
 Looks like this for now ... 

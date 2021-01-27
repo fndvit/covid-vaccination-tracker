@@ -12,6 +12,7 @@ To do:
 - [x] Calculate expected dates based on the current progress of the rollout (implemented in the app)
 - [ ] Add expected dates to data output instead of calculating in the browser
 - [ ] Separate latest data and historical data into two files —or maybe two objects in the same `JSON`
+- [ ] Translate docs to Catalan and Spanish
 
 *(We'll add a more detailed 'to do' later ...)*
 

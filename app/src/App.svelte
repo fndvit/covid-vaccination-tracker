@@ -1,8 +1,9 @@
 <script>
+	import Total from './components/Total.svelte'
 	import Comunidad from './components/Comunidad.svelte'
 	import {scaleLinear, scaleTime} from 'd3-scale'
 	import {extent, max, min} from 'd3-array'
-	import {dateDiff} from './dateDiff'
+	import {dateDiff, approxDate} from './dateDiff'
 	import locale from '@reuters-graphics/d3-locale';
 	export let data;
 
@@ -48,9 +49,15 @@
 	
 	_data.forEach(d => {
 		d.latest = latestNumbers.find(dd => d[0].ccaa === dd.ccaa);
-	})
+	});
 
-	const scaleTimeRange = [min(_data.flat(), d => d.fecha), max(latestNumbers, d => d.dateComplete)]
+	const spainData = latestNumbers.find(d => d.ccaa === 'Totales')
+	const spainDiff = dateDiff(new Date('2021-03-15'), spainData.dateComplete);
+	const spainTardy = ( spainDiff <= 7)
+        ? 'ontime'
+        : ( spainDiff > 7 && spainDiff <= 21)
+        ? 'late'
+        : 'verylate';
 
 </script>
 
@@ -67,9 +74,14 @@
 				  style="stroke:#808080; stroke-width:.3" />
 		</pattern>
 	</svg>
-	<!-- <Comunidad data={spainData} height=200/> -->
-	<h1>¿A qué ritmo se está vacunando contra la COVID-19?</h1>
-	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se podrá vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas — en la primera fase se tiene previsto vacunar a 2,4 millones. El Ministerio de Sanidad es responsable del reparto de las dosis, y las comunidades autónomas las responsables de la estrategia de vacunación en sus territorios. El siguiente grupo en vacunarse son los mayores de 80 años — en España hay 2,8 millones. </p>
+	<Total data={spainData} />
+	<p class="text update">Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
+	<div class="title">
+		<h1>A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong></h1>
+		<img class="icon" src="img/{spainTardy}.svg" role="img" aria-roledescription={approxDate(spainData.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" />
+	</div>
+	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas — cada vacuna necesita dos dosis administradas con unas semanas de diferencia. En la primera fase se tiene previsto vacunar a 2,4 millones — entre mayores en residencias, personas con un gran grado de dependencia y sanitarios.</p>
+	<p class="text summary">El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica. El próximo colectivo en vacunarse es el de los mayores de 80 años — en España hay 2,8 millones.</p>
 	<div class="headers">
 		<h2 class='header' style="visibility: hidden">Comunidad</h2>
         <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
@@ -88,6 +100,7 @@
 	:global(body, html) {
 		background-color: #f2f2f2;
 		font-family: neue-haas-grotesk-display, sans-serif;
+		font-size: 14px;
 	}
 	:global(ul) {
 		list-style-type: none;
@@ -98,7 +111,7 @@
 		background-color: #00bac47c;
 	}
 	:global(.gray) { fill: #ffffff}
-	:global(.bold) { font-weight: 600;}
+	:global(strong) { font-weight: 600;}
 	:global(.text) {
 		font-family: neue-haas-grotesk-text, sans-serif;
 		font-size: .9rem;
@@ -107,22 +120,40 @@
 		padding:0 0 1.5rem 0;
 		margin:0;
 	}
+	:global(.numbers, .headers) {
+        display: grid;
+        grid-template-columns: 23% 20% 20% 17% 20%;
+    }
+	.title {
+		display: grid;
+        grid-template-columns: 70% auto;
+	}
+	.icon {
+		width:50%;
+		margin:0 auto;
+	}
 	.summary {
-		font-size: 1.2rem;
+		font-size: 1.15rem;
+	}
+	.update {
+		margin:3rem 0 0 0;
+		padding:0;
+		color:crimson;
+		font-weight: 400;
+		font-size: 1rem;
 	}
 	main {
 		padding: 1em;
 		margin: 0 auto;
 	}
 	h1 {
-		font-size:4.2rem;
+		font-size:3rem;
 		font-weight: 100;
-		line-height: 1;
-		max-width: 80%;
+		line-height: 1.2;
+		margin-top:0;
+		padding-top:0;
 	}
 	.headers {
-        display: grid;
-        grid-template-columns: 24% 19% 19% 19% 19%;
 		padding:.5rem 0;
 		position:sticky;
 		top: 0;
@@ -131,15 +162,21 @@
 		font-size:.7rem;
 		text-transform: uppercase;
 		background-color: #f2f2f2;
-		height:3rem;
 		align-content: end;
+		height:3rem;
     }
 	.header {
 		margin:0;
-		padding:0;
-		
+		padding:0;	
+		padding-left:2rem;
 	}
+	:global(.number, .header) {
+        padding-left:1rem!important;
+    }
 	@media screen and (min-width: 640px) {
+		:global(body, html) {
+			font-size: 16px;
+		}
 		main {
 			padding: 1em;
 			margin: 0 auto;

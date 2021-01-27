@@ -18,15 +18,15 @@
 
     const diff = dateDiff(new Date('2021-03-15'), data.latest.dateComplete);
 
-    // const sentenceTotal = `${data.latest.ccaa} podría vacunar a unas <b>${loc.format(`,.2r`)(data.latest.sharePeople)}</b> personas si el reparto de vacunas continúa como hasta ahora.`;
-    const sentenceTarget = `Tal y como se están repartiendo las vacunas, ${data.latest.ccaa} vacunará a <b>${loc.format(`,.2r`)(data.latest.shareTarget)}</b> personas en esta primera fase.`;
+    // const sentenceTotal = `${data.latest.ccaa} podría vacunar a unas <strong>${loc.format(`,.2r`)(data.latest.sharePeople)}</strong> personas si el reparto de vacunas continúa como hasta ahora.`;
+    const sentenceTarget = `${data.latest.ccaa} vacunará a <strong>${loc.format(`,.2r`)(data.latest.shareTarget)}</strong> personas en esta primera fase — según el reparto de vacunas actual.`;
     const sentenceDiff = (diff <= -7)
-        ? `Al ritmo de vacunación actual, ${data.latest.ccaa} completará la primera fase <b>${approxDate(data.latest.dateComplete)}</b>, <b>antes de la previsión de mediados de marzo</b> del Ministerio de Sanidad.`
+        ? `Al ritmo de vacunación actual, ${data.latest.ccaa} completará la primera fase <strong>${approxDate(data.latest.dateComplete)}</strong>, <strong>antes de la previsión de mediados de marzo</strong> del Ministerio de Sanidad.`
         : ( diff <= 7 && diff > -7)
-        ? 'Si continúa con el mismo ritmo de vacunación, completará la primera fase <b>dentro del plazo previsto</b> por el Ministerio de Sanidad — <b>mediados de marzo</b>.'
+        ? 'Si continúa con el mismo ritmo de vacunación, completará la primera fase <strong>dentro del plazo previsto</strong> por el Ministerio de Sanidad — <strong>mediados de marzo</strong>.'
         : ( diff > 7 && diff <= 21)
-        ? `No completará la primera fase hasta <b>${approxDate(data.latest.dateComplete)}</b>; <b>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} más tarde</b> de lo previsto por el Ministerio de Sanidad.`
-        : `Acumula <b>${sNumber(Math.floor(diff / 7), 'f')} semanas de retraso</b> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <b>${approxDate(data.latest.dateComplete)}</b>.`
+        ? `No completará la primera fase hasta <strong>${approxDate(data.latest.dateComplete)}</strong>; <strong>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} más tarde</strong> de lo previsto por el Ministerio de Sanidad.`
+        : `Acumula <strong>${sNumber(Math.floor(diff / 7), 'f')} semanas de retraso</strong> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <strong>${approxDate(data.latest.dateComplete)}</strong>.`
     const sentence = `${sentenceTarget} ${sentenceDiff}`;
 
     const tardy = ( diff <= 7)
@@ -41,21 +41,24 @@
     <div class='numbers'>
         <h2>{data[0].ccaa}</h2>
         <p class='number'>{f.y(data[0].entregadas)}</p>
-        <p class='number bold'>{f.y(data[0].administradas)}</p>
-        <p class='number bold'>{f.pct(data[0].admin_entregadas)}%</p>
+        <p class='number'><strong>{f.y(data[0].administradas)}</strong></p>
+        <p class='number'><strong>{f.pct(data[0].admin_entregadas)}%</strong></p>
         <p class='number'>{f.y(data[0].vacuna_completa)}</p>
     </div>
+    <p class="date">Última vacuna registrada a {loc.formatTime('%e de %B')(data.latest.hasta)}</p>
     <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}> 
         <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'fecha', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
     </div>
     <div class='estimates'>
-        <h3>Nuestros cálculos</h3>
-        <p class='text'>{@html sentence}</p>
+        <p class='indent text'>{@html sentence}</p>
         <img class="icon" src="img/{tardy}.svg" role="img" aria-roledescription={approxDate(data.latest.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa} " />
     </div>
 </li>
 
 <style>
+    .ccaa {
+        padding-bottom: 2rem;
+    }
     h2, h3, .number {
         margin:0;
         padding:0;
@@ -67,12 +70,20 @@
     }
     h2, h3 { font-weight: 600;}
     .icon { 
-        width: 40%;
+        width: 80%;
         margin: 0 auto;
+    }
+    .date {
+        color:#808080;
+        font-size: .9rem;
+        text-align: right;
+        margin-top:.5rem;
+        font-weight: 400;
     }
     .numbers {
         padding:.5rem 0;
         border-top: 1px solid #dcdcdc;
+        border-bottom: 1px dashed #dcdcdc;
         position:sticky;
         top:4rem;
         background-color: #f2f2f2;
@@ -82,22 +93,24 @@
         text-align: right;
         font-variant-numeric: tabular-nums;
     }
-    .numbers {
-        display: grid;
-        grid-template-columns: 28% 18% 18% 18% 18%;
-    }
     .estimates {
         display: grid;
         gap: 1rem;
-        grid-template-columns: 10% 70% auto;
+        grid-template-columns: 80% auto;
+    }
+    .indent {
+        margin-left: 0;
     }
     .chart {
         width:100%;
     }
     @media screen and (min-width: 640px) {
-		.numbers {
-            display: grid;
-            grid-template-columns: 28% 18% 18% 18% 18%;
+		.indent {
+            margin-left: 20%;
+        }
+        .icon { 
+            width: 40%;
+            margin: 0 auto;
         }
 	}
 </style>
