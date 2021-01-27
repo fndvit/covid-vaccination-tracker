@@ -100,3 +100,14 @@ Promise.all(
         console.log(`Yay!! You can find ${filename}.csv in ${pathTo}`);
     });
   }
+
+//Download file to destination folder, we'll need this to backup all spreadsheets in case Ministerio de Sanidad takes them offline
+  const download = (url, dest, cb) => {
+    const file = fs.createWriteStream(dest);
+    http.get(url, (response) => {
+      response.pipe(file);
+      file.on('finish', () => {
+        file.close(cb);
+      });
+    });
+  }

@@ -1,12 +1,16 @@
 <script>
+	import Menu from './components/Menu.svelte'
+	import Credits from './components/Credits.svelte'
+	import SummaryTable from './components/SummaryTable.svelte'
 	import Total from './components/Total.svelte'
 	import Comunidad from './components/Comunidad.svelte'
 	import {scaleLinear, scaleTime} from 'd3-scale'
 	import {extent, max, min} from 'd3-array'
 	import {dateDiff, approxDate} from './dateDiff'
 	import locale from '@reuters-graphics/d3-locale';
+import Axis from './components/charts/Axis.svelte'
 	export let data;
-
+	let width;
 	const loc = new locale('es');
 
 	Object.values(data)
@@ -43,7 +47,7 @@
 			d.daily = d.administradas / dateRange;
 			d.vaccinesLeft = d.shareTarget * 2 - d.administradas;
 			d.dateComplete  = new Date();
-			d.dateComplete.setDate(d.fecha.getDate() + 1 * ( ( d.vaccinesLeft - d.vacuna_completa ) / d.daily ) )
+			d.dateComplete.setDate(d.fecha.getDate() + 1 * ( d.vaccinesLeft / d.daily ) )
 			return {...d}
 		});
 	
@@ -52,15 +56,28 @@
 	});
 
 	const spainData = latestNumbers.find(d => d.ccaa === 'Totales')
-	const spainDiff = dateDiff(new Date('2021-03-15'), spainData.dateComplete);
+	const spainDiff = dateDiff(new Date('2021-03-16'), spainData.dateComplete);
 	const spainTardy = ( spainDiff <= 7)
         ? 'ontime'
         : ( spainDiff > 7 && spainDiff <= 21)
         ? 'late'
-        : 'verylate';
+		: 'verylate';
+		
+	latestNumbers.sort((a,b) => a.dateComplete - b.dateComplete);
+
+	const meta = {
+		title:`A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 ${approxDate(spainData.dateComplete)}`,
+		description:`Evolución del ritmo diario de vacunación contra la COVID-19, datos actualizados a ${loc.formatTime('%e de %B')(spainData.fecha)}. Si continúan los ritmos de vacunación actuales, ${latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que ${latestNumbers[latestNumbers.length - 1].ccaa} será la última.`,
+		lang:'es',
+		url:'https://fndvit.github.io/covid-vaccination-tracker/',
+		keywords:'COVID-19, vacunación, España, visualización, transparencia, datos abiertos'
+	}
 
 </script>
 
+<svelte:window bind:innerWidth={width}/>
+<Meta {...meta}/>
+<Menu />
 <main>
 	<svg 
 		xmlns:svg="https://www.w3.org/2000/svg" 
@@ -80,8 +97,20 @@
 		<h1>A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong></h1>
 		<img class="icon" src="img/{spainTardy}.svg" role="img" aria-roledescription={approxDate(spainData.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" />
 	</div>
-	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas — cada vacuna necesita dos dosis administradas con unas semanas de diferencia. En la primera fase se tiene previsto vacunar a 2,4 millones — entre mayores en residencias, personas con un gran grado de dependencia y sanitarios.</p>
-	<p class="text summary">El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica. El próximo colectivo en vacunarse es el de los mayores de 80 años — en España hay 2,8 millones.</p>
+	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.</p>
+	<p class="text summary">El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica.</p>
+	<p class="text summary">Si continúan los ritmos de vacunación actuales, {latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que {latestNumbers[latestNumbers.length - 1].ccaa} será la última.</p>
+	<SummaryTable data={latestNumbers.filter(d => d.ccaa !== 'Totales')} />
+	
+	{#if width < 640}
+	<div class="headers">
+		<h2 class='header' style="visibility: hidden">Comunidad</h2>
+        <p class='header'>Vac. distr. (Pfizer y Moderna)</p>
+        <p class='header bold'>Vac. admin.</p>
+        <p class='header bold'>% vac. admin.</p>
+        <p class='header'>Con pauta completa</p>
+	</div>
+	{:else}
 	<div class="headers">
 		<h2 class='header' style="visibility: hidden">Comunidad</h2>
         <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
@@ -89,11 +118,13 @@
         <p class='header bold'>% de vacunas administradas</p>
         <p class='header'>Personas con la pauta completa</p>
 	</div>
+	{/if}
 	<ul>
 		{#each _data as d}
 		<Comunidad data={d} height={y(max(d, d => d.entregadas))}/>
 		{/each}
 	</ul>
+	<Credits />
 </main>
 
 <style>
@@ -122,15 +153,15 @@
 	}
 	:global(.numbers, .headers) {
         display: grid;
-        grid-template-columns: 23% 20% 20% 17% 20%;
+        grid-template-columns: 22% 20% 20% 19% 20%;
     }
 	.title {
 		display: grid;
-        grid-template-columns: 70% auto;
+		grid-template-columns: 80% auto;
 	}
 	.icon {
-		width:50%;
-		margin:0 auto;
+		width:80%;
+		margin:.5rem auto;
 	}
 	.summary {
 		font-size: 1.15rem;
@@ -138,7 +169,7 @@
 	.update {
 		margin:3rem 0 0 0;
 		padding:0;
-		color:crimson;
+		color:#e90536;
 		font-weight: 400;
 		font-size: 1rem;
 	}
@@ -147,14 +178,15 @@
 		margin: 0 auto;
 	}
 	h1 {
-		font-size:3rem;
+		font-size:2rem;
 		font-weight: 100;
-		line-height: 1.2;
+		line-height: 1.35;
 		margin-top:0;
 		padding-top:0;
 	}
 	.headers {
-		padding:.5rem 0;
+		padding: 1rem 1rem .5rem 1rem;
+    	margin: 0 -1rem 0 -1rem;
 		position:sticky;
 		top: 0;
 		z-index: 100;
@@ -181,6 +213,18 @@
 			padding: 1em;
 			margin: 0 auto;
 			max-width: 42rem;
+		}
+		.title {
+			display: grid;
+			grid-template-columns: 70% auto;
+		}
+		h1 {
+			font-size:3rem;
+			line-height: 1.2;
+		}
+		.icon {
+			width:50%;
+			margin:0 auto;
 		}
 	}
 </style>

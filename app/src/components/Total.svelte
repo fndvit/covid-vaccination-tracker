@@ -33,16 +33,22 @@
 </script>
 
 <div class='numbers'>
-    <p class='number'>{f.y(data.entregadas)}</p>
-    <p class='number'><strong>{f.y(data.administradas)}</strong></p>
-    <p class='number'><strong>{f.pct(data.admin_entregadas)}%</strong></p>
-    <p class='number'>{f.y(data.vacuna_completa)}</p>
-</div>
-<div class="headers">
-    <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
-    <p class='header'><strong>Vacunas administradas</strong></p>
-    <p class='header'><strong>% de vacunas administradas</strong></p>
-    <p class='header'>Personas con la pauta completa</p>
+    <div>
+        <p class='number'>{f.y(data.entregadas)}</p>
+        <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
+    </div>
+    <div>
+        <p class='number'><strong>{f.y(data.administradas)}</strong></p>
+        <p class='header'><strong>Vacunas administradas</strong></p>
+    </div>
+    <div>
+        <p class='number'><strong>{f.pct(data.admin_entregadas)}%</strong></p>
+        <p class='header'><strong>de vacunas administradas</strong></p>
+    </div>
+    <div>
+        <p class='number'>{f.y(data.vacuna_completa)}</p>
+        <p class='header'>Personas con la pauta completa</p>
+    </div>
 </div>
 
 <style>
@@ -56,9 +62,9 @@
         color: #505050;
     }
     h2, h3 { font-weight: 600;}
-    .numbers, .headers {
+    .numbers {
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 50% 50%;
     }
     .icon { 
         width: 40%;
@@ -73,14 +79,12 @@
         text-align: right;
         font-variant-numeric: tabular-nums;
     }
-    .headers {
+    .header {
 		padding:.5rem 0;
 		text-align:right;
 		font-size:.7rem;
 		text-transform: uppercase;
 		background-color: #f2f2f2;
-		align-content: end;
-        border-bottom: 1px solid #dcdcdc;
     }
     .note {
         text-align:left;
@@ -93,4 +97,13 @@
 		padding:0;
         padding-left:1rem;
 	}
+    @media screen and (min-width: 640px) {
+        .number {
+            font-size: 1.5rem;
+        } 
+        .numbers, .headers {
+            display: grid;
+            grid-template-columns: 27% 27% 19% 27%;
+        }
+    } 
 </style>

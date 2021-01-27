@@ -1,97 +1,31 @@
-<script>
-    import locale from '@reuters-graphics/d3-locale';
-    import {dateDiff, approxDate, sNumber} from '../dateDiff'
-
-    export let data;
-
-    const loc = new locale('es');
-
-    const f = {
-		x: loc.formatTime('%e %B'),
-        y: loc.format(',.1d'),
-        pct: loc.format(',.1f')
-    }
-
-    const diff = dateDiff(new Date('2021-03-15'), data.dateComplete);
-
-    // const sentenceTotal = `${data.ccaa} podría vacunar a unas <strong>${loc.format(`,.2r`)(data.sharePeople)}</strong> personas si el reparto de vacunas continúa como hasta ahora.`;
-    const sentenceTarget = `Tal y como se están repartiendo las vacunas, ${data.ccaa} vacunará a <strong>${loc.format(`,.2r`)(data.shareTarget)}</strong> personas en esta primera fase.`;
-    const sentenceDiff = (diff <= -7)
-        ? `Al ritmo de vacunación actual, ${data.ccaa} completará la primera fase <strong>${approxDate(data.dateComplete)}</strong>, <strong>antes de la previsión de mediados de marzo</strong> del Ministerio de Sanidad.`
-        : ( diff <= 7 && diff > -7)
-        ? 'Si continúa con el mismo ritmo de vacunación, completará la primera fase <strong>dentro del plazo previsto</strong> por el Ministerio de Sanidad — <strong>mediados de marzo</strong>.'
-        : ( diff > 7 && diff <= 21)
-        ? `No completará la primera fase hasta <strong>${approxDate(data.dateComplete)}</strong>; <strong>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} más tarde</strong> de lo previsto por el Ministerio de Sanidad.`
-        : `Acumula <strong>${sNumber(Math.floor(diff / 7), 'f')} semanas de retraso</strong> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <strong>${approxDate(data.dateComplete)}</strong>.`
-    const sentence = `${sentenceTarget} ${sentenceDiff}`;
-
-    const tardy = ( diff <= 7)
-        ? 'ontime'
-        : ( diff > 7 && diff <= 21)
-        ? 'late'
-        : 'verylate';
-
-</script>
-
-<div class='numbers'>
-    <p class='number'>{f.y(data.entregadas)}</p>
-    <p class='number'><strong>{f.y(data.administradas)}</strong></p>
-    <p class='number'><strong>{f.pct(data.admin_entregadas)}%</strong></p>
-    <p class='number'>{f.y(data.vacuna_completa)}</p>
-</div>
-<div class="headers">
-    <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
-    <p class='header'><strong>Vacunas administradas</strong></p>
-    <p class='header'><strong>% de vacunas administradas</strong></p>
-    <p class='header'>Personas con la pauta completa</p>
+<div class='credits'>
+    <p class="text"><strong>Sobre los datos: </strong>Cada tarde la aplicación combina los <a href='https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm' target='_blank' rel="noopener">archivos '.ods'</a> que el Centro de Coordinación de Alerta y Emergencias Sanitarias (CCAES) publica diariamente desde el 4 de enero. Aquí puedes obtener directamente el <a href='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.json?raw=true' target='_blank' rel="noopener">JSON</a> y el <a href='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.csv?raw=true' target='_blank' rel="noopener">CSV</a>.</p>
+    <p class="text">Para la estimación de la fecha de finalización de la primera fase, dividimos el número de dosis que quedan por administrar entre la media aritmérica del ritmo diario de administración de vacunas desde el inicio del proceso. Para calcular las dosis que quedan por administrar, estimamos el número de personas que cada comunidad autónoma vacunará basandonos en el reparto actual de las vacunas, lo multiplicamos por dos (dosis necesarias), y deducimos las vacunas administradas hasta ahora.</p>
+    <p class="text">Algunas fechas en la columna 'Fecha de la última vacuna registrada' (renombrada como 'hasta' en nuestros datos) son incorrectas, para Baleares y Canarias. Hasta que lo arreglen —o escribamos algo para captarlo— usamos 'fecha' (la fecha del informe) para visualizar la evolución diaria.</p>
+    <p class="text"><strong>Diseño y programación:</strong> Fundació Visualitzación per a la Transparència</p>
+    <p class="text">Anímate a <a href='https://github.com/fndvit/covid-vaccination-tracker' target='_blank' rel="noopener">contribuir al repositorio.</a> </p>
+    <p class="text">La visualización puede revolucionar la difusión de los datos abiertos y revitalizar la transparencia. <a href="https://www.fundaciovit.org/get-involved" rel="noopener">Apoya nuestra misión</a>.</p>
 </div>
 
 <style>
-    h2, h3, .number {
-        margin:0;
-        padding:0;
-    }
-    h2, .number { font-size: 1.5rem;}
-    h3 { 
-        font-size: 1rem;
-        color: #505050;
-    }
-    h2, h3 { font-weight: 600;}
-    .numbers, .headers {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-    }
-    .icon { 
-        width: 40%;
-        margin: 0 auto;
-    }
-    .numbers {
-        padding:.5rem 0;
-        background-color: #f2f2f2;
-        z-index:10;
-    }
-    .number {
-        text-align: right;
-        font-variant-numeric: tabular-nums;
-    }
-    .headers {
-		padding:.5rem 0;
-		text-align:right;
-		font-size:.7rem;
-		text-transform: uppercase;
-		background-color: #f2f2f2;
-		align-content: end;
-        border-bottom: 1px solid #dcdcdc;
-    }
-    .note {
-        text-align:left;
-        font-size: .9rem;
+    .credits p {
         color:#808080;
-        text-transform: none;
+        
     }
-	.header, .number {
-		margin:0;
-		padding:0;
-        padding-left:1rem;
-	}
+    .credits {
+        border-top: 3px solid #DCDCDC;
+        padding-top:2rem;
+    }
+    a {
+        color:#333;
+        text-decoration: none;
+        border-bottom: 1px dashed #333;
+        transition: all .3s;
+    }
+    a:hover {
+        color:#505050;
+        background-color:#FFF;
+        text-decoration: none;
+        border-bottom: 1px solid #333;
+    }
 </style>

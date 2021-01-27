@@ -11,7 +11,7 @@ export const approxDate = (date) => {
 
     const day = (date.getDate() < 11)
     ? 'principios'
-    : (date.getDate() >= 11 && date.getDate() < 18)
+    : (date.getDate() >= 11 && date.getDate() <= 19)
     ? 'mediados'
     : 'finales'
 
