@@ -36,9 +36,9 @@
 
 </script>
 
-<li class="ccaa">
+<li class='ccaa'>
     <div class='numbers'>
-        <h2>{data[0].ccaa}</h2>
+        <a class='anchor' id='{data[0].ccaa}'><h2>{data[0].ccaa}</h2></a>
         <p class='number'>{f.y(data[0].entregadas)}</p>
         <p class='number'><strong>{f.y(data[0].administradas)}</strong></p>
         <p class='number'><strong>{f.pct(data[0].admin_entregadas)}%</strong></p>
@@ -111,6 +111,11 @@
         text-decoration: none;
         border-bottom: 1px dashed #333;
         transition: all .3s;
+    }
+    .anchor, .anchor:hover {
+        color:inherit;
+        border: none;
+        background-color:inherit;
     }
     a:hover {
         color:#505050;

@@ -4,13 +4,13 @@
     export let data;
 
     const ontime = data.filter(d => d.dateComplete < new Date('2021-03-23'))
-        .map(d => d.ccaa);
+        .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
     const late = data.filter(d => d.dateComplete >= new Date('2021-03-23') && d.dateComplete < new Date('2021-04-06'))
-        .map(d => d.ccaa);
+        .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
     const verylate = data.filter(d => d.dateComplete >= new Date('2021-04-06'))
-        .map(d => d.ccaa);
+        .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
     const toList = (arr) => {
         const last = arr.pop();
@@ -20,13 +20,13 @@
 
 <div class="summary">
     <img class="icon" src="img/ontime.svg" role="img" aria-roledescription="Comunidades dentro del plazo" aria-label="Icono de un temporizador mostrando que está dentro del plazo previsto" alt="Icono de un temporizador mostrando que está dentro del plazo previsto" />
-    <p class='text list'><strong>Dentro del plazo previsto:</strong> {toList(ontime)}</p>
+    <p class='text list'><strong>Dentro del plazo previsto:</strong> {@html toList(ontime)}</p>
 
     <img class="icon" src="img/late.svg" role="img" aria-roledescription="Comunidades retrasadas en el plazo" aria-label="Icono de un temporizador mostrando retraso en la administración de vacunas"  alt="Icono de un temporizador mostrando retraso en la administración de vacunas" />
-    <p class='text list'><strong>Con retraso respecto al plazo previsto:</strong> {toList(late)}</p>
+    <p class='text list'><strong>Con retraso respecto al plazo previsto:</strong> {@html toList(late)}</p>
 
     <img class="icon" src="img/verylate.svg" role="img" aria-roledescription="Comunidades muy retrasadas en el plazo" aria-label="Icono de un temporizador mostrando mucho retraso en la administración de vacunas"  alt="Icono de un temporizador mostrando mucho retraso en la administración de vacunas" />
-    <p class='text list'><strong>Con mucho retraso:</strong> {toList(verylate)}</p>
+    <p class='text list'><strong>Con mucho retraso:</strong> {@html toList(verylate)}</p>
 </div>
 
 <style>

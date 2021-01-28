@@ -206,6 +206,19 @@ import Axis from './components/charts/Axis.svelte'
 		padding:0;	
 		padding-left:2rem;
 	}
+	:global(.link){
+        color:#333;
+        text-decoration: none;
+        border-bottom: 1px dashed #333;
+        transition: all .3s;
+    }
+
+    :global(.link:hover) {
+        color:#505050;
+        background-color:#FFF;
+        text-decoration: none;
+        border-bottom: 1px solid #333;
+    }
 	:global(.number, .header) {
         padding-left:1rem!important;
     }
