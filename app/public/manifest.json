@@ -4,6 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#f2f2f2",
+    "theme_color": "#00bbc4",
     "description": "Evolución diaria de la vacunación contra la COVID-19 en España",
     "icons": [{
       "src": "img/poster_48.png",
@@ -29,5 +30,9 @@
       "src": "img/poster_192.png",
       "sizes": "192x192",
       "type": "image/png"
-    }]
+    },{
+        "src": "img/poster_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }]
   }

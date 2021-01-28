@@ -96,7 +96,7 @@ import Axis from './components/charts/Axis.svelte'
 	<p class="text update">Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
 	<div class="title">
 		<h1>A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong></h1>
-		<img class="icon" src="img/{spainTardy}.svg" role="img" aria-roledescription={approxDate(spainData.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" />
+		<img class="icon" src="img/{spainTardy}.svg" role="img" aria-label="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" aria-roledescription={approxDate(spainData.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" />
 	</div>
 	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.</p>
 	<p class="text summary">El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica.</p>
@@ -140,7 +140,7 @@ import Axis from './components/charts/Axis.svelte'
 	}
 	:global(.blue) { 
 		fill: #00bbc4;
-		background-color: #00bac47c;
+		background-color: #00bbc4;
 	}
 	:global(.gray) { fill: #ffffff}
 	:global(strong) { font-weight: 600;}
@@ -170,7 +170,7 @@ import Axis from './components/charts/Axis.svelte'
 	.update {
 		margin:3rem 0 0 0;
 		padding:0;
-		color:#e90536;
+		color:#9f192b;
 		font-weight: 400;
 		font-size: 1rem;
 	}

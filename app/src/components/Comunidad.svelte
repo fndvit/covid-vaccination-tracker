@@ -50,7 +50,7 @@
     </div>
     <div class='estimates'>
         <p class='indent text'>{@html sentence}</p>
-        <img class="icon" src="img/{tardy}.svg" role="img" aria-roledescription={approxDate(data.latest.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa} " />
+        <img class="icon" src="img/{tardy}.svg" role="img" aria-roledescription={approxDate(data.latest.dateComplete)} aria-label="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa}" alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa}" />
     </div>
     {#if data[0].admin_entregadas > 100}
         <p class='indent text'>¿Cómo se pueden administrar más del 100% de las vacunas entregadas? Cada vial entregado computa como cinco dosis, pero con <a href='https://www.europarl.europa.eu/doceo/document/P-9-2021-000394_ES.html' target='_blank' rel="noopener">jeringuillas especiales</a> (de volumen muerto bajo) se pueden extraer seis dosis y <a href='https://www.ema.europa.eu/en/news/extra-dose-vials-comirnaty-covid-19-vaccine' target='_blank' rel="noopener">las autoridades europeas lo permiten</a>.</p>
@@ -76,7 +76,7 @@
         margin: 0 auto;
     }
     .date {
-        color:#808080;
+        color:#505050;
         font-size: .9rem;
         text-align: right;
         margin-top:.5rem;

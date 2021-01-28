@@ -9,7 +9,7 @@
 
 <style>
     .credits p {
-        color:#808080;
+        color:#666666;
         
     }
     .credits {

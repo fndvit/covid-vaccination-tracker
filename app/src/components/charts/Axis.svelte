@@ -70,7 +70,7 @@
 		stroke: #DCDCDC;
 	}
 	text {
-		fill: #999;
+		fill: #505050;
 		font-size: .75rem;
 	}
 </style>
