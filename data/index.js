@@ -103,8 +103,8 @@ Promise.all(
   }
 
   const sanitizeName = (ccaa) => {
-    const original = ['Aragón','Murcia ','Castilla y Leon ','Canarias','Castilla La Mancha',' Asturias ','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura',' Madrid','Cantabria','C. Valenciana','Navarra','Cataluña','La Rioja','País Vasco', 'Totales']
-    const sanitized = ['Aragón','Murcia','Castilla y León','Canarias','Castilla-La Mancha',' Asturias ','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura',' Madrid','Cantabria','Com. Valenciana','Navarra','Cataluña','La Rioja','País Vasco','Totales']
+    const original = ['Aragón','Murcia ','Castilla y Leon ','Canarias','Castilla La Mancha','Asturias ','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura',' Madrid','Cantabria','C. Valenciana','Navarra','Cataluña','La Rioja','País Vasco', 'Totales']
+    const sanitized = ['Aragón','Murcia','Castilla y León','Canarias','Castilla-La Mancha','Asturias','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura',' Madrid','Cantabria','Com. Valenciana','Navarra','Cataluña','La Rioja','País Vasco','Totales']
     const i = original.findIndex(d => d === ccaa)
     return sanitized[i]
   }
