@@ -84,6 +84,9 @@ import Axis from './components/charts/Axis.svelte'
 		xmlns:svg="https://www.w3.org/2000/svg" 
 		viewBox="0 0 0 0"
 		width=0 height=0
+		role='img'
+		aria-label='Textura en diagonal para los gráficos'
+		alt='Textura en diagonal para los gráficos'
 	>	
 		<pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
 			<path d="M-1,1 l2,-2

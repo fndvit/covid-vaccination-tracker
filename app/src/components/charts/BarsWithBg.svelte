@@ -56,13 +56,12 @@
 	viewBox="0 0 {width} {height}"
 	{width} {height}
 	role="document"
-	aria-describedby="title  desc"
+	aria-label='Evolución diaria de las dosis administradas en {data[0].ccaa}'
 	xml:lang="es"
 	on:mousemove={mouseMove}
 	on:mouseleave={leave}
+	
 	>
-	<title>Evolución diaria de las dosis administradas en {data[0].ccaa}</title>
-	<desc>Gráfico de barras comparando la evolución diaria las dosis administradas en {data[0].ccaa} respecto a las entregadas.</desc>
 	<g>
 		<path 
 			d={path_gray(data)}
