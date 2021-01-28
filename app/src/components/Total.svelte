@@ -42,7 +42,7 @@
         <p class='header'><strong>Vacunas administradas</strong></p>
     </div>
     <div>
-        <p class='number'><strong>{f.pct(data.admin_entregadas)}</strong></p>
+        <p class='number'><strong>{f.pct(data.admin_entregadas)}%</strong></p>
         <p class='header'><strong>de vacunas administradas</strong></p>
     </div>
     <div>

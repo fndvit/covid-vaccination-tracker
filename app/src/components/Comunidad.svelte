@@ -116,6 +116,7 @@
         color:inherit;
         border: none;
         background-color:inherit;
+        scroll-margin-top: 5rem;
     }
     a:hover {
         color:#505050;

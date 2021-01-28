@@ -8,9 +8,10 @@ To do (prioritized):
 - [x] Export data in multiple reusable formats
 - [x] Calculate expected dates based on the current progress of the rollout (implemented in the app)
 - [x] Correct Github Action to generate data daily (not working properly now)
+- [x] Sanitize names of regions
 - [ ] Download `.ods` files to repo in case they take them offline
 - [ ] Add expected dates to data output instead of calculating in the browser
-- [ ] Sanitize dates and region names. Canarias and Baleares have wrong dates on a couple of places, and some regions have extra spaces.
+- [ ] Sanitize dates. Canarias and Baleares have wrong dates on a couple of places, and some regions have extra spaces.
 - [ ] Separate latest data and historical data into two files —or maybe two objects in the same `JSON`
 - [ ] Translate docs to Catalan and Spanish
 - [ ] Combine it with population data by age groups

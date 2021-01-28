@@ -55,6 +55,7 @@ Promise.all(
                 json.map(d=> {
                     d.fecha = d3time.timeParse('%Y-%m-%d')(date);
                     d.hasta = d3time.timeParse('%d/%m/%Y')(d.hasta);
+                    d.ccaa = sanitizeName(d.ccaa);
                     return {...d}
                 })
 
@@ -99,6 +100,13 @@ Promise.all(
         if (err) throw err;
         console.log(`Yay!! You can find ${filename}.csv in ${pathTo}`);
     });
+  }
+
+  const sanitizeName = (ccaa) => {
+    const original = ['Aragón','Murcia ','Castilla y Leon ','Canarias','Castilla La Mancha',' Asturias ','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura',' Madrid','Cantabria','C. Valenciana','Navarra','Cataluña','La Rioja','País Vasco']
+    const sanitized = ['Aragón','Murcia','Castilla y León','Canarias','Castilla-La Mancha',' Asturias ','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura',' Madrid','Cantabria','Com. Valenciana','Navarra','Cataluña','La Rioja','País Vasco']
+    const i = original.findIndex(d => d === ccaa)
+    return sanitized[i]
   }
 
 //Download file to destination folder, we'll need this to backup all spreadsheets in case Ministerio de Sanidad takes them offline

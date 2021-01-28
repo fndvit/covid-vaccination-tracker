@@ -9,9 +9,9 @@
 	import {extent, max, min} from 'd3-array'
 	import {dateDiff, approxDate} from './dateDiff'
 	import locale from '@reuters-graphics/d3-locale';
-import Axis from './components/charts/Axis.svelte'
+
 	export let data;
-	let width;
+	let width, datum;
 	const loc = new locale('es');
 
 	Object.values(data)
@@ -77,8 +77,11 @@ import Axis from './components/charts/Axis.svelte'
 </script>
 
 <svelte:window bind:innerWidth={width}/>
+
 <Meta {...meta}/>
+
 <Menu />
+
 <main>
 	<svg 
 		xmlns:svg="https://www.w3.org/2000/svg" 
@@ -95,7 +98,9 @@ import Axis from './components/charts/Axis.svelte'
 				  style="stroke:#808080; stroke-width:.3" />
 		</pattern>
 	</svg>
+
 	<Total data={spainData} />
+
 	<p class="text update">Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
 	<div class="title">
 		<h1>A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong></h1>
@@ -104,8 +109,9 @@ import Axis from './components/charts/Axis.svelte'
 	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.</p>
 	<p class="text summary">El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica.</p>
 	<p class="text summary">Si continúan los ritmos de vacunación actuales, {latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que {latestNumbers[latestNumbers.length - 1].ccaa} será la última.</p>
-	<SummaryTable data={latestNumbers.filter(d => d.ccaa !== 'Totales')} />
 	
+	<SummaryTable data={latestNumbers.filter(d => d.ccaa !== 'Totales')} />
+
 	{#if width < 640}
 	<div class="headers">
 		<h2 class='header' style="visibility: hidden">Comunidad</h2>
@@ -128,7 +134,9 @@ import Axis from './components/charts/Axis.svelte'
 		<Comunidad data={d} height={y(max(d, d => d.entregadas))}/>
 		{/each}
 	</ul>
+
 	<Credits />
+
 </main>
 
 <style>
@@ -159,6 +167,7 @@ import Axis from './components/charts/Axis.svelte'
         display: grid;
         grid-template-columns: 22% 20% 20% 19% 20%;
     }
+	
 	.title {
 		display: grid;
 		grid-template-columns: 80% auto;
