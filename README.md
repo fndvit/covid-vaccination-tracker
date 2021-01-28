@@ -1,20 +1,21 @@
 # Tracking COVID-19 vaccination in Spain
 The project has two folders, `app` and `data`.
 
-To do:
+To do (prioritized):
 
 - [x] Transform data (to visualize it)
 - [x] Visualize it —obviously
 - [x] Export data in multiple reusable formats
-- [ ] Download `.ods` files to repo in case they take them offline
-- [ ] Combine it with population data by age groups
-- [x] Correct Github Action to generate data daily (not working properly now)
 - [x] Calculate expected dates based on the current progress of the rollout (implemented in the app)
+- [x] Correct Github Action to generate data daily (not working properly now)
+- [ ] Download `.ods` files to repo in case they take them offline
 - [ ] Add expected dates to data output instead of calculating in the browser
+- [ ] Sanitize dates and region names. Canarias and Baleares have wrong dates on a couple of places, and some regions have extra spaces.
 - [ ] Separate latest data and historical data into two files —or maybe two objects in the same `JSON`
 - [ ] Translate docs to Catalan and Spanish
+- [ ] Combine it with population data by age groups
 
-*(We'll add a more detailed 'to do' later ...)*
+*(We'll continue to add a detailed 'to do')*
 
 ## Data
 To generate the data simply install and run the node app.
@@ -56,4 +57,9 @@ const schema = [
     }
 ];
 ```
+
+# Additional sources
+* [Actualización de la Estrategia de Vacunación](https://www.mscbs.gob.es/profesionales/saludPublica/prevPromocion/vacunaciones/covid19/docs/COVID-19_Actualizacion2_EstrategiaVacunacion.pdf)
+* [Nota de prensa de Moncloa del 18 de enero](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/Paginas/2021/180121-residentes_sanitarios.aspx)
+* [Nota de prensa de Moncloa del 12 de enero](https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/Paginas/2021/120121-moderna.aspx)
 
