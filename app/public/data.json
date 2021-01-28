@@ -399,16 +399,6 @@
       "fecha": "2021-01-28T00:00:00.000Z"
     },
     {
-      "pfizer": 1733355,
-      "moderna": 35700,
-      "entregadas": 1769055,
-      "administradas": 1395618,
-      "admin_entregadas": 78.9,
-      "vacuna_completa": 192759,
-      "fecha": "2021-01-28T00:00:00.000Z",
-      "hasta": null
-    },
-    {
       "pfizer": 58235,
       "moderna": 1200,
       "entregadas": 59435,
@@ -427,16 +417,6 @@
       "vacuna_completa": 5611,
       "hasta": "2021-01-26T00:00:00.000Z",
       "fecha": "2021-01-27T00:00:00.000Z"
-    },
-    {
-      "pfizer": 1733355,
-      "moderna": 35700,
-      "entregadas": 1769055,
-      "administradas": 1356461,
-      "admin_entregadas": 76.7,
-      "vacuna_completa": 173066,
-      "fecha": "2021-01-27T00:00:00.000Z",
-      "hasta": null
     },
     {
       "pfizer": 44195,
@@ -459,16 +439,6 @@
       "fecha": "2021-01-26T00:00:00.000Z"
     },
     {
-      "pfizer": 1310400,
-      "moderna": 35700,
-      "entregadas": 1346100,
-      "administradas": 1291216,
-      "admin_entregadas": 95.9,
-      "vacuna_completa": 123697,
-      "fecha": "2021-01-26T00:00:00.000Z",
-      "hasta": null
-    },
-    {
       "pfizer": 44195,
       "moderna": 1200,
       "entregadas": 45395,
@@ -487,16 +457,6 @@
       "vacuna_completa": 2634,
       "hasta": "2021-01-24T00:00:00.000Z",
       "fecha": "2021-01-25T00:00:00.000Z"
-    },
-    {
-      "pfizer": 1310400,
-      "moderna": 35700,
-      "entregadas": 1346100,
-      "administradas": 1237593,
-      "admin_entregadas": 91.9,
-      "vacuna_completa": 88698,
-      "fecha": "2021-01-25T00:00:00.000Z",
-      "hasta": null
     },
     {
       "pfizer": 44195,
@@ -519,16 +479,6 @@
       "fecha": "2021-01-22T00:00:00.000Z"
     },
     {
-      "pfizer": 1310400,
-      "moderna": 35700,
-      "entregadas": 1346100,
-      "administradas": 1165825,
-      "admin_entregadas": 86.6,
-      "vacuna_completa": 68456,
-      "fecha": "2021-01-22T00:00:00.000Z",
-      "hasta": null
-    },
-    {
       "pfizer": 44195,
       "moderna": 1200,
       "entregadas": 45395,
@@ -547,16 +497,6 @@
       "vacuna_completa": 1738,
       "hasta": "2021-01-20T00:00:00.000Z",
       "fecha": "2021-01-21T00:00:00.000Z"
-    },
-    {
-      "pfizer": 1310400,
-      "moderna": 35700,
-      "entregadas": 1346100,
-      "administradas": 1103301,
-      "admin_entregadas": 82,
-      "vacuna_completa": 49056,
-      "fecha": "2021-01-21T00:00:00.000Z",
-      "hasta": null
     },
     {
       "pfizer": 44195,
@@ -579,16 +519,6 @@
       "fecha": "2021-01-20T00:00:00.000Z"
     },
     {
-      "pfizer": 1310400,
-      "moderna": 35700,
-      "entregadas": 1346100,
-      "administradas": 1025937,
-      "admin_entregadas": 76.2,
-      "vacuna_completa": 15642,
-      "fecha": "2021-01-20T00:00:00.000Z",
-      "hasta": null
-    },
-    {
       "pfizer": 35420,
       "moderna": 1200,
       "entregadas": 36620,
@@ -607,16 +537,6 @@
       "vacuna_completa": 719,
       "hasta": "2021-01-19T00:00:00.000Z",
       "fecha": "2021-01-19T00:00:00.000Z"
-    },
-    {
-      "pfizer": 1107600,
-      "moderna": 35700,
-      "entregadas": 1143300,
-      "administradas": 966097,
-      "admin_entregadas": 84.5,
-      "vacuna_completa": 9341,
-      "fecha": "2021-01-19T00:00:00.000Z",
-      "hasta": null
     },
     {
       "pfizer": 35420,
@@ -639,16 +559,6 @@
       "fecha": "2021-01-18T00:00:00.000Z"
     },
     {
-      "pfizer": 1107600,
-      "moderna": 35700,
-      "entregadas": 1143300,
-      "administradas": 897942,
-      "admin_entregadas": 79,
-      "vacuna_completa": 2315,
-      "fecha": "2021-01-18T00:00:00.000Z",
-      "hasta": null
-    },
-    {
       "pfizer": 35420,
       "moderna": 1200,
       "entregadas": 36620,
@@ -666,16 +576,6 @@
       "admin_entregadas": 51,
       "hasta": "2021-01-15T00:00:00.000Z",
       "fecha": "2021-01-15T00:00:00.000Z",
-      "vacuna_completa": ""
-    },
-    {
-      "pfizer": 1103700,
-      "moderna": 35700,
-      "entregadas": 1139400,
-      "administradas": 768950,
-      "admin_entregadas": 67,
-      "fecha": "2021-01-15T00:00:00.000Z",
-      "hasta": null,
       "vacuna_completa": ""
     },
     {
@@ -699,16 +599,6 @@
       "vacuna_completa": ""
     },
     {
-      "pfizer": 1103700,
-      "moderna": 35700,
-      "entregadas": 1139400,
-      "administradas": 676186,
-      "admin_entregadas": 59,
-      "fecha": "2021-01-14T00:00:00.000Z",
-      "hasta": null,
-      "vacuna_completa": ""
-    },
-    {
       "entregadas": 35420,
       "administradas": 25278,
       "admin_entregadas": 71.4,
@@ -724,16 +614,6 @@
       "admin_entregadas": 33.4,
       "hasta": "2021-01-13T00:00:00.000Z",
       "fecha": "2021-01-13T00:00:00.000Z",
-      "pfizer": "",
-      "moderna": "",
-      "vacuna_completa": ""
-    },
-    {
-      "entregadas": 1103700,
-      "administradas": 581638,
-      "admin_entregadas": 52.7,
-      "fecha": "2021-01-13T00:00:00.000Z",
-      "hasta": null,
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -759,16 +639,6 @@
       "vacuna_completa": ""
     },
     {
-      "entregadas": 743925,
-      "administradas": 488041,
-      "admin_entregadas": 65.6,
-      "fecha": "2021-01-12T00:00:00.000Z",
-      "hasta": null,
-      "pfizer": "",
-      "moderna": "",
-      "vacuna_completa": ""
-    },
-    {
       "entregadas": 23720,
       "administradas": 18943,
       "admin_entregadas": 79.9,
@@ -784,16 +654,6 @@
       "admin_entregadas": 25.2,
       "hasta": "2021-01-11T00:00:00.000Z",
       "fecha": "2021-01-11T00:00:00.000Z",
-      "pfizer": "",
-      "moderna": "",
-      "vacuna_completa": ""
-    },
-    {
-      "entregadas": 743925,
-      "administradas": 406091,
-      "admin_entregadas": 54.6,
-      "fecha": "2021-01-11T00:00:00.000Z",
-      "hasta": null,
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -819,16 +679,6 @@
       "vacuna_completa": ""
     },
     {
-      "entregadas": 743925,
-      "administradas": 277976,
-      "admin_entregadas": 37.4,
-      "fecha": "2021-01-08T00:00:00.000Z",
-      "hasta": null,
-      "pfizer": "",
-      "moderna": "",
-      "vacuna_completa": ""
-    },
-    {
       "entregadas": 23720,
       "administradas": 14406,
       "admin_entregadas": 60.7,
@@ -849,16 +699,6 @@
       "vacuna_completa": ""
     },
     {
-      "entregadas": 743925,
-      "administradas": 207323,
-      "admin_entregadas": 27.9,
-      "fecha": "2021-01-07T00:00:00.000Z",
-      "hasta": null,
-      "pfizer": "",
-      "moderna": "",
-      "vacuna_completa": ""
-    },
-    {
       "entregadas": 23720,
       "administradas": 9380,
       "admin_entregadas": 39.5,
@@ -874,16 +714,6 @@
       "admin_entregadas": 3.2,
       "hasta": "2021-01-03T00:00:00.000Z",
       "fecha": "2021-01-04T00:00:00.000Z",
-      "pfizer": "",
-      "moderna": "",
-      "vacuna_completa": ""
-    },
-    {
-      "entregadas": 718575,
-      "administradas": 82834,
-      "admin_entregadas": 11.5,
-      "fecha": "2021-01-04T00:00:00.000Z",
-      "hasta": null,
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3719,6 +3549,195 @@
       "admin_entregadas": 20.6,
       "hasta": "2020-12-30T00:00:00.000Z",
       "fecha": "2021-01-04T00:00:00.000Z",
+      "pfizer": "",
+      "moderna": "",
+      "vacuna_completa": ""
+    }
+  ],
+  "Totales": [
+    {
+      "ccaa": "Totales",
+      "pfizer": 1733355,
+      "moderna": 35700,
+      "entregadas": 1769055,
+      "administradas": 1395618,
+      "admin_entregadas": 78.9,
+      "vacuna_completa": 192759,
+      "fecha": "2021-01-28T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1733355,
+      "moderna": 35700,
+      "entregadas": 1769055,
+      "administradas": 1356461,
+      "admin_entregadas": 76.7,
+      "vacuna_completa": 173066,
+      "fecha": "2021-01-27T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1310400,
+      "moderna": 35700,
+      "entregadas": 1346100,
+      "administradas": 1291216,
+      "admin_entregadas": 95.9,
+      "vacuna_completa": 123697,
+      "fecha": "2021-01-26T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1310400,
+      "moderna": 35700,
+      "entregadas": 1346100,
+      "administradas": 1237593,
+      "admin_entregadas": 91.9,
+      "vacuna_completa": 88698,
+      "fecha": "2021-01-25T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1310400,
+      "moderna": 35700,
+      "entregadas": 1346100,
+      "administradas": 1165825,
+      "admin_entregadas": 86.6,
+      "vacuna_completa": 68456,
+      "fecha": "2021-01-22T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1310400,
+      "moderna": 35700,
+      "entregadas": 1346100,
+      "administradas": 1103301,
+      "admin_entregadas": 82,
+      "vacuna_completa": 49056,
+      "fecha": "2021-01-21T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1310400,
+      "moderna": 35700,
+      "entregadas": 1346100,
+      "administradas": 1025937,
+      "admin_entregadas": 76.2,
+      "vacuna_completa": 15642,
+      "fecha": "2021-01-20T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1107600,
+      "moderna": 35700,
+      "entregadas": 1143300,
+      "administradas": 966097,
+      "admin_entregadas": 84.5,
+      "vacuna_completa": 9341,
+      "fecha": "2021-01-19T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1107600,
+      "moderna": 35700,
+      "entregadas": 1143300,
+      "administradas": 897942,
+      "admin_entregadas": 79,
+      "vacuna_completa": 2315,
+      "fecha": "2021-01-18T00:00:00.000Z",
+      "hasta": null
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1103700,
+      "moderna": 35700,
+      "entregadas": 1139400,
+      "administradas": 768950,
+      "admin_entregadas": 67,
+      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": null,
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1103700,
+      "moderna": 35700,
+      "entregadas": 1139400,
+      "administradas": 676186,
+      "admin_entregadas": 59,
+      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": null,
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": 1103700,
+      "administradas": 581638,
+      "admin_entregadas": 52.7,
+      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": null,
+      "pfizer": "",
+      "moderna": "",
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": 743925,
+      "administradas": 488041,
+      "admin_entregadas": 65.6,
+      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": null,
+      "pfizer": "",
+      "moderna": "",
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": 743925,
+      "administradas": 406091,
+      "admin_entregadas": 54.6,
+      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": null,
+      "pfizer": "",
+      "moderna": "",
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": 743925,
+      "administradas": 277976,
+      "admin_entregadas": 37.4,
+      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": null,
+      "pfizer": "",
+      "moderna": "",
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": 743925,
+      "administradas": 207323,
+      "admin_entregadas": 27.9,
+      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": null,
+      "pfizer": "",
+      "moderna": "",
+      "vacuna_completa": ""
+    },
+    {
+      "ccaa": "Totales",
+      "entregadas": 718575,
+      "administradas": 82834,
+      "admin_entregadas": 11.5,
+      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": null,
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
