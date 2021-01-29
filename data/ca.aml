@@ -1,10 +1,10 @@
-    update: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
+    update: Actualitzat a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
 
-    title:A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong>
+    title:A aquest ritme, Espanya completa la primera fase de la vacunació contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong>
 
     [.summary]
-        p: España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.
-        p: El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica.
+        p: Espanya ha adquirit al voltant de {loc.format(',.2r')(totalVacc/1e6)} milions de vacunes (de <em>Pfizer</em> y <em>Moderna</em>). Amb aquestes dosis es pot vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.
+        p: El Ministeri de Sanitat és responsable del repartiment de les dosis i de l'estratègia de vacunació, mentre que les comunitats autònomes són les responsables de dur-la a la pràctica.
         p: Si continúan los ritmos de vacunación actuales, {latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que {latestNumbers[latestNumbers.length - 1].ccaa} será la última.
     []	
 
