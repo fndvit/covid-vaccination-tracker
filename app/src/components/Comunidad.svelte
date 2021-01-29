@@ -51,18 +51,18 @@
 
 <li class='ccaa'>
     <div class='numbers'>
-        <h2 class='anchor' id={data[0].ccaa}>{data[0].ccaa}</h2>
-        <p class='number'>{f.y(data[0].entregadas)}</p>
-        <p class='number'><strong>{f.y(data[0].administradas)}</strong></p>
-        <p class='number'><strong>{f.pct(data[0].admin_entregadas)}%</strong></p>
-        <p class='number'>{f.y(data[0].vacuna_completa)}</p>
+        <h2 class='anchor' id={data.latest.ccaa}>{data.latest.ccaa}</h2>
+        <p class='number'>{f.y(data.latest.entregadas)}</p>
+        <p class='number'><strong>{f.y(data.latest.administradas)}</strong></p>
+        <p class='number'><strong>{f.pct(data.latest.admin_entregadas)}%</strong></p>
+        <p class='number'>{f.y(data.latest.vacuna_completa)}</p>
     </div>
     <p class="date">Última vacuna registrada a {loc.formatTime('%e de %B')(data.latest.hasta)}</p>
 
     {#if index===0}
     <Legend {legendItems} />
     {/if}
-    
+
     <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}>
         <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'fecha', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
     </div>

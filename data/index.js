@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const xlsx = require('xlsx');
+const dir = require('node-dir');
+const https = require('https');
 const d3time = require('d3-time-format');
 const fs = require('fs');
 const groupby = require('lodash/groupBy');
@@ -42,6 +44,34 @@ const baseUrl = 'https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/aler
 const pathTo = '../app/public/'
 
 const parser = new d2lIntl.NumberParse('es-ES');
+
+const outdir = './spreadsheets';
+if (!fs.existsSync(outdir)) fs.mkdirSync(outdir);
+
+const download = (url, dest, cb) => {
+  https.get(url, res => {
+    const s = res.statusCode;
+    if(s !== 404) {
+      const file = fs.createWriteStream(dest);
+      res.pipe(file);
+      file.on('finish', () => {
+        file.close(cb);
+      });
+    }
+  });
+}
+
+days.reverse().forEach(date => {
+  const filename = `${date.replace(/-/g,'')}.ods`
+  if(fs.existsSync(`${outdir}/informe_${filename}`)) {
+    console.log(`🛑 informe_${filename} already exists!`)
+  } else {
+    download(`${baseUrl}${filename}`, `${outdir}/informe_${filename}`, () => {
+      console.log('✅ Done!')
+    })
+  }
+  
+})
 
 Promise.all(
     days.reverse().map(date => 
@@ -107,15 +137,4 @@ Promise.all(
     const sanitized = ['Aragón','Murcia','Castilla y León','Canarias','Castilla-La Mancha','Asturias','Galicia','Andalucía','Ceuta','Melilla','Baleares','Extremadura','Madrid','Cantabria','Com. Valenciana','Navarra','Cataluña','La Rioja','País Vasco','Totales']
     const i = original.findIndex(d => d === ccaa)
     return (sanitized[i] !== undefined) ? sanitized[i] : ccaa;
-  }
-
-//Download file to destination folder, we'll need this to backup all spreadsheets in case Ministerio de Sanidad takes them offline
-  const download = (url, dest, cb) => {
-    const file = fs.createWriteStream(dest);
-    http.get(url, (response) => {
-      response.pipe(file);
-      file.on('finish', () => {
-        file.close(cb);
-      });
-    });
   }
