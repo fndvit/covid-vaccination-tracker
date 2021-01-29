@@ -13,8 +13,13 @@
         .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
     const toList = (arr) => {
-        const last = arr.pop();
-        return arr.join(', ') + ' y ' + last;
+        const _arr = [...arr];
+        const last = _arr.pop();
+        return (arr.length > 1)
+            ? _arr.join(', ') + ' y ' + last
+            : (arr.length === 1)
+            ? last
+            : 'Ninguna';
     }
 </script>
 
