@@ -1133,9 +1133,9 @@
       "vacuna_completa": ""
     }
   ],
-  "Castilla y León": [
+  "Castilla y Leon ": [
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 121395,
       "moderna": 2500,
       "entregadas": 123895,
@@ -1146,7 +1146,7 @@
       "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 121395,
       "moderna": 2500,
       "entregadas": 123895,
@@ -1157,7 +1157,7 @@
       "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 93315,
       "moderna": 2500,
       "entregadas": 95815,
@@ -1168,7 +1168,7 @@
       "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 93315,
       "moderna": 2500,
       "entregadas": 95815,
@@ -1179,7 +1179,7 @@
       "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 93315,
       "moderna": 2500,
       "entregadas": 95815,
@@ -1190,7 +1190,7 @@
       "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 93315,
       "moderna": 2500,
       "entregadas": 95815,
@@ -1201,7 +1201,7 @@
       "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 93315,
       "moderna": 2500,
       "entregadas": 95815,
@@ -1212,7 +1212,7 @@
       "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 76740,
       "moderna": 2500,
       "entregadas": 79240,
@@ -1223,7 +1223,7 @@
       "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 76740,
       "moderna": 2500,
       "entregadas": 79240,
@@ -1234,7 +1234,7 @@
       "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 76740,
       "moderna": 2500,
       "entregadas": 79240,
@@ -1245,7 +1245,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "pfizer": 76740,
       "moderna": 2500,
       "entregadas": 79240,
@@ -1256,7 +1256,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "entregadas": 76740,
       "administradas": 48243,
       "admin_entregadas": 62.9,
@@ -1267,7 +1267,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "entregadas": 51390,
       "administradas": 41340,
       "admin_entregadas": 80.4,
@@ -1278,7 +1278,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "entregadas": 51390,
       "administradas": 36205,
       "admin_entregadas": 70.5,
@@ -1289,7 +1289,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "entregadas": 51390,
       "administradas": 28325,
       "admin_entregadas": 55.1,
@@ -1300,7 +1300,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "entregadas": 51390,
       "administradas": 22103,
       "admin_entregadas": 43,
@@ -1311,7 +1311,7 @@
       "vacuna_completa": ""
     },
     {
-      "ccaa": "Castilla y León",
+      "ccaa": "Castilla y Leon ",
       "entregadas": 51390,
       "administradas": 10928,
       "admin_entregadas": 9.4,
@@ -2456,8 +2456,9 @@
       "vacuna_completa": ""
     }
   ],
-  "undefined": [
+  "Madrid": [
     {
+      "ccaa": "Madrid",
       "pfizer": 228075,
       "moderna": 4700,
       "entregadas": 232775,
@@ -2468,6 +2469,7 @@
       "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 228075,
       "moderna": 4700,
       "entregadas": 232775,
@@ -2478,6 +2480,7 @@
       "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 171915,
       "moderna": 4700,
       "entregadas": 176615,
@@ -2488,6 +2491,7 @@
       "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 171915,
       "moderna": 4700,
       "entregadas": 176615,
@@ -2498,6 +2502,7 @@
       "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 171915,
       "moderna": 4700,
       "entregadas": 176615,
@@ -2508,6 +2513,7 @@
       "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 171915,
       "moderna": 4700,
       "entregadas": 176615,
@@ -2518,6 +2524,7 @@
       "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 171915,
       "moderna": 4700,
       "entregadas": 176615,
@@ -2528,6 +2535,7 @@
       "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 147540,
       "moderna": 4700,
       "entregadas": 152240,
@@ -2538,6 +2546,7 @@
       "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 147540,
       "moderna": 4700,
       "entregadas": 152240,
@@ -2548,6 +2557,7 @@
       "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 147540,
       "moderna": 4700,
       "entregadas": 152240,
@@ -2558,6 +2568,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "pfizer": 147540,
       "moderna": 4700,
       "entregadas": 152240,
@@ -2568,6 +2579,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "entregadas": 147540,
       "administradas": 49228,
       "admin_entregadas": 33.4,
@@ -2578,6 +2590,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "entregadas": 98790,
       "administradas": 35949,
       "admin_entregadas": 36.4,
@@ -2588,6 +2601,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "entregadas": 98790,
       "administradas": 24897,
       "admin_entregadas": 25.2,
@@ -2598,6 +2612,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "entregadas": 98790,
       "administradas": 14152,
       "admin_entregadas": 14.3,
@@ -2608,6 +2623,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "entregadas": 98790,
       "administradas": 11337,
       "admin_entregadas": 11.5,
@@ -2618,6 +2634,7 @@
       "vacuna_completa": ""
     },
     {
+      "ccaa": "Madrid",
       "entregadas": 89040,
       "administradas": 2883,
       "admin_entregadas": 3.2,
