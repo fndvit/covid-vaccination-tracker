@@ -1,7 +1,12 @@
-# Tracking COVID-19 vaccination in Spain
-The project has two folders, `app` and `data`.
+![Generate data daily](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Generate%20data%20daily?label=generate-data)
+![Deploy to GitHub pages](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Deploy%20to%20GitHub%20Pages?label=deploy)
+![Updated](https://img.shields.io/github/last-commit/fndvit/covid-vaccination-tracker)
+![License](https://img.shields.io/github/license/fndvit/covid-vaccination-tracker)
 
-To do (prioritized):
+# Tracking COVID-19 vaccination in Spain
+[**The project is live here!!**](https://vacunas.fndvit.org/)
+
+## To do (prioritized):
 
 - [x] Transform data (to visualize it)
 - [x] Visualize it —obviously
@@ -9,7 +14,7 @@ To do (prioritized):
 - [x] Calculate expected dates based on the current progress of the rollout (implemented in the app)
 - [x] Correct Github Action to generate data daily (not working properly now)
 - [x] Sanitize names of regions
-- [ ] Download `.ods` files to repo in case they take them offline
+- [x] Download `.ods` files to repo in case they take them offline —see `/spreadsheets`
 - [ ] Add expected dates to data output instead of calculating in the browser
 - [ ] Sanitize dates. Canarias and Baleares have wrong dates on a couple of places, and some regions have extra spaces.
 - [ ] Separate latest data and historical data into two files —or maybe two objects in the same `JSON`
@@ -17,6 +22,9 @@ To do (prioritized):
 - [ ] Combine it with population data by age groups
 
 *(We'll continue to add a detailed 'to do')*
+
+## App
+It has its own separate [README.md](https://github.com/fndvit/covid-vaccination-tracker/tree/main/app)
 
 ## Data
 To generate the data simply install and run the node app.
@@ -30,6 +38,8 @@ It outputs two fresh [`JSON`](https://raw.githubusercontent.com/fndvit/covid-vac
 * `CSV` [raw](https://raw.githubusercontent.com/fndvit/covid-vaccination-tracker/main/app/public/data.csv) and [preview](https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.csv)
 
 The data comes from the `.ods` files that the [Health Alert and Emergency Coordination Centre (CCAES in Spanish)](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm) has published daily since January 4.
+
+We are also backing up the `spreadsheets` in case they take them offline.
 
 **Important!** A few dates in the `Fecha de la última vacuna registrada` column (renamed as `hasta` in our data) are wrong —for Baleares and Canarias. Until they fix it —or we write something to catch that— use `fecha` which is the date of the report.
 
