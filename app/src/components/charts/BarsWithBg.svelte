@@ -2,7 +2,7 @@
 	import Axis from './Axis.svelte';
 	import {area, curveStep} from 'd3-shape';
 	import {scaleTime, scaleLinear} from 'd3-scale';
-	import {max, extent} from 'd3-array'
+	import {max, extent, bisector} from 'd3-array'
 	import {timeFriday} from 'd3-time'
     
     export let data;
@@ -39,9 +39,13 @@
 		.curve(curveStep);
 
 	const mouseMove = (m) => {
-		const index = x.invert(m.offsetX + 10);
+		//Set the data in ascending order
+		const cloneData = [...data];
+		cloneData.reverse();
+		const index = x.invert(m.offsetX + 12);
 		index.setHours(0,0,0,0);
-		datum = data.find(d => d[key.x].getTime() === index.getTime())
+		const i = bisector(d => d[key.x]).center(cloneData, index);
+		datum = cloneData[i];
 	}
 
 	const leave = (m) => {
