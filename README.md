@@ -5,6 +5,7 @@
 ![Deploy to GitHub pages](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Deploy%20to%20GitHub%20Pages)
 ![Updated](https://img.shields.io/github/last-commit/fndvit/covid-vaccination-tracker)
 ![License](https://img.shields.io/github/license/fndvit/covid-vaccination-tracker)
+
 The project has two folders, `app` and `data`.
 
 To do (prioritized):
