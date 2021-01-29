@@ -66,19 +66,9 @@
 		
 	latestNumbers.sort((a,b) => a.dateComplete - b.dateComplete);
 
-	const meta = {
-		title:`A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 ${approxDate(spainData.dateComplete)}`,
-		description:`Evolución del ritmo diario de vacunación contra la COVID-19, datos actualizados a ${loc.formatTime('%e de %B')(spainData.fecha)}. Si continúan los ritmos de vacunación actuales, ${latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que ${latestNumbers[latestNumbers.length - 1].ccaa} será la última.`,
-		lang:'es',
-		url:'https://fndvit.github.io/covid-vaccination-tracker/',
-		keywords:'COVID-19, vacunación, España, visualización, transparencia, datos abiertos'
-	}
-
 </script>
 
 <svelte:window bind:innerWidth={width}/>
-
-<Meta {...meta}/>
 
 <Menu />
 

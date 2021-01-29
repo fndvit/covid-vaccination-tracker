@@ -22,6 +22,7 @@
 <meta property="og:image:width" content="1600" />
 <meta property="og:image:height" content="900" />
 
+
 <meta property="twitter:card" content="https://fndvit.github.io/covid-vaccination-tracker/img/poster_social.png"/>
 <meta property="twitter:url" content={url}/>
 <meta property="twitter:title" content={title}/>
