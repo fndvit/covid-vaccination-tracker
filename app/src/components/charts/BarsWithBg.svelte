@@ -4,6 +4,7 @@
 	import {scaleTime, scaleLinear} from 'd3-scale';
 	import {max, extent, bisector} from 'd3-array'
 	import {timeFriday} from 'd3-time'
+	import {draw} from 'svelte/transition'
     
     export let data;
 	export let margin = {top: 0, right: 0, bottom: 0, left: 0};
@@ -40,17 +41,16 @@
 
 	const mouseMove = (m) => {
 		//Set the data in ascending order
-		const cloneData = [...data];
-		cloneData.reverse();
+		const _data = [...data];
+		_data.sort((a,b) => a[key.x] - b[[key.x]]);
 		const index = x.invert(m.offsetX + 12);
 		index.setHours(0,0,0,0);
-		const i = bisector(d => d[key.x]).center(cloneData, index);
-		datum = cloneData[i];
+		const i = bisector(d => d[key.x]).center(_data, index);
+		datum = _data[i];
 	}
 
 	const leave = (m) => {
-		// interactive = false;
-		// visible = (interactive) ? 'show' : 'hide';
+		datum = undefined;
 	}
 
 </script> 
@@ -64,7 +64,6 @@
 	xml:lang="es"
 	on:mousemove={mouseMove}
 	on:mouseleave={leave}
-	
 	>
 	<g>
 		<path 
