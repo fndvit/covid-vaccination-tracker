@@ -58,9 +58,11 @@
         <p class='number'>{f.y(data[0].vacuna_completa)}</p>
     </div>
     <p class="date">Última vacuna registrada a {loc.formatTime('%e de %B')(data.latest.hasta)}</p>
+
     {#if index===0}
     <Legend {legendItems} />
     {/if}
+    
     <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}>
         <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'fecha', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
     </div>
