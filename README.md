@@ -1,14 +1,12 @@
+![Generate data daily](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Generate%20data%20daily?label=generate-data)
+![Deploy to GitHub pages](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Deploy%20to%20GitHub%20Pages?label=deploy)
+![Updated](https://img.shields.io/github/last-commit/fndvit/covid-vaccination-tracker)
+![License](https://img.shields.io/github/license/fndvit/covid-vaccination-tracker)
+
 # Tracking COVID-19 vaccination in Spain
 [**The project is live here!!**](https://vacunas.fndvit.org/)
 
-* Generate data daily ![Generate data daily](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Generate%20data%20daily)
-* Deploy to GitHub pages ![Deploy to GitHub pages](https://img.shields.io/github/workflow/status/fndvit/covid-vaccination-tracker/Deploy%20to%20GitHub%20Pages)
-* Last updated ![Updated](https://img.shields.io/github/last-commit/fndvit/covid-vaccination-tracker)
-* License ![License](https://img.shields.io/github/license/fndvit/covid-vaccination-tracker)
-
-The project has two folders, `app` and `data`.
-
-To do (prioritized):
+## To do (prioritized):
 
 - [x] Transform data (to visualize it)
 - [x] Visualize it —obviously
