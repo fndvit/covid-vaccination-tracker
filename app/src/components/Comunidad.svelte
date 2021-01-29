@@ -38,7 +38,7 @@
 
 <li class='ccaa'>
     <div class='numbers'>
-        <a class='anchor' id='{data[0].ccaa}'><h2>{data[0].ccaa}</h2></a>
+        <h2 class='anchor' id={data[0].ccaa}>{data[0].ccaa}</h2>
         <p class='number'>{f.y(data[0].entregadas)}</p>
         <p class='number'><strong>{f.y(data[0].administradas)}</strong></p>
         <p class='number'><strong>{f.pct(data[0].admin_entregadas)}%</strong></p>
