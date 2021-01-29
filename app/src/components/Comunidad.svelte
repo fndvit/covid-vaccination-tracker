@@ -1,10 +1,12 @@
 <script>
     import BarsWithBg from './charts/BarsWithBg.svelte'
+    import Legend from './common/Legend.svelte'
     import locale from '@reuters-graphics/d3-locale';
     import {dateDiff, approxDate, sNumber} from '../dateDiff'
 
     export let data;
     export let height;
+    export let index;
 
     let width;
     let margin = {bottom:20, top:20, left:4, right:4};
@@ -34,6 +36,17 @@
         ? 'late'
         : 'verylate';
 
+    const legendItems = [
+        {  
+            color:'url(#diagonalHatch)',
+            label:'Vacunas entregadas<br/>(cada semana)'
+        },
+        {  
+            class:'blue',
+            label:'<strong>Dosis administradas</strong><br/>(diario)'
+        }
+    ];
+
 </script>
 
 <li class='ccaa'>
@@ -45,7 +58,10 @@
         <p class='number'>{f.y(data[0].vacuna_completa)}</p>
     </div>
     <p class="date">Última vacuna registrada a {loc.formatTime('%e de %B')(data.latest.hasta)}</p>
-    <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}> 
+    {#if index===0}
+    <Legend {legendItems} />
+    {/if}
+    <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}>
         <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'fecha', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
     </div>
     <div class='estimates'>

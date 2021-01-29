@@ -120,8 +120,8 @@
 	</div>
 	{/if}
 	<ul>
-		{#each _data as d}
-		<Comunidad data={d} height={y(max(d, d => d.entregadas))}/>
+		{#each _data as d,i}
+		<Comunidad data={d} height={y(max(d, d => d.entregadas))} index={i}/>
 		{/each}
 	</ul>
 
