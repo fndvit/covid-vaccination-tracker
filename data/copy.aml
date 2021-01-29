@@ -1,5 +1,5 @@
 {es}
-    fecha: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
+    update: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
 
     title:A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong>
 
@@ -69,7 +69,7 @@
     []
 
 {ca}
-    fecha: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
+    update: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
 
     title:A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong>
 
@@ -139,7 +139,7 @@
     []
 
 {ga}
-    fecha: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
+    update: Actualizado a <strong>{loc.formatTime('%e de %B')(spainData.fecha)}</strong></p>
 
     title:A este ritmo, España completa la primera fase de la vacunación contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong>
 
