@@ -67,7 +67,6 @@
 	latestNumbers.sort((a,b) => a.dateComplete - b.dateComplete);
 
 	const sortData = (mode) => {
-		console.log(mode);
 		if(mode === 'ccaa'){
 			_data.sort((a,b) => a.latest[mode].localeCompare(b.latest[mode]));
 		}else{
