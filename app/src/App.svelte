@@ -9,10 +9,9 @@
 	import {extent, max, min} from 'd3-array'
 	import {dateDiff, approxDate} from './dateDiff'
 	import locale from '@reuters-graphics/d3-locale';
-	import { flip } from 'svelte/animate';
 
 	export let data;
-	let width, datum, sort = 'ccaa', sorting = true;
+	let width, datum, sort = 'ccaa';
 	const loc = new locale('es');
 
 	Object.values(data)
@@ -131,15 +130,11 @@
 	</div>
 	{/if}
 
-	{#if sorting}
 	<ul>
-		{#each _data as d,i (d.latest.ccaa)}
-		<div animate:flip="{{duration: d => 10 * Math.sqrt(d)}}">
-			<Comunidad   data={d} height={y(max(d, d => d.entregadas))} index={i} />
-		</div>
+		{#each _data as d,i }
+		<Comunidad   data={d} height={y(max(d, d => d.entregadas))} index={i} />
 		{/each}
 	</ul>
-	{/if}
 
 	<Credits />
 
