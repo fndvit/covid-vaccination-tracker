@@ -23,7 +23,7 @@
 		.map(d => ({value: format(d), offset: scale(d)}));
 </script>
 
-<g class='axis' {transform}>
+<g class='axis' {transform} pointer-events="none">
   {#each ticks as tick}
     {#if position === 'bottom'}
     <g class='tick' transform='translate({tick.offset}, 0)'>
