@@ -55,6 +55,17 @@
 
 	}
 
+	const getAnchor = (x) => {
+		switch(true) {
+			case x < 20:
+				return 'start';
+			case x  > width - 40:
+				return 'end';
+			default:
+				return 'middle'
+		}
+	}
+
 </script> 
 
 {#if width}
@@ -94,6 +105,7 @@
 			y1={y(0)}
 			x2={x(datum[key.x])}
 			y2={y(datum[key.y])}
+			pointer-events="none"
 			stroke="rgba(0,0,0,.5)"
 			stroke-width=.3
 			class="tooltip"
@@ -103,65 +115,28 @@
 			cx={x(datum[key.x])}
 			cy={y(datum[key.y])}
 			stroke="rgba(0,0,0,1)"
+			pointer-events="none"
 			stroke-width=2
 			class="tooltip blue"
 		/>
-		{#if x(datum[key.x]) < 20}
 		<text
 			x={x(datum[key.x])}
 			y={y(datum[key.y]) - 8}
-			text-anchor='start'
+			pointer-events="none"
+			text-anchor={getAnchor(x(datum[key.x]))}
 			class="tooltip value"
 		>
 			{format.y(datum[key.y])}
 		</text>
-		{:else if x(datum[key.x]) > width - 40}
-		<text
-			x={x(datum[key.x])}
-			y={y(datum[key.y]) - 8}
-			text-anchor='end'
-			class="tooltip value"
-		>
-			{format.y(datum[key.y])}
-		</text>
-		{:else}
-		<text
-			x={x(datum[key.x])}
-			y={y(datum[key.y]) - 8}
-			text-anchor='middle'
-			class="tooltip value"
-		>
-			{format.y(datum[key.y])}
-		</text>
-		{/if}
-		{#if x(datum[key.x]) < 20}
 		<text
 			x={x(datum[key.x])}
 			y={y(0) + 20}
-			text-anchor='start'
+			pointer-events="none"
+			text-anchor={getAnchor(x(datum[key.x]))}
 			class="tooltip date"
 		>
 			{format.x(datum[key.x])}
 		</text>
-		{:else if x(datum[key.x]) > width - 40}
-		<text
-			x={x(datum[key.x])}
-			y={y(0) + 20}
-			text-anchor='end'
-			class="tooltip date"
-		>
-			{format.x(datum[key.x])}
-		</text>
-		{:else}
-		<text
-			x={x(datum[key.x])}
-			y={y(0) + 20}
-			text-anchor='middle'
-			class="tooltip date"
-		>
-			{format.x(datum[key.x])}
-		</text>
-		{/if}
 		{/if}
 	</g>
 </svg>
