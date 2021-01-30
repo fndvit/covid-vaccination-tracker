@@ -66,6 +66,17 @@
 		
 	latestNumbers.sort((a,b) => a.dateComplete - b.dateComplete);
 
+	const sortData = (mode) => {
+		console.log(mode);
+		if(mode === 'ccaa'){
+			_data.sort((a,b) => a.latest[mode].localeCompare(b.latest[mode]));
+		}else{
+			_data.sort((a,b) => b.latest[mode] - a.latest[mode]);
+		}	
+		//To make svelte reactive
+		_data = _data;
+	}
+
 </script>
 
 <svelte:window bind:innerWidth={width}/>
@@ -104,19 +115,19 @@
 
 	{#if width < 640}
 	<div class="headers">
-		<h2 class='header' style="visibility: hidden">Comunidad</h2>
-        <p class='header'>Vac. distr. (Pfizer y Moderna)</p>
-        <p class='header bold'>Vac. admin.</p>
-        <p class='header bold'>% vac. admin.</p>
-        <p class='header'>Con pauta completa</p>
+		<p class='header' on:click={() => sortData('ccaa')}>Comunidad</p>
+        <p class='header' on:click={() => sortData('entregadas')}>Vac. distr. (Pfizer y Moderna)</p>
+        <p class='header bold' on:click={() => sortData('administradas')}>Vac. admin.</p>
+        <p class='header bold' on:click={() => sortData('admin_entregadas')}>% vac. admin.</p>
+        <p class='header' on:click={() => sortData('vacuna_completa')}>Con pauta completa</p>
 	</div>
 	{:else}
 	<div class="headers">
-		<h2 class='header' style="visibility: hidden">Comunidad</h2>
-        <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
-        <p class='header bold'>Vacunas administradas</p>
-        <p class='header bold'>% de vacunas administradas</p>
-        <p class='header'>Personas con la pauta completa</p>
+		<p class='header' on:click={() => sortData('ccaa')}>Comunidad</p>
+        <p class='header' on:click={() => sortData('entregadas')}>Vacunas entregadas (Pfizer y Moderna)</p>
+        <p class='header bold' on:click={() => sortData('administradas')}>Vacunas administradas</p>
+        <p class='header bold' on:click={() => sortData('admin_entregadas')}>% de vacunas administradas</p>
+        <p class='header' on:click={() => sortData('vacuna_completa')}>Personas con la pauta completa</p>
 	</div>
 	{/if}
 	<ul>
@@ -204,6 +215,7 @@
 		margin:0;
 		padding:0;	
 		padding-left:2rem;
+		cursor: pointer;
 	}
 	:global(.link){
         color:#333;

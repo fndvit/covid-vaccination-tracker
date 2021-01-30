@@ -18,19 +18,19 @@
         pct: loc.format(',.1f')
     }
 
-    const diff = dateDiff(new Date('2021-03-16'), data.latest.dateComplete);
+    $:diff = dateDiff(new Date('2021-03-16'), data.latest.dateComplete);
 
-    const sentenceTarget = `${data.latest.ccaa} vacunará a <strong>${loc.format(`,.2r`)(data.latest.shareTarget)}</strong> personas en esta primera fase, según el reparto de vacunas actual.`;
-    const sentenceDiff = (diff <= -7)
+    $:sentenceTarget = `${data.latest.ccaa} vacunará a <strong>${loc.format(`,.2r`)(data.latest.shareTarget)}</strong> personas en esta primera fase, según el reparto de vacunas actual.`;
+    $:sentenceDiff = (diff <= -7)
         ? `Al ritmo de vacunación actual, ${data.latest.ccaa} completará la primera fase <strong>${approxDate(data.latest.dateComplete)}</strong>, <strong>antes de la previsión de mediados de marzo</strong> del Ministerio de Sanidad.`
         : ( diff <= 7 && diff > -7)
         ? 'Si continúa con el mismo ritmo de vacunación, completará la primera fase <strong>dentro del plazo previsto</strong> por el Ministerio de Sanidad de <strong>mediados de marzo</strong>.'
         : ( diff > 7 && diff <= 21)
         ? `No completará la primera fase hasta <strong>${approxDate(data.latest.dateComplete)}</strong>; <strong>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} más tarde</strong> de lo previsto por el Ministerio de Sanidad.`
         : `Acumula <strong>${sNumber(Math.floor(diff / 7), 'f')} semanas de retraso</strong> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <strong>${approxDate(data.latest.dateComplete)}</strong>.`
-    const sentence = `${sentenceTarget} ${sentenceDiff}`;
+    $:sentence = `${sentenceTarget} ${sentenceDiff}`;
 
-    const tardy = ( diff <= 7)
+    $:tardy = ( diff <= 7)
         ? 'ontime'
         : ( diff > 7 && diff <= 21)
         ? 'late'
@@ -46,6 +46,7 @@
             label:'<strong>Dosis administradas</strong><br/>(diario)'
         }
     ];
+
 
 </script>
 
@@ -63,14 +64,14 @@
     <Legend {legendItems} />
     {/if}
 
-    <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}>
+    <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}> 
         <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'fecha', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
     </div>
     <div class='estimates'>
         <p class='indent text'>{@html sentence}</p>
         <img class="icon" src="img/{tardy}.svg" role="img" aria-roledescription={approxDate(data.latest.dateComplete)} aria-label="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa}" alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa}" />
     </div>
-    {#if data[0].admin_entregadas > 100}
+    {#if data.latest.admin_entregadas > 100}
         <p class='indent text'>¿Cómo se pueden administrar más del 100% de las vacunas entregadas? Cada vial entregado computa como cinco dosis, pero con <a href='https://www.europarl.europa.eu/doceo/document/P-9-2021-000394_ES.html' target='_blank' rel="noopener">jeringuillas especiales</a> (de volumen muerto bajo) se pueden extraer seis dosis y <a href='https://www.ema.europa.eu/en/news/extra-dose-vials-comirnaty-covid-19-vaccine' target='_blank' rel="noopener">las autoridades europeas lo permiten</a>.</p>
     {/if}
 </li>
