@@ -9,9 +9,10 @@
 	import {extent, max, min} from 'd3-array'
 	import {dateDiff, approxDate} from './dateDiff'
 	import locale from '@reuters-graphics/d3-locale';
+	import {fly, fade} from 'svelte/transition'
 
 	export let data;
-	let width, datum;
+	let width, datum, sort = 'ccaa', sorting = true;
 	const loc = new locale('es');
 
 	Object.values(data)
@@ -67,13 +68,13 @@
 	latestNumbers.sort((a,b) => a.dateComplete - b.dateComplete);
 
 	const sortData = (mode) => {
-		if(mode === 'ccaa'){
+		if (mode === 'ccaa'){
 			_data.sort((a,b) => a.latest[mode].localeCompare(b.latest[mode]));
 		}else{
 			_data.sort((a,b) => b.latest[mode] - a.latest[mode]);
 		}	
-		//To make svelte reactive
 		_data = _data;
+		sort = mode;
 	}
 
 </script>
@@ -114,26 +115,29 @@
 
 	{#if width < 640}
 	<div class="headers">
-		<p class='header' on:click={() => sortData('ccaa')}>Comunidad</p>
-        <p class='header' on:click={() => sortData('entregadas')}>Vac. distr. (Pfizer y Moderna)</p>
-        <p class='header bold' on:click={() => sortData('administradas')}>Vac. admin.</p>
-        <p class='header bold' on:click={() => sortData('admin_entregadas')}>% vac. admin.</p>
-        <p class='header' on:click={() => sortData('vacuna_completa')}>Con pauta completa</p>
+		<p class='header left' class:selected={sort === 'ccaa'} on:click={() => sortData('ccaa')}>CC.AA.</p>
+        <p class='header' class:selected={sort === 'entregadas'} on:click={() => sortData('entregadas')}>Vac. distr. (Pfizer y Moderna)</p>
+        <p class='header bold' class:selected={sort === 'administradas'} on:click={() => sortData('administradas')}>Vac. admin.</p>
+        <p class='header bold' class:selected={sort === 'admin_entregadas'} on:click={() => sortData('admin_entregadas')}>% vac. admin.</p>
+        <p class='header' class:selected={sort === 'vacuna_completa'} on:click={() => sortData('vacuna_completa')}>Con pauta completa</p>
 	</div>
 	{:else}
 	<div class="headers">
-		<p class='header' on:click={() => sortData('ccaa')}>Comunidad</p>
-        <p class='header' on:click={() => sortData('entregadas')}>Vacunas entregadas (Pfizer y Moderna)</p>
-        <p class='header bold' on:click={() => sortData('administradas')}>Vacunas administradas</p>
-        <p class='header bold' on:click={() => sortData('admin_entregadas')}>% de vacunas administradas</p>
-        <p class='header' on:click={() => sortData('vacuna_completa')}>Personas con la pauta completa</p>
+		<p class='header left' class:selected={sort === 'ccaa'} on:click={() => sortData('ccaa')}>CC.AA.</p>
+        <p class='header' class:selected={sort === 'entregadas'} on:click={() => sortData('entregadas')}>Vacunas entregadas (Pfizer y Moderna)</p>
+        <p class='header bold' class:selected={sort === 'administradas'} on:click={() => sortData('administradas')}>Vacunas administradas</p>
+        <p class='header bold' class:selected={sort === 'admin_entregadas'} on:click={() => sortData('admin_entregadas')}>% de vacunas administradas</p>
+        <p class='header' class:selected={sort === 'vacuna_completa'} on:click={() => sortData('vacuna_completa')}>Personas con la pauta completa</p>
 	</div>
 	{/if}
+
+	{#if sorting}
 	<ul>
 		{#each _data as d,i}
-		<Comunidad data={d} height={y(max(d, d => d.entregadas))} index={i}/>
+		<Comunidad data={d} height={y(max(d, d => d.entregadas))} index={i} />
 		{/each}
 	</ul>
+	{/if}
 
 	<Credits />
 
@@ -165,12 +169,15 @@
 	}
 	:global(.numbers, .headers) {
         display: grid;
-        grid-template-columns: 22% 20% 20% 19% 20%;
+        grid-template-columns: 21% 21% 21% 16% 21%;
     }
 	
 	.title {
 		display: grid;
 		grid-template-columns: 80% auto;
+	}
+	.selected {
+		font-weight: 600;
 	}
 	.icon {
 		width:80%;
@@ -208,13 +215,42 @@
 		text-transform: uppercase;
 		background-color: #f2f2f2;
 		align-content: end;
-		height:3rem;
+		height:4.2rem;
     }
 	.header {
 		margin:0;
 		padding:0;	
 		padding-left:2rem;
 		cursor: pointer;
+		position:relative;
+		height:4rem;
+		transition: all .3s;
+	}
+	.header::after {
+		width:1rem;
+		height:1rem;
+		display:block;
+		position:absolute;
+		bottom:.5rem;
+		opacity:.25;
+		object-fit: scale-down;
+		transition: all .3s;
+	}
+	.header.selected::after {
+		opacity:1;
+	}
+	.header:not(:first-child)::after{
+		content: url('/img/keyboard_arrow_down-24px.svg');
+		right:.5rem;
+	}
+	.header:first-child::after{
+		content: url('/img/sort_by_alpha-24px.svg');
+		left:0;
+		bottom:.85rem;
+	}
+	.left {
+		text-align:left!important;
+		padding-left:0!important;
 	}
 	:global(.link){
         color:#333;

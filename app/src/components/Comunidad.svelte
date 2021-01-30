@@ -106,7 +106,7 @@
         border-top: 1px solid #dcdcdc;
         border-bottom: 1px dashed #dcdcdc;
         position:sticky;
-        top:4.5rem;
+        top:5.7rem;
         background-color: #f2f2f2;
         z-index:10;
     }
