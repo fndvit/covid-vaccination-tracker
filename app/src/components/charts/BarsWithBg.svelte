@@ -62,8 +62,10 @@
 	role="document"
 	aria-label='Evolución diaria de las dosis administradas en {data[0].ccaa}'
 	xml:lang="es"
-	on:mousemove={mouseMove}
+	on:touchstart|preventDefault={mouseMove}
+	on:pointermove|preventDefault={mouseMove}
 	on:mouseleave={leave}
+	on:touchend={leave}
 	>
 	<g>
 		<path 
