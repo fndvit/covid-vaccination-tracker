@@ -41,9 +41,10 @@
 
 	const mouseMove = (m) => {
 		//Set the data in ascending order
+		const mX = (m.offsetX) ? m.offsetX + 12 : m.clientX;
 		const _data = [...data];
 		_data.sort((a,b) => a[key.x] - b[[key.x]]);
-		const index = x.invert(m.offsetX + 12);
+		const index = x.invert(mX);
 		index.setHours(0,0,0,0);
 		const i = bisector(d => d[key.x]).center(_data, index);
 		datum = _data[i];
@@ -51,6 +52,7 @@
 
 	const leave = (m) => {
 		datum = undefined;
+
 	}
 
 </script> 
@@ -62,7 +64,7 @@
 	role="document"
 	aria-label='Evolución diaria de las dosis administradas en {data[0].ccaa}'
 	xml:lang="es"
-	on:touchstart|preventDefault={mouseMove}
+	on:touchmove|preventDefault
 	on:pointermove|preventDefault={mouseMove}
 	on:mouseleave={leave}
 	on:touchend={leave}

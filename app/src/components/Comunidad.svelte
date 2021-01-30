@@ -84,6 +84,7 @@
     h2, h3, .number {
         margin:0;
         padding:0;
+        hyphens: auto;
     }
     h2, .number { font-size: 1.15rem;}
     h3 { 
