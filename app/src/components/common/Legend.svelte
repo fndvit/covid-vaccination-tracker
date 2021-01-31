@@ -7,7 +7,7 @@ export let legendItems;
     {#each legendItems as item}
     <li>
         <div class='color {item.class}' style='background-image:{item.color}'>
-            <svg width='1.2rem' height='1.2rem'>
+            <svg width='1.2rem' height='1.2rem' aria-label='Color para identificar {item.label}'>
                 <rect   
                         fill={item.color}
                         width='1.2rem'

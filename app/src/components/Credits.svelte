@@ -3,7 +3,7 @@
     <p class="text">Para la estimación de la fecha de finalización de la primera fase, dividimos el número de dosis que quedan por administrar entre la media aritmérica del ritmo diario de administración de vacunas desde el inicio del proceso. Para calcular las dosis que quedan por administrar, estimamos el número de personas que cada comunidad autónoma vacunará basandonos en el reparto actual de las vacunas, lo multiplicamos por dos (dosis necesarias), y deducimos las vacunas administradas hasta ahora.</p>
     <p class="text">Algunas fechas en la columna 'Fecha de la última vacuna registrada' (renombrada como 'hasta' en nuestros datos) son incorrectas, para Baleares y Canarias. Hasta que lo arreglen —o escribamos algo para captarlo— usamos 'fecha' (la fecha del informe) para visualizar la evolución diaria.</p>
     <p class="text"><strong>Diseño y programación:</strong> Fundació Visualització per a la Transparència (<a href="https://github.com/fndvit/covid-vaccination-tracker/blob/main/LICENSE" target="_blank" rel="noopener" aria-label='Abre en una ventana nueva'>bajo Licencia MIT</a>)</p>
-    <p class="text">Anímate a <a href='https://github.com/fndvit/covid-vaccination-tracker' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">contribuir al repositorio.</a> </p>
+    <p class="text">Anímate a <a href='https://github.com/fndvit/covid-vaccination-tracker' role='link' aria-label='Abre en una ventana nueva' rel="noopener">contribuir al repositorio.</a> </p>
     <p class="text mission">La visualización puede revolucionar la difusión de los datos abiertos y revitalizar la transparencia. <a href="https://www.fundaciovit.org/get-involved" rel="noopener">Apoya nuestra misión</a>.</p>
 </div>
 
