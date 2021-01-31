@@ -23,7 +23,7 @@
     }
 </script>
 
-<div class="summary">
+<div class="summary" role='navigation'>
     <img class="icon" src="img/ontime.svg" role="img" aria-roledescription="Comunidades dentro del plazo" aria-label="Icono de un temporizador mostrando que está dentro del plazo previsto" alt="Icono de un temporizador mostrando que está dentro del plazo previsto" />
     <p class='text list'><strong>Dentro del plazo previsto:</strong> {@html toList(ontime)}</p>
 
