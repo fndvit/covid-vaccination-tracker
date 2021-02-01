@@ -1,6 +1,6 @@
 {
-    "name": "Vacunación COVID-19 España",
-    "short_name": "@fndViT",
+    "name": "Evolución de la vacunación contra el COVID-19 en España",
+    "short_name": "Vac COVID",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#f2f2f2",
@@ -36,3 +36,5 @@
         "type": "image/png"
       }]
   }
+
+  
