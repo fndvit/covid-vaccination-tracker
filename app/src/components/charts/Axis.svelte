@@ -20,7 +20,18 @@
     : `translate(0, ${margin.right})`
 
   $: ticks = scale.ticks((!time)? nTicks : time)
-		.map(d => ({value: format(d), offset: scale(d)}));
+    .map(d => ({value: format(d), offset: scale(d)}));
+    
+  $: anchor = (x) => {
+		switch(true) {
+			case x < 20:
+				return 'start';
+			case x  > width - 40:
+				return 'end';
+			default:
+				return 'middle'
+		}
+	}
 </script>
 
 <g class='axis' {transform} pointer-events='none'>
@@ -28,14 +39,14 @@
     {#if position === 'bottom'}
     <g class='tick' transform='translate({tick.offset}, 0)'>
       <line y2=6 />
-      <text y=20 text-anchor='middle'>
+      <text y=20 text-anchor={anchor(tick.offset)}>
         {tick.value}
       </text>
     </g>
 		{:else if position === 'top'}
     <g class='tick' transform='translate({tick.offset}, 0)'>
       <line y2=-6 />
-      <text y=-10 text-anchor='middle'>
+      <text y=-10 text-anchor={anchor(tick.offset)}>
         {tick.value}
       </text>
     </g>

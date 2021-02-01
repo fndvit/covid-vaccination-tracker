@@ -12,7 +12,7 @@
 	import locale from '@reuters-graphics/d3-locale';
 
 	export let data;
-	let width, datum, sort = 'ccaa';
+	let width, datum, sort;
 	const loc = new locale('es');
 
 	Object.values(data)
