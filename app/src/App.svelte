@@ -5,6 +5,7 @@
 	import SummaryTable from './components/SummaryTable.svelte'
 	import Total from './components/Total.svelte'
 	import Comunidad from './components/Comunidad.svelte'
+	import Errata from './components/Errata.svelte'
 	import {scaleLinear, scaleTime} from 'd3-scale'
 	import {extent, max, min} from 'd3-array'
 	import {dateDiff, approxDate} from './dateDiff'
@@ -136,6 +137,7 @@
 		{/each}
 	</ul>
 
+	<Errata />
 	<Credits />
 
 </main>
@@ -168,7 +170,9 @@
         display: grid;
         grid-template-columns: 21% 21% 21% 16% 21%;
     }
-	
+	ul {
+		border-bottom:3px solid #dcdcdc;
+	}
 	.title {
 		display: grid;
 		grid-template-columns: 80% auto;
