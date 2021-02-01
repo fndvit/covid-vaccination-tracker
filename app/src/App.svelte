@@ -47,7 +47,7 @@
 			d.shareTarget = d.share * 2447000;
 			d.daily = d.administradas / dateRange;
 			d.vaccinesLeft = d.shareTarget * 2 - d.administradas;
-			d.dateComplete  = d.fecha;
+			d.dateComplete  = new Date();
 			d.dateComplete.setDate(d.fecha.getDate() + 1 * ( d.vaccinesLeft / d.daily ) )
 			return {...d}
 		});
