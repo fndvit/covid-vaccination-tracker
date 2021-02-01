@@ -3,15 +3,16 @@
 
     export let data;
 
-    const ontime = data.filter(d => d.dateComplete < new Date('2021-03-23'))
+    const ontime = data.filter(d => dateDiff(new Date('2021-03-16'), d.dateComplete) <= 7 )
         .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
-    const late = data.filter(d => d.dateComplete >= new Date('2021-03-23') && d.dateComplete < new Date('2021-04-06'))
+    const late = data.filter(d => dateDiff(new Date('2021-03-16'), d.dateComplete) > 7 && dateDiff(new Date('2021-03-16'), d.dateComplete) <= 21)
         .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
-    const verylate = data.filter(d => d.dateComplete >= new Date('2021-04-06'))
+    const verylate = data.filter(d => dateDiff(new Date('2021-03-16'), d.dateComplete) > 21)
         .map(d => `<a class='link' role='link' href='#${d.ccaa}' aria-label='Enlace al gráfico de ${d.ccaa}'>${d.ccaa}</a>`);
 
+    
     const toList = (arr) => {
         const _arr = [...arr];
         const last = _arr.pop();
