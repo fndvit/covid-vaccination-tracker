@@ -5,19 +5,19 @@
     [.summary]
         p: Espanya ha adquirit al voltant de {loc.format(',.2r')(totalVacc/1e6)} milions de vacunes (de <em>Pfizer</em> i <em>Moderna</em>). Amb aquestes dosis es pot vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} milions de persones; cada vacuna necessita dues dosis administrades amb unes setmanes de diferència per completar la pauta de tractament. A la primera fase, es preveu vacunar 2,4 milions: persones majors de residències, les que tenen un alt grau de dependència i sanitaris professionals.
         p: El Ministeri de Sanitat és responsable del repartiment de les dosis i de l'estratègia de vacunació, mentre que les comunitats autònomes són les responsables de dur-la a la pràctica.
-        p: Si continuen els ritmes de vacunació actuals, {latestNumbers[0].ccaa} serà la comunitat que abans completi la primera fase, mentres que {latestNumbers[latestNumbers.length - 1].ccaa} serà l'última.
+        p: Si continuen els ritmes de vacunació actuals, {latestNumbers[0].ccaa} serà la comunitat que abans completi la primera fase, mentre que {latestNumbers[latestNumbers.length - 1].ccaa} serà l'última.
     []	
 
     [.summaryTable]
         s: Dins del termini previst:
-        s: Amb retard respecte el termini previst:
+        s: Amb retard respecte al termini previst:
         s: Amb molt retard:
     []
 
     sentenceTarget: ${data.latest.ccaa} vacunarà a <strong>${loc.format(`,.2r`)(data.latest.shareTarget)}</strong> persones en aquesta primera fase, segons el repartiment de vacunes actual.
 
     [.headers]
-        h: Vacunas entregades (Pfizer i Moderna)
+        h: Vacunes entregades (Pfizer i Moderna)
         h: Vacunes administrades
         h: % de vacunes administrades
         h: Persones amb la pauta completa
@@ -28,7 +28,7 @@
     []
 
     [ccaa]
-        * Andalucia
+        * Andalusia
         * Aragó
         * Astúries
         * Balears
@@ -55,14 +55,14 @@
         s: Al ritme de vacunació actual, ${data.latest.ccaa} completarà la primera fase <strong>${approxDate(data.latest.dateComplete)}</strong>, <strong>abans de la previsió de mitjans de març</strong> del Ministeri de Sanitat.
         s: Si continua amb el mateix ritme de vacunació, completarà la primera fase <strong>dins del termini previst</strong> pel Ministeri de Sanitat de <strong>mitjans de març</strong>.
         s: No completarà la primera fase fins <strong>${approxDate(data.latest.dateComplete)}</strong>; <strong>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} més tard</strong> del previst pel Ministeri de Sanitat.
-        s: Acumula <strong>${sNumber(Math.floor(diff / 7), 'f')} setmanes de retard</strong> respecte la previsió del Ministeri de Sanitat i no completarà aqueseta primera fase fins <strong>${approxDate(data.latest.dateComplete)}</strong>.
+        s: Acumula <strong>${sNumber(Math.floor(diff / 7), 'f')} setmanes de retard</strong> respecte a la previsió del Ministeri de Sanitat i no completarà aquesta primera fase fins <strong>${approxDate(data.latest.dateComplete)}</strong>.
     []
 
     [.credits]
-        p: <strong>Sobre los datos: </strong>Cada tarde l'aplicació combina les <a href='https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">fulles de càlcul (archivos abierto '.ods')</a> que el Centre de Coordinació d'Alerta i Emergències Sanitàries (CCAES) publica des del 4 de enero. Els arxius que generem estan disponibles aquí: el <a href='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.json?raw=true' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">JSON</a> i el <a href='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.csv?raw=true' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">CSV</a>.
-        p: Per a l'estimació de la data de finalizació de la primera fase, dividim el nombre de dosis que queden per administrar entre la mitjana aritmètica del ritme diari d'administració de vacunes des de l'inici del procés. Per a calcular les dosis que resten per administrar, estimem el nombre de persones que cada comunitat autònoma vacunarà basant-nos en el repartiment actual de les vacunes, el multipliquem por dos (dosis necessàies), i deduïm les vacunes administrades fins ara.
-        p: Algunes dates a la columna 'Data de l'última vacuna registrada' (renombrada com a 'fins' en les nostres dades) són incorrectes, per a Balears i Canàries. Fins que ho arreglin —o escribim alguna cosa per a captar-lo— fem servir 'data' (la data de l'informe) per a visualitzar l'evolució diària.
-        p: <strong>Diseño y programación:</strong> Fundació Visualització per a la Transparència (<a href="https://github.com/fndvit/covid-vaccination-tracker/blob/main/LICENSE" target="_blank" rel="noopener" aria-label='Abre en una ventana nueva'>sota Llicència MIT</a>)
-        p: Anímate a <a href='https://github.com/fndvit/covid-vaccination-tracker' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">contribuir al repositori.</a>
+        p: <strong>Sobre les dades: </strong>Cada tarde, l'aplicació combina els <a href='https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">fulls de càlcul (archivos abierto '.ods')</a> que el Centre de Coordinació d'Alerta i Emergències Sanitàries (CCAES) publica des del 4 de gener. Els arxius que generem estan disponibles aquí: el <a href='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.json?raw=true' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">JSON</a> i el <a href='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.csv?raw=true' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">CSV</a>.
+        p: Per a l'estimació de la data de finalització de la primera fase, dividim el nombre de dosis que queden per administrar entre la mitjana aritmètica del ritme diari d'administració de vacunes des de l'inici del procés. Per a calcular les dosis que resten per administrar, estimem el nombre de persones que cada comunitat autònoma vacunarà basant-nos en el repartiment actual de les vacunes, el multipliquem por dos (dosis necessàries), i deduïm les vacunes administrades fins ara.
+        p: Algunes dates a la columna 'Data de l'última vacuna registrada' (renombrada com a 'fins' en les nostres dades) són incorrectes, per a Balears i Canàries. Fins que ho arreglin —o escrivim alguna cosa per a captar-lo— fem servir 'data' (la data de l'informe) per a visualitzar l'evolució diària.
+        p: <strong>Disseny i programació:</strong> Fundació Visualització per a la Transparència (<a href="https://github.com/fndvit/covid-vaccination-tracker/blob/main/LICENSE" target="_blank" rel="noopener" aria-label='Abre en una ventana nueva'>sota Llicència MIT</a>)
+        p: Aníma't a <a href='https://github.com/fndvit/covid-vaccination-tracker' target='_blank' role='link' aria-label='Abre en una ventana nueva' rel="noopener">contribuir al repositori.</a>
         p: La visualització pot revolucionar la difusió de dades obertes i revitalitzar la transparència. <a href="https://www.fundaciovit.org/get-involved" rel="noopener">Dona suport a la nostra missió</a>.
     []
