@@ -3,48 +3,48 @@
     title:A aquest ritme, Espanya completa la primera fase de la vacunació contra la COVID-19 <strong>a {approxDate(spainData.dateComplete)}</strong>
 
     [.summary]
-        p: Espanya ha adquirit al voltant de {loc.format(',.2r')(totalVacc/1e6)} milions de vacunes (de <em>Pfizer</em> y <em>Moderna</em>). Amb aquestes dosis es pot vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.
+        p: Espanya ha adquirit al voltant de {loc.format(',.2r')(totalVacc/1e6)} milions de vacunes (de <em>Pfizer</em> i <em>Moderna</em>). Amb aquestes dosis es pot vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} milions de persones; cada vacuna necessita dues dosis administrades amb unes setmanes de diferència per completar la pauta de tractament. A la primera fase, es preveu vacunar 2,4 milions: persones majors de residències, les que tenen un alt grau de dependència i sanitaris professionals.
         p: El Ministeri de Sanitat és responsable del repartiment de les dosis i de l'estratègia de vacunació, mentre que les comunitats autònomes són les responsables de dur-la a la pràctica.
-        p: Si continúan los ritmos de vacunación actuales, {latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que {latestNumbers[latestNumbers.length - 1].ccaa} será la última.
+        p: Si continuen els ritmes de vacunació actuals, {latestNumbers[0].ccaa} serà la comunitat que abans completi la primera fase, mentres que {latestNumbers[latestNumbers.length - 1].ccaa} serà l'última.
     []	
 
     [.summaryTable]
-        s: Dentro del plazo previsto:
-        s: Con retraso respecto al plazo previsto:
-        s: Con mucho retraso:
+        s: Dins del termini previst:
+        s: Amb retard respecte el termini previst:
+        s: Amb molt retard:
     []
 
-    sentenceTarget: ${data.latest.ccaa} vacunará a <strong>${loc.format(`,.2r`)(data.latest.shareTarget)}</strong> personas en esta primera fase, según el reparto de vacunas actual.
+    sentenceTarget: ${data.latest.ccaa} vacunarà a <strong>${loc.format(`,.2r`)(data.latest.shareTarget)}</strong> persones en aquesta primera fase, segons el repartiment de vacunes actual.
 
     [.headers]
-        h: Vacunas entregadas (Pfizer y Moderna)
-        h: Vacunas administradas
-        h: % de vacunas administradas
-        h: Personas con la pauta completa
-        hm: Vac. distr. (Pfizer y Moderna)
+        h: Vacunas entregades (Pfizer i Moderna)
+        h: Vacunes administrades
+        h: % de vacunes administrades
+        h: Persones amb la pauta completa
+        hm: Vac. distr. (Pfizer i Moderna)
         hm: Vac. admin.
         hm: % vac. admin.
-        hm: Con pauta completa
+        hm: Amb pauta completa
     []
 
     [ccaa]
-        * Andalucía
-        * Aragón
-        * Asturias
-        * Baleares
-        * Canarias
-        * Cantabria
-        * Castilla y León
-        * Castilla-La Mancha
-        * Cataluña
+        * Andalucia
+        * Aragó
+        * Astúries
+        * Balears
+        * Canàries
+        * Cantàbria
+        * Castella i Lleó
+        * Castella-La Manxa
+        * Catalunya
         * Com. Valenciana
         * Extremadura
-        * Galicia
+        * Galícia
         * La Rioja
         * Madrid
-        * Murcia
+        * Múrcia
         * Navarra
-        * País Vasco
+        * País Basc
         * Ceuta
         * Melilla
     []
@@ -52,8 +52,8 @@
     lastUpdate: Última vacuna registrada a {loc.formatTime('%e de %B')(data.latest.hasta)}
 
     [.sentenceDiff]
-        s: Al ritmo de vacunación actual, ${data.latest.ccaa} completará la primera fase <strong>${approxDate(data.latest.dateComplete)}</strong>, <strong>antes de la previsión de mediados de marzo</strong> del Ministerio de Sanidad.
-        s: Si continúa con el mismo ritmo de vacunación, completará la primera fase <strong>dentro del plazo previsto</strong> por el Ministerio de Sanidad de <strong>mediados de marzo</strong>.
+        s: Al ritme de vacunació actual, ${data.latest.ccaa} completarà la primera fase <strong>${approxDate(data.latest.dateComplete)}</strong>, <strong>abans de la previsió de mitjans de març</strong> del Ministeri de Sanitat.
+        s: Si continua amb el mateix ritme de vacunació, completarà la primera fase <strong>dins del termini previst</strong> pel Ministeri de Sanitat de <strong>mitjans de març</strong>.
         s: No completará la primera fase hasta <strong>${approxDate(data.latest.dateComplete)}</strong>; <strong>${sNumber(Math.floor(diff / 7), 'f')} ${(Math.floor(diff / 7) === 1) ? 'semana' : 'semanas'} más tarde</strong> de lo previsto por el Ministerio de Sanidad.
         s: Acumula <strong>${sNumber(Math.floor(diff / 7), 'f')} semanas de retraso</strong> respecto a la previsión del Ministerio de Sanidad y no completará esta primera fase hasta <strong>${approxDate(data.latest.dateComplete)}</strong>.
     []
