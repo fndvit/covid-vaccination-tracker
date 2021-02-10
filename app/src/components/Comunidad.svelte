@@ -65,7 +65,7 @@
     {/if}
 
     <div class='chart' style='height:{height + margin.top + margin.bottom}' bind:clientWidth={width}> 
-        <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'fecha', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
+        <BarsWithBg {data} {width} height={height + margin.top + margin.bottom} key={{x: 'hasta', y: 'administradas', bg: 'entregadas' }} format={f} {margin} />
     </div>
     <div class='estimates'>
         <p class='indent text'>{@html sentence}</p>

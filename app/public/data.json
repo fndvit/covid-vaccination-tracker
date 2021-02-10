@@ -5,8 +5,8 @@
       "entregadas": 140295,
       "administradas": 25809,
       "admin_entregadas": 18.4,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -16,8 +16,8 @@
       "entregadas": 140295,
       "administradas": 53934,
       "admin_entregadas": 38.4,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -27,8 +27,8 @@
       "entregadas": 140295,
       "administradas": 69445,
       "admin_entregadas": 49.5,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -38,8 +38,8 @@
       "entregadas": 140295,
       "administradas": 81387,
       "admin_entregadas": 58,
-      "hasta": "2021-01-09T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-08T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -49,8 +49,8 @@
       "entregadas": 140295,
       "administradas": 94879,
       "admin_entregadas": 67.6,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -60,8 +60,8 @@
       "entregadas": 209520,
       "administradas": 109831,
       "admin_entregadas": 52.4,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -73,8 +73,8 @@
       "entregadas": 216320,
       "administradas": 123459,
       "admin_entregadas": 57,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -84,8 +84,8 @@
       "entregadas": 216320,
       "administradas": 139718,
       "admin_entregadas": 65,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -96,8 +96,8 @@
       "administradas": 151404,
       "admin_entregadas": 70,
       "vacuna_completa": 533,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -107,8 +107,8 @@
       "administradas": 164820,
       "admin_entregadas": 76.2,
       "vacuna_completa": 1773,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -118,8 +118,8 @@
       "administradas": 174279,
       "admin_entregadas": 69.3,
       "vacuna_completa": 4568,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -129,8 +129,8 @@
       "administradas": 194101,
       "admin_entregadas": 77.2,
       "vacuna_completa": 15193,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -140,8 +140,8 @@
       "administradas": 209766,
       "admin_entregadas": 83.4,
       "vacuna_completa": 20846,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -151,8 +151,8 @@
       "administradas": 226309,
       "admin_entregadas": 90,
       "vacuna_completa": 25516,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -162,8 +162,8 @@
       "administradas": 251172,
       "admin_entregadas": 99.9,
       "vacuna_completa": 37978,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -173,8 +173,8 @@
       "administradas": 257976,
       "admin_entregadas": 77.9,
       "vacuna_completa": 50951,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -184,8 +184,8 @@
       "administradas": 265620,
       "admin_entregadas": 80.3,
       "vacuna_completa": 55004,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Andalucía",
@@ -195,8 +195,32 @@
       "administradas": 282995,
       "admin_entregadas": 85.5,
       "vacuna_completa": 67511,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Andalucía",
+      "pfizer": 324180,
+      "moderna": 6800,
+      "entregadas": 330980,
+      "administradas": 299792,
+      "admin_entregadas": 90.6,
+      "vacuna_completa": 78640,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Andalucía",
+      "pfizer": 324180,
+      "moderna": 6800,
+      "entregadas": 330980,
+      "administradas": 313286,
+      "admin_entregadas": 94.7,
+      "vacuna_completa": 90764,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 457820,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Aragón": [
@@ -205,8 +229,8 @@
       "entregadas": 23715,
       "administradas": 2004,
       "admin_entregadas": 8.5,
-      "hasta": "2021-01-02T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-01T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -216,8 +240,8 @@
       "entregadas": 23715,
       "administradas": 6186,
       "admin_entregadas": 26.1,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -227,8 +251,8 @@
       "entregadas": 23715,
       "administradas": 9944,
       "admin_entregadas": 41.9,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -238,8 +262,8 @@
       "entregadas": 23715,
       "administradas": 10998,
       "admin_entregadas": 46.4,
-      "hasta": "2021-01-09T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-08T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -249,8 +273,8 @@
       "entregadas": 23715,
       "administradas": 11983,
       "admin_entregadas": 50.5,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -260,8 +284,8 @@
       "entregadas": 35415,
       "administradas": 17043,
       "admin_entregadas": 48.1,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -273,8 +297,8 @@
       "entregadas": 36615,
       "administradas": 20854,
       "admin_entregadas": 57,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -284,8 +308,8 @@
       "entregadas": 36615,
       "administradas": 23619,
       "admin_entregadas": 65,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -296,8 +320,8 @@
       "administradas": 25133,
       "admin_entregadas": 69,
       "vacuna_completa": 0,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -307,8 +331,8 @@
       "administradas": 28316,
       "admin_entregadas": 77.3,
       "vacuna_completa": 250,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -318,8 +342,8 @@
       "administradas": 33734,
       "admin_entregadas": 79.4,
       "vacuna_completa": 623,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -329,8 +353,8 @@
       "administradas": 38170,
       "admin_entregadas": 89.9,
       "vacuna_completa": 1731,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -340,8 +364,8 @@
       "administradas": 41287,
       "admin_entregadas": 97.2,
       "vacuna_completa": 2165,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -351,8 +375,8 @@
       "administradas": 42539,
       "admin_entregadas": 100.2,
       "vacuna_completa": 2222,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -362,8 +386,8 @@
       "administradas": 43531,
       "admin_entregadas": 102.5,
       "vacuna_completa": 2945,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -373,8 +397,8 @@
       "administradas": 47835,
       "admin_entregadas": 84.7,
       "vacuna_completa": 5860,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -384,8 +408,8 @@
       "administradas": 49453,
       "admin_entregadas": 87.5,
       "vacuna_completa": 6806,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Aragón",
@@ -395,8 +419,32 @@
       "administradas": 53937,
       "admin_entregadas": 95.5,
       "vacuna_completa": 9752,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": 55305,
+      "moderna": 1200,
+      "entregadas": 56505,
+      "administradas": 55292,
+      "admin_entregadas": 97.9,
+      "vacuna_completa": 10364,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": 55305,
+      "moderna": 1200,
+      "entregadas": 56505,
+      "administradas": 56482,
+      "admin_entregadas": 100,
+      "vacuna_completa": 11119,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 78159,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Asturias": [
@@ -405,8 +453,8 @@
       "entregadas": 23720,
       "administradas": 9380,
       "admin_entregadas": 39.5,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -416,8 +464,8 @@
       "entregadas": 23720,
       "administradas": 14406,
       "admin_entregadas": 60.7,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -427,8 +475,8 @@
       "entregadas": 23720,
       "administradas": 17843,
       "admin_entregadas": 75.2,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -438,8 +486,8 @@
       "entregadas": 23720,
       "administradas": 18943,
       "admin_entregadas": 79.9,
-      "hasta": "2021-01-09T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-08T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -449,8 +497,8 @@
       "entregadas": 23720,
       "administradas": 22428,
       "admin_entregadas": 94.6,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -460,8 +508,8 @@
       "entregadas": 35420,
       "administradas": 25278,
       "admin_entregadas": 71.4,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -473,8 +521,8 @@
       "entregadas": 36620,
       "administradas": 29074,
       "admin_entregadas": 79,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -484,8 +532,8 @@
       "entregadas": 36620,
       "administradas": 31247,
       "admin_entregadas": 85,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -496,8 +544,8 @@
       "administradas": 33572,
       "admin_entregadas": 92,
       "vacuna_completa": 202,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -507,8 +555,8 @@
       "administradas": 34293,
       "admin_entregadas": 93.6,
       "vacuna_completa": 1285,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -518,8 +566,8 @@
       "administradas": 36054,
       "admin_entregadas": 79.4,
       "vacuna_completa": 1687,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -529,8 +577,8 @@
       "administradas": 40011,
       "admin_entregadas": 88.1,
       "vacuna_completa": 5664,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -540,8 +588,8 @@
       "administradas": 41465,
       "admin_entregadas": 91.3,
       "vacuna_completa": 6851,
-      "hasta": "2021-01-22T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -551,8 +599,8 @@
       "administradas": 43926,
       "admin_entregadas": 96.8,
       "vacuna_completa": 9030,
-      "hasta": "2021-01-22T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -562,8 +610,8 @@
       "administradas": 44087,
       "admin_entregadas": 97.1,
       "vacuna_completa": 10694,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -573,8 +621,8 @@
       "administradas": 49077,
       "admin_entregadas": 82.6,
       "vacuna_completa": 13727,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -584,8 +632,8 @@
       "administradas": 49857,
       "admin_entregadas": 83.9,
       "vacuna_completa": 14080,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Asturias",
@@ -595,8 +643,32 @@
       "administradas": 52919,
       "admin_entregadas": 89,
       "vacuna_completa": 16266,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias",
+      "pfizer": 58235,
+      "moderna": 1200,
+      "entregadas": 59435,
+      "administradas": 58112,
+      "admin_entregadas": 97.8,
+      "vacuna_completa": 19475,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias",
+      "pfizer": 58235,
+      "moderna": 1200,
+      "entregadas": 59435,
+      "administradas": 58177,
+      "admin_entregadas": 97.9,
+      "vacuna_completa": 19503,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 82212,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Baleares": [
@@ -605,8 +677,8 @@
       "entregadas": 8940,
       "administradas": 153,
       "admin_entregadas": 1.7,
-      "hasta": "2020-12-28T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2020-12-27T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -616,8 +688,8 @@
       "entregadas": 12840,
       "administradas": 3190,
       "admin_entregadas": 24.8,
-      "hasta": "2021-01-05T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -627,8 +699,8 @@
       "entregadas": 12840,
       "administradas": 4257,
       "admin_entregadas": 33.2,
-      "hasta": "2021-12-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -638,8 +710,8 @@
       "entregadas": 12840,
       "administradas": 4652,
       "admin_entregadas": 36.2,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -649,8 +721,8 @@
       "entregadas": 12840,
       "administradas": 4835,
       "admin_entregadas": 37.7,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -660,8 +732,8 @@
       "entregadas": 12840,
       "administradas": 4931,
       "admin_entregadas": 38.4,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -673,8 +745,8 @@
       "entregadas": 13440,
       "administradas": 7552,
       "admin_entregadas": 56,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -684,8 +756,8 @@
       "entregadas": 13440,
       "administradas": 9366,
       "admin_entregadas": 70,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -696,8 +768,8 @@
       "administradas": 13750,
       "admin_entregadas": 79,
       "vacuna_completa": 155,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -707,8 +779,8 @@
       "administradas": 14658,
       "admin_entregadas": 84.5,
       "vacuna_completa": 164,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -718,8 +790,8 @@
       "administradas": 15697,
       "admin_entregadas": 67.7,
       "vacuna_completa": 167,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -729,8 +801,8 @@
       "administradas": 18105,
       "admin_entregadas": 78.1,
       "vacuna_completa": 1514,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -740,8 +812,8 @@
       "administradas": 20499,
       "admin_entregadas": 88.4,
       "vacuna_completa": 2660,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -751,8 +823,8 @@
       "administradas": 22083,
       "admin_entregadas": 95.2,
       "vacuna_completa": 2713,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -762,8 +834,8 @@
       "administradas": 22372,
       "admin_entregadas": 96.5,
       "vacuna_completa": 2879,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -773,8 +845,8 @@
       "administradas": 23603,
       "admin_entregadas": 78.1,
       "vacuna_completa": 3114,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -784,8 +856,8 @@
       "administradas": 23540,
       "admin_entregadas": 77.9,
       "vacuna_completa": 3295,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Baleares",
@@ -795,8 +867,32 @@
       "administradas": 25041,
       "admin_entregadas": 82.9,
       "vacuna_completa": 4369,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": 29610,
+      "moderna": 600,
+      "entregadas": 30210,
+      "administradas": 25559,
+      "admin_entregadas": 84.6,
+      "vacuna_completa": 4782,
+      "hasta": "2021-01-29T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": 29610,
+      "moderna": 600,
+      "entregadas": 30210,
+      "administradas": 25963,
+      "admin_entregadas": 85.9,
+      "vacuna_completa": 5026,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 41787,
+      "fecha_completa": "principios de abril"
     }
   ],
   "Canarias": [
@@ -805,8 +901,8 @@
       "entregadas": 20835,
       "administradas": 4846,
       "admin_entregadas": 52.5,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -816,8 +912,8 @@
       "entregadas": 27660,
       "administradas": 7330,
       "admin_entregadas": 26.5,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -827,8 +923,8 @@
       "entregadas": 27660,
       "administradas": 9572,
       "admin_entregadas": 34.6,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -838,8 +934,8 @@
       "entregadas": 27660,
       "administradas": 13607,
       "admin_entregadas": 49.2,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -849,8 +945,8 @@
       "entregadas": 27660,
       "administradas": 15328,
       "admin_entregadas": 55.4,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -860,8 +956,8 @@
       "entregadas": 41310,
       "administradas": 22290,
       "admin_entregadas": 54,
-      "hasta": "2022-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -873,8 +969,8 @@
       "entregadas": 42610,
       "administradas": 25159,
       "admin_entregadas": 59,
-      "hasta": "2022-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -884,8 +980,8 @@
       "entregadas": 42610,
       "administradas": 30732,
       "admin_entregadas": 72,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -896,8 +992,8 @@
       "administradas": 42113,
       "admin_entregadas": 99,
       "vacuna_completa": 327,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -907,8 +1003,8 @@
       "administradas": 43209,
       "admin_entregadas": 101.4,
       "vacuna_completa": 339,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -918,8 +1014,8 @@
       "administradas": 43599,
       "admin_entregadas": 91.8,
       "vacuna_completa": 339,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -929,8 +1025,8 @@
       "administradas": 45482,
       "admin_entregadas": 95.8,
       "vacuna_completa": 1744,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -940,8 +1036,8 @@
       "administradas": 47068,
       "admin_entregadas": 99.1,
       "vacuna_completa": 2865,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -951,8 +1047,8 @@
       "administradas": 50110,
       "admin_entregadas": 105.5,
       "vacuna_completa": 3993,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -962,8 +1058,8 @@
       "administradas": 52768,
       "admin_entregadas": 111.1,
       "vacuna_completa": 5149,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -973,8 +1069,8 @@
       "administradas": 54653,
       "admin_entregadas": 83.3,
       "vacuna_completa": 6434,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -984,8 +1080,8 @@
       "administradas": 56385,
       "admin_entregadas": 85.9,
       "vacuna_completa": 6864,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Canarias",
@@ -995,8 +1091,32 @@
       "administradas": 60180,
       "admin_entregadas": 91.7,
       "vacuna_completa": 8772,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": 64320,
+      "moderna": 1300,
+      "entregadas": 65620,
+      "administradas": 64475,
+      "admin_entregadas": 98.3,
+      "vacuna_completa": 11501,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": 64320,
+      "moderna": 1300,
+      "entregadas": 65620,
+      "administradas": 67783,
+      "admin_entregadas": 103.3,
+      "vacuna_completa": 14647,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 90767,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Cantabria": [
@@ -1005,8 +1125,8 @@
       "entregadas": 11850,
       "administradas": 304,
       "admin_entregadas": 2.6,
-      "hasta": "2020-12-30T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2020-12-29T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1016,8 +1136,8 @@
       "entregadas": 11850,
       "administradas": 1564,
       "admin_entregadas": 13.2,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1027,8 +1147,8 @@
       "entregadas": 11850,
       "administradas": 2334,
       "admin_entregadas": 19.7,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1038,8 +1158,8 @@
       "entregadas": 11850,
       "administradas": 8474,
       "admin_entregadas": 71.5,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1049,8 +1169,8 @@
       "entregadas": 11850,
       "administradas": 9527,
       "admin_entregadas": 80.4,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1060,8 +1180,8 @@
       "entregadas": 17700,
       "administradas": 11302,
       "admin_entregadas": 63.9,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1073,8 +1193,8 @@
       "entregadas": 18200,
       "administradas": 12779,
       "admin_entregadas": 70,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1084,8 +1204,8 @@
       "entregadas": 18200,
       "administradas": 14639,
       "admin_entregadas": 80,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1096,8 +1216,8 @@
       "administradas": 17724,
       "admin_entregadas": 97,
       "vacuna_completa": 0,
-      "hasta": "2021-01-16T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-15T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1107,8 +1227,8 @@
       "administradas": 18967,
       "admin_entregadas": 104.2,
       "vacuna_completa": 0,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1118,8 +1238,8 @@
       "administradas": 19473,
       "admin_entregadas": 92.2,
       "vacuna_completa": 0,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1129,8 +1249,8 @@
       "administradas": 19980,
       "admin_entregadas": 94.6,
       "vacuna_completa": 241,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1140,8 +1260,8 @@
       "administradas": 20462,
       "admin_entregadas": 96.9,
       "vacuna_completa": 241,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1151,8 +1271,8 @@
       "administradas": 20463,
       "admin_entregadas": 96.9,
       "vacuna_completa": 241,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1162,8 +1282,8 @@
       "administradas": 20743,
       "admin_entregadas": 98.2,
       "vacuna_completa": 300,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1173,8 +1293,8 @@
       "administradas": 20910,
       "admin_entregadas": 74.3,
       "vacuna_completa": 300,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1184,8 +1304,8 @@
       "administradas": 21469,
       "admin_entregadas": 76.3,
       "vacuna_completa": 782,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Cantabria",
@@ -1195,8 +1315,32 @@
       "administradas": 21641,
       "admin_entregadas": 76.9,
       "vacuna_completa": 924,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": 27645,
+      "moderna": 500,
+      "entregadas": 28145,
+      "administradas": 23626,
+      "admin_entregadas": 83.9,
+      "vacuna_completa": 2737,
+      "hasta": "2021-01-29T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": 27645,
+      "moderna": 500,
+      "entregadas": 28145,
+      "administradas": 25067,
+      "admin_entregadas": 89.1,
+      "vacuna_completa": 4261,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 38931,
+      "fecha_completa": "principios de abril"
     }
   ],
   "Castilla y León": [
@@ -1205,8 +1349,8 @@
       "entregadas": 51390,
       "administradas": 10928,
       "admin_entregadas": 9.4,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1216,8 +1360,8 @@
       "entregadas": 51390,
       "administradas": 22103,
       "admin_entregadas": 43,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1227,8 +1371,8 @@
       "entregadas": 51390,
       "administradas": 28325,
       "admin_entregadas": 55.1,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1238,8 +1382,8 @@
       "entregadas": 51390,
       "administradas": 36205,
       "admin_entregadas": 70.5,
-      "hasta": "2021-01-10T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1249,8 +1393,8 @@
       "entregadas": 51390,
       "administradas": 41340,
       "admin_entregadas": 80.4,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1260,8 +1404,8 @@
       "entregadas": 76740,
       "administradas": 48243,
       "admin_entregadas": 62.9,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1273,8 +1417,8 @@
       "entregadas": 79240,
       "administradas": 57969,
       "admin_entregadas": 73,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1284,8 +1428,8 @@
       "entregadas": 79240,
       "administradas": 59411,
       "admin_entregadas": 75,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1296,8 +1440,8 @@
       "administradas": 67079,
       "admin_entregadas": 85,
       "vacuna_completa": 124,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1307,8 +1451,8 @@
       "administradas": 70885,
       "admin_entregadas": 89.5,
       "vacuna_completa": 432,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1318,8 +1462,8 @@
       "administradas": 74350,
       "admin_entregadas": 77.6,
       "vacuna_completa": 633,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1329,8 +1473,8 @@
       "administradas": 82162,
       "admin_entregadas": 85.8,
       "vacuna_completa": 5296,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1340,8 +1484,8 @@
       "administradas": 86370,
       "admin_entregadas": 90.1,
       "vacuna_completa": 6060,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1351,8 +1495,8 @@
       "administradas": 94057,
       "admin_entregadas": 98.2,
       "vacuna_completa": 9593,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1362,8 +1506,8 @@
       "administradas": 99536,
       "admin_entregadas": 103.9,
       "vacuna_completa": 13245,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1373,8 +1517,8 @@
       "administradas": 104197,
       "admin_entregadas": 84.1,
       "vacuna_completa": 18756,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1384,8 +1528,8 @@
       "administradas": 108203,
       "admin_entregadas": 87.3,
       "vacuna_completa": 19658,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla y León",
@@ -1395,8 +1539,32 @@
       "administradas": 114743,
       "admin_entregadas": 92.6,
       "vacuna_completa": 25020,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y León",
+      "pfizer": 121395,
+      "moderna": 2500,
+      "entregadas": 123895,
+      "administradas": 124225,
+      "admin_entregadas": 100.3,
+      "vacuna_completa": 34446,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y León",
+      "pfizer": 121395,
+      "moderna": 2500,
+      "entregadas": 123895,
+      "administradas": 126362,
+      "admin_entregadas": 102,
+      "vacuna_completa": 35051,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 171375,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Castilla-La Mancha": [
@@ -1405,8 +1573,8 @@
       "entregadas": 35550,
       "administradas": 1983,
       "admin_entregadas": 5.6,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1416,8 +1584,8 @@
       "entregadas": 35550,
       "administradas": 7666,
       "admin_entregadas": 21.6,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1427,8 +1595,8 @@
       "entregadas": 35550,
       "administradas": 12380,
       "admin_entregadas": 34.8,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1438,8 +1606,8 @@
       "entregadas": 35550,
       "administradas": 19209,
       "admin_entregadas": 54,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1449,8 +1617,8 @@
       "entregadas": 35550,
       "administradas": 23342,
       "admin_entregadas": 65.7,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1460,8 +1628,8 @@
       "entregadas": 53100,
       "administradas": 26879,
       "admin_entregadas": 50.6,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1473,8 +1641,8 @@
       "entregadas": 54800,
       "administradas": 30613,
       "admin_entregadas": 56,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1484,8 +1652,8 @@
       "entregadas": 54800,
       "administradas": 33809,
       "admin_entregadas": 62,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1496,8 +1664,8 @@
       "administradas": 38321,
       "admin_entregadas": 70,
       "vacuna_completa": 0,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1507,8 +1675,8 @@
       "administradas": 43682,
       "admin_entregadas": 79.7,
       "vacuna_completa": 189,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1518,8 +1686,8 @@
       "administradas": 48755,
       "admin_entregadas": 76.7,
       "vacuna_completa": 195,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1529,8 +1697,8 @@
       "administradas": 53880,
       "admin_entregadas": 84.8,
       "vacuna_completa": 1202,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1540,8 +1708,8 @@
       "administradas": 57031,
       "admin_entregadas": 89.7,
       "vacuna_completa": 1593,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1551,8 +1719,8 @@
       "administradas": 61388,
       "admin_entregadas": 96.6,
       "vacuna_completa": 2008,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1562,8 +1730,8 @@
       "administradas": 64349,
       "admin_entregadas": 101.2,
       "vacuna_completa": 3623,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1573,8 +1741,8 @@
       "administradas": 68522,
       "admin_entregadas": 81,
       "vacuna_completa": 6982,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1584,8 +1752,8 @@
       "administradas": 71484,
       "admin_entregadas": 84.5,
       "vacuna_completa": 7628,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Castilla-La Mancha",
@@ -1595,8 +1763,32 @@
       "administradas": 77765,
       "admin_entregadas": 91.9,
       "vacuna_completa": 12486,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla-La Mancha",
+      "pfizer": 82935,
+      "moderna": 1700,
+      "entregadas": 84635,
+      "administradas": 84605,
+      "admin_entregadas": 100,
+      "vacuna_completa": 17460,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla-La Mancha",
+      "pfizer": 82935,
+      "moderna": 1700,
+      "entregadas": 84635,
+      "administradas": 88888,
+      "admin_entregadas": 105,
+      "vacuna_completa": 21360,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 117069,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Cataluña": [
@@ -1605,8 +1797,8 @@
       "entregadas": 120545,
       "administradas": 8150,
       "admin_entregadas": 6.8,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1616,8 +1808,8 @@
       "entregadas": 120545,
       "administradas": 24515,
       "admin_entregadas": 20.3,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1627,8 +1819,8 @@
       "entregadas": 120545,
       "administradas": 38826,
       "admin_entregadas": 32.2,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1638,8 +1830,8 @@
       "entregadas": 120545,
       "administradas": 68405,
       "admin_entregadas": 56.7,
-      "hasta": "2021-01-10T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1649,8 +1841,8 @@
       "entregadas": 120545,
       "administradas": 82785,
       "admin_entregadas": 68.7,
-      "hasta": "2021-01-10T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1660,8 +1852,8 @@
       "entregadas": 180020,
       "administradas": 92133,
       "admin_entregadas": 51.2,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1673,8 +1865,8 @@
       "entregadas": 185820,
       "administradas": 105587,
       "admin_entregadas": 57,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1684,8 +1876,8 @@
       "entregadas": 185820,
       "administradas": 122577,
       "admin_entregadas": 66,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1696,8 +1888,8 @@
       "administradas": 145073,
       "admin_entregadas": 78,
       "vacuna_completa": 167,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1707,8 +1899,8 @@
       "administradas": 156627,
       "admin_entregadas": 84.3,
       "vacuna_completa": 432,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1718,8 +1910,8 @@
       "administradas": 162830,
       "admin_entregadas": 75,
       "vacuna_completa": 913,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1729,8 +1921,8 @@
       "administradas": 168054,
       "admin_entregadas": 77.4,
       "vacuna_completa": 2598,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1740,8 +1932,8 @@
       "administradas": 173147,
       "admin_entregadas": 79.8,
       "vacuna_completa": 4101,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1751,8 +1943,8 @@
       "administradas": 184778,
       "admin_entregadas": 85.1,
       "vacuna_completa": 7472,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1762,8 +1954,8 @@
       "administradas": 182713,
       "admin_entregadas": 84.2,
       "vacuna_completa": 9620,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1773,8 +1965,8 @@
       "administradas": 201650,
       "admin_entregadas": 70.5,
       "vacuna_completa": 18426,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1784,8 +1976,8 @@
       "administradas": 208177,
       "admin_entregadas": 72.8,
       "vacuna_completa": 23262,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Cataluña",
@@ -1795,8 +1987,32 @@
       "administradas": 222572,
       "admin_entregadas": 77.8,
       "vacuna_completa": 35424,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": 280250,
+      "moderna": 5800,
+      "entregadas": 286050,
+      "administradas": 256555,
+      "admin_entregadas": 89.7,
+      "vacuna_completa": 60676,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": 280250,
+      "moderna": 5800,
+      "entregadas": 286050,
+      "administradas": 261562,
+      "admin_entregadas": 91.4,
+      "vacuna_completa": 69431,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 395671,
+      "fecha_completa": "principios de abril"
     }
   ],
   "Com. Valenciana": [
@@ -1805,8 +2021,8 @@
       "entregadas": 61225,
       "administradas": 3252,
       "admin_entregadas": 5.3,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1816,8 +2032,8 @@
       "entregadas": 61225,
       "administradas": 11677,
       "admin_entregadas": 19.1,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1827,8 +2043,8 @@
       "entregadas": 61225,
       "administradas": 15965,
       "admin_entregadas": 26.1,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1838,8 +2054,8 @@
       "entregadas": 61225,
       "administradas": 45674,
       "admin_entregadas": 74.6,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1849,8 +2065,8 @@
       "entregadas": 61225,
       "administradas": 57223,
       "admin_entregadas": 93.5,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1860,8 +2076,8 @@
       "entregadas": 91450,
       "administradas": 70870,
       "admin_entregadas": 77.5,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -1873,8 +2089,8 @@
       "entregadas": 94350,
       "administradas": 80429,
       "admin_entregadas": 85,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1884,8 +2100,8 @@
       "entregadas": 94350,
       "administradas": 86927,
       "admin_entregadas": 92,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -1896,8 +2112,8 @@
       "administradas": 93695,
       "admin_entregadas": 99,
       "vacuna_completa": 152,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1907,8 +2123,8 @@
       "administradas": 95260,
       "admin_entregadas": 101,
       "vacuna_completa": 588,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1918,8 +2134,8 @@
       "administradas": 99932,
       "admin_entregadas": 89.3,
       "vacuna_completa": 1737,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1929,8 +2145,8 @@
       "administradas": 101437,
       "admin_entregadas": 90.6,
       "vacuna_completa": 2956,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1940,8 +2156,8 @@
       "administradas": 103426,
       "admin_entregadas": 92.4,
       "vacuna_completa": 4139,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1951,8 +2167,8 @@
       "administradas": 104449,
       "admin_entregadas": 93.3,
       "vacuna_completa": 4532,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1962,8 +2178,8 @@
       "administradas": 105490,
       "admin_entregadas": 94.3,
       "vacuna_completa": 5393,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1973,8 +2189,8 @@
       "administradas": 108454,
       "admin_entregadas": 74.4,
       "vacuna_completa": 7304,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1984,8 +2200,8 @@
       "administradas": 109716,
       "admin_entregadas": 75.2,
       "vacuna_completa": 8948,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Com. Valenciana",
@@ -1995,8 +2211,32 @@
       "administradas": 112272,
       "admin_entregadas": 77,
       "vacuna_completa": 11317,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Com. Valenciana",
+      "pfizer": 142930,
+      "moderna": 2900,
+      "entregadas": 145830,
+      "administradas": 136109,
+      "admin_entregadas": 93.3,
+      "vacuna_completa": 33395,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Com. Valenciana",
+      "pfizer": 142930,
+      "moderna": 2900,
+      "entregadas": 145830,
+      "administradas": 147945,
+      "admin_entregadas": 101.5,
+      "vacuna_completa": 44979,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 201716,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Extremadura": [
@@ -2005,8 +2245,8 @@
       "entregadas": 21725,
       "administradas": 686,
       "admin_entregadas": 3.2,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2016,8 +2256,8 @@
       "entregadas": 21725,
       "administradas": 3309,
       "admin_entregadas": 15.2,
-      "hasta": "2021-01-05T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2027,8 +2267,8 @@
       "entregadas": 21725,
       "administradas": 4727,
       "admin_entregadas": 21.8,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2038,8 +2278,8 @@
       "entregadas": 21725,
       "administradas": 9303,
       "admin_entregadas": 42.8,
-      "hasta": "2021-01-10T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2049,8 +2289,8 @@
       "entregadas": 21725,
       "administradas": 11346,
       "admin_entregadas": 52.2,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2060,8 +2300,8 @@
       "entregadas": 32450,
       "administradas": 14293,
       "admin_entregadas": 44,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2073,8 +2313,8 @@
       "entregadas": 33450,
       "administradas": 17862,
       "admin_entregadas": 53,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2084,8 +2324,8 @@
       "entregadas": 33450,
       "administradas": 22322,
       "admin_entregadas": 67,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2096,8 +2336,8 @@
       "administradas": 27613,
       "admin_entregadas": 83,
       "vacuna_completa": 0,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2107,8 +2347,8 @@
       "administradas": 29125,
       "admin_entregadas": 87.1,
       "vacuna_completa": 254,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2118,8 +2358,8 @@
       "administradas": 30941,
       "admin_entregadas": 76.8,
       "vacuna_completa": 254,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2129,8 +2369,8 @@
       "administradas": 32039,
       "admin_entregadas": 79.6,
       "vacuna_completa": 638,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2140,8 +2380,8 @@
       "administradas": 32979,
       "admin_entregadas": 81.9,
       "vacuna_completa": 638,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2151,8 +2391,8 @@
       "administradas": 33125,
       "admin_entregadas": 82.2,
       "vacuna_completa": 638,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2162,8 +2402,8 @@
       "administradas": 35441,
       "admin_entregadas": 88,
       "vacuna_completa": 1721,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2173,8 +2413,8 @@
       "administradas": 37790,
       "admin_entregadas": 72.7,
       "vacuna_completa": 3134,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2184,8 +2424,8 @@
       "administradas": 39821,
       "admin_entregadas": 76.6,
       "vacuna_completa": 3135,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Extremadura",
@@ -2195,8 +2435,32 @@
       "administradas": 41961,
       "admin_entregadas": 80.7,
       "vacuna_completa": 4460,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": 50975,
+      "moderna": 1000,
+      "entregadas": 51975,
+      "administradas": 47342,
+      "admin_entregadas": 91.1,
+      "vacuna_completa": 8646,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": 50975,
+      "moderna": 1000,
+      "entregadas": 51975,
+      "administradas": 49703,
+      "admin_entregadas": 95.6,
+      "vacuna_completa": 10776,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 71893,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Galicia": [
@@ -2205,8 +2469,8 @@
       "entregadas": 37555,
       "administradas": 9124,
       "admin_entregadas": 24.3,
-      "hasta": "2021-01-02T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-01T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2216,8 +2480,8 @@
       "entregadas": 37555,
       "administradas": 20265,
       "admin_entregadas": 54,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2227,8 +2491,8 @@
       "entregadas": 37555,
       "administradas": 24750,
       "admin_entregadas": 65.9,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2238,8 +2502,8 @@
       "entregadas": 37555,
       "administradas": 30418,
       "admin_entregadas": 81,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2249,8 +2513,8 @@
       "entregadas": 37555,
       "administradas": 33346,
       "admin_entregadas": 88.8,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2260,8 +2524,8 @@
       "entregadas": 56080,
       "administradas": 37745,
       "admin_entregadas": 67.3,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2273,8 +2537,8 @@
       "entregadas": 57880,
       "administradas": 44014,
       "admin_entregadas": 76,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2284,8 +2548,8 @@
       "entregadas": 57880,
       "administradas": 49768,
       "admin_entregadas": 86,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2296,8 +2560,8 @@
       "administradas": 56481,
       "admin_entregadas": 98,
       "vacuna_completa": 150,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2307,8 +2571,8 @@
       "administradas": 57871,
       "admin_entregadas": 100,
       "vacuna_completa": 1191,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2318,8 +2582,8 @@
       "administradas": 59104,
       "admin_entregadas": 86.2,
       "vacuna_completa": 1197,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2329,8 +2593,8 @@
       "administradas": 62011,
       "admin_entregadas": 90.4,
       "vacuna_completa": 3861,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2340,8 +2604,8 @@
       "administradas": 65394,
       "admin_entregadas": 95.3,
       "vacuna_completa": 7204,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2351,8 +2615,8 @@
       "administradas": 66873,
       "admin_entregadas": 97.5,
       "vacuna_completa": 8602,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2362,8 +2626,8 @@
       "administradas": 70384,
       "admin_entregadas": 102.6,
       "vacuna_completa": 12042,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2373,8 +2637,8 @@
       "administradas": 72676,
       "admin_entregadas": 81.1,
       "vacuna_completa": 14235,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2384,8 +2648,8 @@
       "administradas": 74278,
       "admin_entregadas": 82.8,
       "vacuna_completa": 15827,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Galicia",
@@ -2395,8 +2659,32 @@
       "administradas": 78772,
       "admin_entregadas": 87.9,
       "vacuna_completa": 20268,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": 87865,
+      "moderna": 1800,
+      "entregadas": 89665,
+      "administradas": 85718,
+      "admin_entregadas": 95.6,
+      "vacuna_completa": 27098,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": 87865,
+      "moderna": 1800,
+      "entregadas": 89665,
+      "administradas": 87736,
+      "admin_entregadas": 97.8,
+      "vacuna_completa": 29065,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 124027,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "La Rioja": [
@@ -2405,8 +2693,8 @@
       "entregadas": 5915,
       "administradas": 324,
       "admin_entregadas": 5.5,
-      "hasta": "2020-12-31T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2020-12-30T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2416,8 +2704,8 @@
       "entregadas": 5915,
       "administradas": 858,
       "admin_entregadas": 14.5,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2427,8 +2715,8 @@
       "entregadas": 5915,
       "administradas": 1674,
       "admin_entregadas": 28.3,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2438,8 +2726,8 @@
       "entregadas": 5915,
       "administradas": 3457,
       "admin_entregadas": 58.4,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2449,8 +2737,8 @@
       "entregadas": 5915,
       "administradas": 3826,
       "admin_entregadas": 64.7,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2460,8 +2748,8 @@
       "entregadas": 8840,
       "administradas": 4651,
       "admin_entregadas": 52.6,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2473,8 +2761,8 @@
       "entregadas": 9040,
       "administradas": 5385,
       "admin_entregadas": 60,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2484,8 +2772,8 @@
       "entregadas": 9040,
       "administradas": 5953,
       "admin_entregadas": 66,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2496,8 +2784,8 @@
       "administradas": 7761,
       "admin_entregadas": 86,
       "vacuna_completa": 0,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2507,8 +2795,8 @@
       "administradas": 8049,
       "admin_entregadas": 89,
       "vacuna_completa": 44,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2518,8 +2806,8 @@
       "administradas": 8335,
       "admin_entregadas": 69.7,
       "vacuna_completa": 44,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2529,8 +2817,8 @@
       "administradas": 8684,
       "admin_entregadas": 72.6,
       "vacuna_completa": 267,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2540,8 +2828,8 @@
       "administradas": 8967,
       "admin_entregadas": 74.9,
       "vacuna_completa": 317,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2551,8 +2839,8 @@
       "administradas": 9166,
       "admin_entregadas": 76.6,
       "vacuna_completa": 317,
-      "hasta": "2021-01-22T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2562,8 +2850,8 @@
       "administradas": 9387,
       "admin_entregadas": 78.5,
       "vacuna_completa": 455,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2573,8 +2861,8 @@
       "administradas": 9618,
       "admin_entregadas": 67.2,
       "vacuna_completa": 684,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2584,8 +2872,8 @@
       "administradas": 10283,
       "admin_entregadas": 71.9,
       "vacuna_completa": 1084,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "La Rioja",
@@ -2595,8 +2883,32 @@
       "administradas": 10820,
       "admin_entregadas": 75.6,
       "vacuna_completa": 1592,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": 14105,
+      "moderna": 200,
+      "entregadas": 14305,
+      "administradas": 11790,
+      "admin_entregadas": 82.4,
+      "vacuna_completa": 2490,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": 14105,
+      "moderna": 200,
+      "entregadas": 14305,
+      "administradas": 13215,
+      "admin_entregadas": 92.4,
+      "vacuna_completa": 3478,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 19787,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Madrid": [
@@ -2605,8 +2917,8 @@
       "entregadas": 89040,
       "administradas": 2883,
       "admin_entregadas": 3.2,
-      "hasta": "2021-01-03T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-02T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2616,8 +2928,8 @@
       "entregadas": 98790,
       "administradas": 11337,
       "admin_entregadas": 11.5,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2627,8 +2939,8 @@
       "entregadas": 98790,
       "administradas": 14152,
       "admin_entregadas": 14.3,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2638,8 +2950,8 @@
       "entregadas": 98790,
       "administradas": 24897,
       "admin_entregadas": 25.2,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2649,8 +2961,8 @@
       "entregadas": 98790,
       "administradas": 35949,
       "admin_entregadas": 36.4,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2660,8 +2972,8 @@
       "entregadas": 147540,
       "administradas": 49228,
       "admin_entregadas": 33.4,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2673,8 +2985,8 @@
       "entregadas": 152240,
       "administradas": 63385,
       "admin_entregadas": 42,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2684,8 +2996,8 @@
       "entregadas": 152240,
       "administradas": 77921,
       "admin_entregadas": 51,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2696,8 +3008,8 @@
       "administradas": 104490,
       "admin_entregadas": 69,
       "vacuna_completa": 476,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2707,8 +3019,8 @@
       "administradas": 120168,
       "admin_entregadas": 78.9,
       "vacuna_completa": 719,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2718,8 +3030,8 @@
       "administradas": 129194,
       "admin_entregadas": 73.2,
       "vacuna_completa": 812,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2729,8 +3041,8 @@
       "administradas": 142765,
       "admin_entregadas": 80.8,
       "vacuna_completa": 1738,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2740,8 +3052,8 @@
       "administradas": 154778,
       "admin_entregadas": 87.6,
       "vacuna_completa": 2263,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2751,8 +3063,8 @@
       "administradas": 165514,
       "admin_entregadas": 93.7,
       "vacuna_completa": 2634,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2762,8 +3074,8 @@
       "administradas": 169501,
       "admin_entregadas": 96,
       "vacuna_completa": 4073,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2773,8 +3085,8 @@
       "administradas": 174094,
       "admin_entregadas": 74.8,
       "vacuna_completa": 5611,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2784,8 +3096,8 @@
       "administradas": 177972,
       "admin_entregadas": 76.5,
       "vacuna_completa": 6987,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Madrid",
@@ -2795,8 +3107,32 @@
       "administradas": 183458,
       "admin_entregadas": 78.8,
       "vacuna_completa": 10595,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": 228075,
+      "moderna": 4700,
+      "entregadas": 232775,
+      "administradas": 190943,
+      "admin_entregadas": 82,
+      "vacuna_completa": 15837,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": 228075,
+      "moderna": 4700,
+      "entregadas": 232775,
+      "administradas": 199495,
+      "admin_entregadas": 85.7,
+      "vacuna_completa": 24312,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 321980,
+      "fecha_completa": "principios de abril"
     }
   ],
   "Murcia": [
@@ -2805,8 +3141,8 @@
       "entregadas": 25685,
       "administradas": 442,
       "admin_entregadas": 1.7,
-      "hasta": "2021-01-04T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-03T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2816,8 +3152,8 @@
       "entregadas": 25685,
       "administradas": 7287,
       "admin_entregadas": 28.4,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2827,8 +3163,8 @@
       "entregadas": 25685,
       "administradas": 8958,
       "admin_entregadas": 34.9,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2838,8 +3174,8 @@
       "entregadas": 25685,
       "administradas": 10361,
       "admin_entregadas": 40.3,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2849,8 +3185,8 @@
       "entregadas": 25685,
       "administradas": 16191,
       "admin_entregadas": 63,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2860,8 +3196,8 @@
       "entregadas": 38360,
       "administradas": 19905,
       "admin_entregadas": 51.9,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -2873,8 +3209,8 @@
       "entregadas": 39560,
       "administradas": 21739,
       "admin_entregadas": 55,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2884,8 +3220,8 @@
       "entregadas": 39560,
       "administradas": 27001,
       "admin_entregadas": 68,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -2896,8 +3232,8 @@
       "administradas": 34103,
       "admin_entregadas": 86,
       "vacuna_completa": 0,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2907,8 +3243,8 @@
       "administradas": 36730,
       "admin_entregadas": 92.8,
       "vacuna_completa": 934,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2918,8 +3254,8 @@
       "administradas": 39142,
       "admin_entregadas": 84.4,
       "vacuna_completa": 1522,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2929,8 +3265,8 @@
       "administradas": 40757,
       "admin_entregadas": 87.9,
       "vacuna_completa": 1784,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2940,8 +3276,8 @@
       "administradas": 42261,
       "admin_entregadas": 91.1,
       "vacuna_completa": 2086,
-      "hasta": "2021-01-22T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2951,8 +3287,8 @@
       "administradas": 46444,
       "admin_entregadas": 100.1,
       "vacuna_completa": 4447,
-      "hasta": "2021-01-24T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-23T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2962,8 +3298,8 @@
       "administradas": 48652,
       "admin_entregadas": 104.9,
       "vacuna_completa": 5829,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2973,8 +3309,8 @@
       "administradas": 50957,
       "admin_entregadas": 84.3,
       "vacuna_completa": 7453,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2984,8 +3320,8 @@
       "administradas": 53447,
       "admin_entregadas": 88.5,
       "vacuna_completa": 8713,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Murcia",
@@ -2995,8 +3331,32 @@
       "administradas": 55082,
       "admin_entregadas": 91.2,
       "vacuna_completa": 9264,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia",
+      "pfizer": 59225,
+      "moderna": 1200,
+      "entregadas": 60425,
+      "administradas": 58737,
+      "admin_entregadas": 97.2,
+      "vacuna_completa": 11293,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia",
+      "pfizer": 59225,
+      "moderna": 1200,
+      "entregadas": 60425,
+      "administradas": 60731,
+      "admin_entregadas": 100.5,
+      "vacuna_completa": 12580,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 83581,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "Navarra": [
@@ -3005,8 +3365,8 @@
       "entregadas": 6975,
       "administradas": 1583,
       "admin_entregadas": 22.7,
-      "hasta": "2021-01-04T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-03T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3016,8 +3376,8 @@
       "entregadas": 11850,
       "administradas": 2960,
       "admin_entregadas": 25,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3027,8 +3387,8 @@
       "entregadas": 11850,
       "administradas": 3703,
       "admin_entregadas": 31.2,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3038,8 +3398,8 @@
       "entregadas": 11850,
       "administradas": 5468,
       "admin_entregadas": 46.1,
-      "hasta": "2021-01-10T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3049,8 +3409,8 @@
       "entregadas": 11850,
       "administradas": 6557,
       "admin_entregadas": 55.3,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3060,8 +3420,8 @@
       "entregadas": 17700,
       "administradas": 7420,
       "admin_entregadas": 41.9,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3073,8 +3433,8 @@
       "entregadas": 18200,
       "administradas": 8314,
       "admin_entregadas": 46,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3084,8 +3444,8 @@
       "entregadas": 18200,
       "administradas": 9305,
       "admin_entregadas": 51,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3096,8 +3456,8 @@
       "administradas": 11834,
       "admin_entregadas": 65,
       "vacuna_completa": 0,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3107,8 +3467,8 @@
       "administradas": 12991,
       "admin_entregadas": 71.4,
       "vacuna_completa": 299,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3118,8 +3478,8 @@
       "administradas": 14559,
       "admin_entregadas": 68.9,
       "vacuna_completa": 503,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3129,8 +3489,8 @@
       "administradas": 15754,
       "admin_entregadas": 74.6,
       "vacuna_completa": 767,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3140,8 +3500,8 @@
       "administradas": 16310,
       "admin_entregadas": 77.2,
       "vacuna_completa": 807,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3151,8 +3511,8 @@
       "administradas": 17053,
       "admin_entregadas": 80.7,
       "vacuna_completa": 809,
-      "hasta": "2021-01-22T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-21T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3162,8 +3522,8 @@
       "administradas": 18703,
       "admin_entregadas": 88.5,
       "vacuna_completa": 1757,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3173,8 +3533,8 @@
       "administradas": 20057,
       "admin_entregadas": 71.3,
       "vacuna_completa": 2541,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3184,8 +3544,8 @@
       "administradas": 21007,
       "admin_entregadas": 74.6,
       "vacuna_completa": 2797,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Navarra",
@@ -3195,8 +3555,32 @@
       "administradas": 22430,
       "admin_entregadas": 79.7,
       "vacuna_completa": 3535,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": 27645,
+      "moderna": 500,
+      "entregadas": 28145,
+      "administradas": 25116,
+      "admin_entregadas": 89.2,
+      "vacuna_completa": 5281,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": 27645,
+      "moderna": 500,
+      "entregadas": 28145,
+      "administradas": 26779,
+      "admin_entregadas": 95.1,
+      "vacuna_completa": 6320,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 38931,
+      "fecha_completa": "finales de marzo"
     }
   ],
   "País Vasco": [
@@ -3205,8 +3589,8 @@
       "entregadas": 31605,
       "administradas": 396,
       "admin_entregadas": 1.3,
-      "hasta": "2021-01-02T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2021-01-01T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3216,8 +3600,8 @@
       "entregadas": 31605,
       "administradas": 7734,
       "admin_entregadas": 24.5,
-      "hasta": "2021-01-06T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-05T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3227,8 +3611,8 @@
       "entregadas": 31605,
       "administradas": 9811,
       "admin_entregadas": 31,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3238,8 +3622,8 @@
       "entregadas": 31605,
       "administradas": 13103,
       "admin_entregadas": 41.5,
-      "hasta": "2021-01-10T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-09T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3249,8 +3633,8 @@
       "entregadas": 31605,
       "administradas": 15393,
       "admin_entregadas": 48.7,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3260,8 +3644,8 @@
       "entregadas": 47205,
       "administradas": 17771,
       "admin_entregadas": 37.6,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3273,8 +3657,8 @@
       "entregadas": 48605,
       "administradas": 20003,
       "admin_entregadas": 41,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3284,8 +3668,8 @@
       "entregadas": 48605,
       "administradas": 22464,
       "admin_entregadas": 46,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3296,8 +3680,8 @@
       "administradas": 25526,
       "admin_entregadas": 53,
       "vacuna_completa": 0,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3307,8 +3691,8 @@
       "administradas": 28069,
       "admin_entregadas": 57.7,
       "vacuna_completa": 390,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3318,8 +3702,8 @@
       "administradas": 33523,
       "admin_entregadas": 58.4,
       "vacuna_completa": 390,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3329,8 +3713,8 @@
       "administradas": 36864,
       "admin_entregadas": 64.2,
       "vacuna_completa": 1333,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3340,8 +3724,8 @@
       "administradas": 41474,
       "admin_entregadas": 72.3,
       "vacuna_completa": 3044,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3351,8 +3735,8 @@
       "administradas": 46124,
       "admin_entregadas": 80.4,
       "vacuna_completa": 3355,
-      "hasta": "2021-01-23T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-22T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3362,8 +3746,8 @@
       "administradas": 48927,
       "admin_entregadas": 85.3,
       "vacuna_completa": 5159,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3373,8 +3757,8 @@
       "administradas": 50850,
       "admin_entregadas": 66.8,
       "vacuna_completa": 6637,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3384,8 +3768,8 @@
       "administradas": 51436,
       "admin_entregadas": 67.6,
       "vacuna_completa": 6906,
-      "hasta": "2021-01-27T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-26T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "País Vasco",
@@ -3395,8 +3779,32 @@
       "administradas": 53839,
       "admin_entregadas": 70.7,
       "vacuna_completa": 9052,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": 74700,
+      "moderna": 1400,
+      "entregadas": 76100,
+      "administradas": 57262,
+      "admin_entregadas": 75.2,
+      "vacuna_completa": 12277,
+      "hasta": "2021-01-30T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": 74700,
+      "moderna": 1400,
+      "entregadas": 76100,
+      "administradas": 59582,
+      "admin_entregadas": 78.3,
+      "vacuna_completa": 14059,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 105263,
+      "fecha_completa": "mediados de abril"
     }
   ],
   "Ceuta": [
@@ -3405,8 +3813,8 @@
       "entregadas": 1005,
       "administradas": 380,
       "admin_entregadas": 37.8,
-      "hasta": "2020-12-31T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2020-12-30T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3416,8 +3824,8 @@
       "entregadas": 1005,
       "administradas": 576,
       "admin_entregadas": 57.3,
-      "hasta": "2021-01-05T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3427,8 +3835,8 @@
       "entregadas": 1005,
       "administradas": 637,
       "admin_entregadas": 63.4,
-      "hasta": "2021-01-07T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-06T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3438,8 +3846,8 @@
       "entregadas": 1005,
       "administradas": 698,
       "admin_entregadas": 69.5,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3449,8 +3857,8 @@
       "entregadas": 1005,
       "administradas": 758,
       "admin_entregadas": 75.4,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3460,8 +3868,8 @@
       "entregadas": 1005,
       "administradas": 820,
       "admin_entregadas": 81.6,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3473,8 +3881,8 @@
       "entregadas": 1205,
       "administradas": 911,
       "admin_entregadas": 76,
-      "hasta": "2021-01-13T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-12T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3484,8 +3892,8 @@
       "entregadas": 1205,
       "administradas": 941,
       "admin_entregadas": 78,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3496,8 +3904,8 @@
       "administradas": 981,
       "admin_entregadas": 81,
       "vacuna_completa": 29,
-      "hasta": "2021-01-17T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-16T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3507,8 +3915,8 @@
       "administradas": 1080,
       "admin_entregadas": 89.6,
       "vacuna_completa": 29,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3518,8 +3926,8 @@
       "administradas": 1110,
       "admin_entregadas": 50.9,
       "vacuna_completa": 29,
-      "hasta": "2021-01-19T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-18T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3529,8 +3937,8 @@
       "administradas": 1545,
       "admin_entregadas": 70.9,
       "vacuna_completa": 326,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3540,8 +3948,8 @@
       "administradas": 1641,
       "admin_entregadas": 75.3,
       "vacuna_completa": 373,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3551,8 +3959,8 @@
       "administradas": 1692,
       "admin_entregadas": 77.6,
       "vacuna_completa": 373,
-      "hasta": "2021-01-21T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-20T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3562,8 +3970,8 @@
       "administradas": 1829,
       "admin_entregadas": 83.9,
       "vacuna_completa": 503,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3573,8 +3981,8 @@
       "administradas": 1829,
       "admin_entregadas": 83.9,
       "vacuna_completa": 503,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3584,8 +3992,8 @@
       "administradas": 1757,
       "admin_entregadas": 80.6,
       "vacuna_completa": 569,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Ceuta",
@@ -3595,8 +4003,32 @@
       "administradas": 1828,
       "admin_entregadas": 83.9,
       "vacuna_completa": 628,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": 1980,
+      "moderna": 200,
+      "entregadas": 2180,
+      "administradas": 1890,
+      "admin_entregadas": 86.7,
+      "vacuna_completa": 688,
+      "hasta": "2021-01-28T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": 1980,
+      "moderna": 200,
+      "entregadas": 2180,
+      "administradas": 1950,
+      "admin_entregadas": 89.4,
+      "vacuna_completa": 748,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 3015,
+      "fecha_completa": "principios de abril"
     }
   ],
   "Melilla": [
@@ -3605,8 +4037,8 @@
       "entregadas": 1005,
       "administradas": 207,
       "admin_entregadas": 20.6,
-      "hasta": "2020-12-30T00:00:00.000Z",
-      "fecha": "2021-01-04T00:00:00.000Z",
+      "hasta": "2020-12-29T23:00:00.000Z",
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3616,8 +4048,8 @@
       "entregadas": 1005,
       "administradas": 426,
       "admin_entregadas": 42.4,
-      "hasta": "2021-01-05T00:00:00.000Z",
-      "fecha": "2021-01-07T00:00:00.000Z",
+      "hasta": "2021-01-04T23:00:00.000Z",
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3627,8 +4059,8 @@
       "entregadas": 1005,
       "administradas": 673,
       "admin_entregadas": 67,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-08T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3638,8 +4070,8 @@
       "entregadas": 1005,
       "administradas": 832,
       "admin_entregadas": 82.8,
-      "hasta": "2021-01-08T00:00:00.000Z",
-      "fecha": "2021-01-11T00:00:00.000Z",
+      "hasta": "2021-01-07T23:00:00.000Z",
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3649,8 +4081,8 @@
       "entregadas": 1005,
       "administradas": 1005,
       "admin_entregadas": 100,
-      "hasta": "2021-01-11T00:00:00.000Z",
-      "fecha": "2021-01-12T00:00:00.000Z",
+      "hasta": "2021-01-10T23:00:00.000Z",
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3660,8 +4092,8 @@
       "entregadas": 1005,
       "administradas": 1005,
       "admin_entregadas": 100,
-      "hasta": "2021-01-12T00:00:00.000Z",
-      "fecha": "2021-01-13T00:00:00.000Z",
+      "hasta": "2021-01-11T23:00:00.000Z",
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3673,8 +4105,8 @@
       "entregadas": 1205,
       "administradas": 1098,
       "admin_entregadas": 91,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-14T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3684,8 +4116,8 @@
       "entregadas": 1205,
       "administradas": 1230,
       "admin_entregadas": 102,
-      "hasta": "2021-01-14T00:00:00.000Z",
-      "fecha": "2021-01-15T00:00:00.000Z",
+      "hasta": "2021-01-13T23:00:00.000Z",
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3696,8 +4128,8 @@
       "administradas": 1289,
       "admin_entregadas": 107,
       "vacuna_completa": 0,
-      "hasta": "2021-01-15T00:00:00.000Z",
-      "fecha": "2021-01-18T00:00:00.000Z"
+      "hasta": "2021-01-14T23:00:00.000Z",
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3707,8 +4139,8 @@
       "administradas": 1297,
       "admin_entregadas": 107.6,
       "vacuna_completa": 29,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-19T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3718,8 +4150,8 @@
       "administradas": 1326,
       "admin_entregadas": 60.8,
       "vacuna_completa": 29,
-      "hasta": "2021-01-18T00:00:00.000Z",
-      "fecha": "2021-01-20T00:00:00.000Z"
+      "hasta": "2021-01-17T23:00:00.000Z",
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3729,8 +4161,8 @@
       "administradas": 1500,
       "admin_entregadas": 68.8,
       "vacuna_completa": 203,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-21T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3740,8 +4172,8 @@
       "administradas": 1500,
       "admin_entregadas": 68.8,
       "vacuna_completa": 203,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-22T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3751,8 +4183,8 @@
       "administradas": 1500,
       "admin_entregadas": 68.8,
       "vacuna_completa": 203,
-      "hasta": "2021-01-20T00:00:00.000Z",
-      "fecha": "2021-01-25T00:00:00.000Z"
+      "hasta": "2021-01-19T23:00:00.000Z",
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3762,8 +4194,8 @@
       "administradas": 1631,
       "admin_entregadas": 74.8,
       "vacuna_completa": 332,
-      "hasta": "2021-01-25T00:00:00.000Z",
-      "fecha": "2021-01-26T00:00:00.000Z"
+      "hasta": "2021-01-24T23:00:00.000Z",
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3773,8 +4205,8 @@
       "administradas": 1713,
       "admin_entregadas": 78.6,
       "vacuna_completa": 414,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-27T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3784,8 +4216,8 @@
       "administradas": 1713,
       "admin_entregadas": 78.6,
       "vacuna_completa": 414,
-      "hasta": "2021-01-26T00:00:00.000Z",
-      "fecha": "2021-01-28T00:00:00.000Z"
+      "hasta": "2021-01-25T23:00:00.000Z",
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Melilla",
@@ -3795,8 +4227,32 @@
       "administradas": 1934,
       "admin_entregadas": 88.7,
       "vacuna_completa": 631,
-      "hasta": "2021-01-28T00:00:00.000Z",
-      "fecha": "2021-01-29T00:00:00.000Z"
+      "hasta": "2021-01-27T23:00:00.000Z",
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": 1980,
+      "moderna": 200,
+      "entregadas": 2180,
+      "administradas": 2113,
+      "admin_entregadas": 96.9,
+      "vacuna_completa": 806,
+      "hasta": "2021-01-28T23:00:00.000Z",
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": 1980,
+      "moderna": 200,
+      "entregadas": 2180,
+      "administradas": 2348,
+      "admin_entregadas": 107.7,
+      "vacuna_completa": 1040,
+      "hasta": "2021-01-31T23:00:00.000Z",
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 3015,
+      "fecha_completa": "mediados de marzo"
     }
   ],
   "Totales": [
@@ -3805,8 +4261,7 @@
       "entregadas": 718575,
       "administradas": 82834,
       "admin_entregadas": 11.5,
-      "fecha": "2021-01-04T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-03T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3816,8 +4271,7 @@
       "entregadas": 743925,
       "administradas": 207323,
       "admin_entregadas": 27.9,
-      "fecha": "2021-01-07T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-06T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3827,8 +4281,7 @@
       "entregadas": 743925,
       "administradas": 277976,
       "admin_entregadas": 37.4,
-      "fecha": "2021-01-08T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-07T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3838,8 +4291,7 @@
       "entregadas": 743925,
       "administradas": 406091,
       "admin_entregadas": 54.6,
-      "fecha": "2021-01-11T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-10T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3849,8 +4301,7 @@
       "entregadas": 743925,
       "administradas": 488041,
       "admin_entregadas": 65.6,
-      "fecha": "2021-01-12T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-11T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3860,8 +4311,7 @@
       "entregadas": 1103700,
       "administradas": 581638,
       "admin_entregadas": 52.7,
-      "fecha": "2021-01-13T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-12T23:00:00.000Z",
       "pfizer": "",
       "moderna": "",
       "vacuna_completa": ""
@@ -3873,8 +4323,7 @@
       "entregadas": 1139400,
       "administradas": 676186,
       "admin_entregadas": 59,
-      "fecha": "2021-01-14T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-13T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3884,8 +4333,7 @@
       "entregadas": 1139400,
       "administradas": 768950,
       "admin_entregadas": 67,
-      "fecha": "2021-01-15T00:00:00.000Z",
-      "hasta": null,
+      "fecha": "2021-01-14T23:00:00.000Z",
       "vacuna_completa": ""
     },
     {
@@ -3896,8 +4344,7 @@
       "administradas": 897942,
       "admin_entregadas": 79,
       "vacuna_completa": 2315,
-      "fecha": "2021-01-18T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-17T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3907,8 +4354,7 @@
       "administradas": 966097,
       "admin_entregadas": 84.5,
       "vacuna_completa": 9341,
-      "fecha": "2021-01-19T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-18T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3918,8 +4364,7 @@
       "administradas": 1025937,
       "admin_entregadas": 76.2,
       "vacuna_completa": 15642,
-      "fecha": "2021-01-20T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-19T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3929,8 +4374,7 @@
       "administradas": 1103301,
       "admin_entregadas": 82,
       "vacuna_completa": 49056,
-      "fecha": "2021-01-21T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-20T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3940,8 +4384,7 @@
       "administradas": 1165825,
       "admin_entregadas": 86.6,
       "vacuna_completa": 68456,
-      "fecha": "2021-01-22T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-21T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3951,8 +4394,7 @@
       "administradas": 1237593,
       "admin_entregadas": 91.9,
       "vacuna_completa": 88698,
-      "fecha": "2021-01-25T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-24T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3962,8 +4404,7 @@
       "administradas": 1291216,
       "admin_entregadas": 95.9,
       "vacuna_completa": 123697,
-      "fecha": "2021-01-26T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-25T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3973,8 +4414,7 @@
       "administradas": 1356461,
       "admin_entregadas": 76.7,
       "vacuna_completa": 173066,
-      "fecha": "2021-01-27T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-26T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3984,8 +4424,7 @@
       "administradas": 1395618,
       "admin_entregadas": 78.9,
       "vacuna_completa": 192759,
-      "fecha": "2021-01-28T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-27T23:00:00.000Z"
     },
     {
       "ccaa": "Totales",
@@ -3995,8 +4434,29 @@
       "administradas": 1474189,
       "admin_entregadas": 83.3,
       "vacuna_completa": 251866,
-      "fecha": "2021-01-29T00:00:00.000Z",
-      "hasta": null
+      "fecha": "2021-01-28T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1733355,
+      "moderna": 35700,
+      "entregadas": 1769055,
+      "administradas": 1609261,
+      "admin_entregadas": 91,
+      "vacuna_completa": 357892,
+      "fecha": "2021-01-31T23:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 1733355,
+      "moderna": 35700,
+      "entregadas": 1769055,
+      "administradas": 1673054,
+      "admin_entregadas": 94.6,
+      "vacuna_completa": 418519,
+      "fecha": "2021-02-01T23:00:00.000Z",
+      "poblacion_diana": 2447000,
+      "fecha_completa": "finales de marzo"
     }
   ]
 }
