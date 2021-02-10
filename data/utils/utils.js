@@ -1,8 +1,8 @@
 const https = require('https');
 const fs = require('fs');
 const d3time = require('d3-time-format');
-const d3format = require('d3-format');
-const locale = require('@reuters-graphics/d3-locale')
+// const d3format = require('d3-format');
+// const locale = require('@reuters-graphics/d3-locale')
 
 const listDates = (start, end) => {
     let arr;
