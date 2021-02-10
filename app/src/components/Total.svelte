@@ -35,7 +35,7 @@
 <div class='numbers'>
     <div>
         <p class='number'>{f.y(data.entregadas)}</p>
-        <p class='header'>Vacunas entregadas (Pfizer y Moderna)</p>
+        <p class='header'>Vacunas entregadas (Pfizer, Moderna y AstraZeneca)</p>
     </div>
     <div>
         <p class='number'><strong>{f.y(data.administradas)}</strong></p>
