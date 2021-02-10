@@ -1,6 +1,6 @@
 import App from './App.svelte';
 
-const url = 'https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/public/data.json?raw=true';
+const url = '../data.json';
 
 fetch(url)
   .then((res) => res.json())
