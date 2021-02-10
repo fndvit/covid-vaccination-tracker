@@ -31,11 +31,11 @@ const download = (url, dest, cb) => {
 
 // let loc = new locale('es');
 
-// const dateDiff = (start, end) => {
-//     const difference = end.getTime() - start.getTime();
-//     const days = Math.ceil(difference / (1000 * 3600 * 24));
-//     return days;
-// }
+const dateDiff = (start, end) => {
+    const difference = end.getTime() - start.getTime();
+    const days = Math.ceil(difference / (1000 * 3600 * 24));
+    return days;
+}
 
 // const approxDate = (date) => {
 
@@ -53,4 +53,4 @@ const download = (url, dest, cb) => {
 //     return (n < 10) ? spell[n] : n;
 // }
 
-module.exports = { listDates, find, download }
+module.exports = { listDates, find, download, dateDiff }
