@@ -112,7 +112,7 @@ const transform = (json) => {
   json.flat().forEach(d => {
       d.pfizer = (d.pfizer) ? parser.parse(d.pfizer) : '';
       d.moderna = (d.moderna) ? parser.parse(d.moderna) : '';
-      // d.astrazeneca = (d.astrazeneca) ? parser.parse(d.astrazeneca) : '';
+      d.astrazeneca = (d.astrazeneca) ? parser.parse(d.astrazeneca) : '';
       d.entregadas = parser.parse(d.entregadas);
       // d.entregadas = (d.astrazeneca) ? d.entregadas - d.astrazeneca : d.entregadas;
       d.administradas = parser.parse(d.administradas);
