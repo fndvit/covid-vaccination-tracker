@@ -122,28 +122,28 @@ const transform = (json) => {
       d.vacuna_completa = (d.vacuna_completa) ? parser.parse(d.vacuna_completa) : '';
   });
 
-  const range = extent(json.flat(), d => d.fecha);
-  const dateRange = dateDiff(range[0], range[1]);
-  const latestNumbers = Object.values(json)
-		.flat()
-		.sort((a, b) => b.fecha - a.fecha)
-    .slice(0,20);
+  // const range = extent(json.flat(), d => d.fecha);
+  // const dateRange = dateDiff(range[0], range[1]);
+  // const latestNumbers = Object.values(json)
+	// 	.flat()
+	// 	.sort((a, b) => b.fecha - a.fecha)
+  //   .slice(0,20);
     
-  const totalCurrent = latestNumbers.find(d => d.ccaa === 'Totales' ).entregadas;
+  // const totalCurrent = latestNumbers.find(d => d.ccaa === 'Totales' ).entregadas;
 
-  latestNumbers.map(d => {
-			const share = d.entregadas / totalCurrent;
-			d.poblacion_diana = Math.round(share * target);
-			const daily = d.administradas / dateRange;
-			const vaccinesLeft = d.poblacion_diana * 2 - d.administradas;
-			d.fecha_completa  = new Date(d.fecha);
-      d.fecha_completa.setDate(d.fecha.getDate() + 1 * (vaccinesLeft / daily ) )
-      d.fecha_completa = approxDate(d.fecha_completa )
-			return {...d}
-	});
+  // latestNumbers.map(d => {
+	// 		const share = d.entregadas / totalCurrent;
+	// 		d.poblacion_diana = Math.round(share * target);
+	// 		const daily = d.administradas / dateRange;
+	// 		const vaccinesLeft = d.poblacion_diana * 2 - d.administradas;
+	// 		d.fecha_completa  = new Date(d.fecha);
+  //     d.fecha_completa.setDate(d.fecha.getDate() + 1 * (vaccinesLeft / daily ) )
+  //     d.fecha_completa = approxDate(d.fecha_completa )
+	// 		return {...d}
+	// });
 
   const data = groupby(json.flat(), d => d.ccaa);
-  writeJSON(latestNumbers, 'data_latest', pathTo);
+  // writeJSON(latestNumbers, 'data_latest', pathTo);
   writeJSON(data, 'data', pathTo);
   writeCSV(data, 'data', pathTo);
 }
