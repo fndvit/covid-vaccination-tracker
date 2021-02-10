@@ -108,6 +108,7 @@
 		<img class="icon" src="img/{spainTardy}.svg" role="img" aria-label="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" aria-roledescription={approxDate(spainData.dateComplete)} alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en España" />
 	</div>
 	<p class="text summary">España ha adquirido alrededor de {loc.format(',.2r')(totalVacc/1e6)} millones de vacunas (de <em>Pfizer</em> y <em>Moderna</em>). Con esas dosis se puede vacunar a {loc.format(',.2r')(totalVacc/1e6/2)} millones de personas; cada vacuna necesita dos dosis administradas con unas semanas de diferencia para completar la pauta de tratamiento. En la primera fase, se prevé vacunar a 2,4 millones: mayores en residencias, personas con un gran grado de dependencia y sanitarios.</p>
+	<p class="text summary"><strong>¡Actualización!</strong> Desde el 9 de febrero los datos incluyen las dosis de AstraZeneca con la que se vacunará al personal sanitario y sociosanitario en activo —hasta los 55 años de edad— que no estuviera incluido hasta ahora.</p>
 	<p class="text summary">El Ministerio de Sanidad es responsable del reparto de las dosis y la estrategia de vacunación, mientras que las comunidades autónomas son las responsables de ponerla en práctica.</p>
 	<p class="text summary">Si continúan los ritmos de vacunación actuales, {latestNumbers[0].ccaa} será la comunidad que antes complete la primera fase, mientras que {latestNumbers[latestNumbers.length - 1].ccaa} será la última.</p>
 	
@@ -116,7 +117,7 @@
 	{#if width < 640}
 	<div class="headers">
 		<p class='header left' class:selected={sort === 'ccaa'} on:click={() => sortData('ccaa')}>CC.AA.</p>
-        <p class='header' class:selected={sort === 'entregadas'} on:click={() => sortData('entregadas')}>Vac. distr. (Pfizer y Moderna)</p>
+        <p class='header' class:selected={sort === 'entregadas'} on:click={() => sortData('entregadas')}>Vac. distr. (Pfizer, MRNA y AZ)</p>
         <p class='header bold' class:selected={sort === 'administradas'} on:click={() => sortData('administradas')}>Vac. admin.</p>
         <p class='header bold' class:selected={sort === 'admin_entregadas'} on:click={() => sortData('admin_entregadas')}>% vac. admin.</p>
         <p class='header' class:selected={sort === 'vacuna_completa'} on:click={() => sortData('vacuna_completa')}>Con pauta completa</p>
@@ -124,7 +125,7 @@
 	{:else}
 	<div class="headers">
 		<p class='header left' class:selected={sort === 'ccaa'} on:click={() => sortData('ccaa')}>CC.AA.</p>
-        <p class='header' class:selected={sort === 'entregadas'} on:click={() => sortData('entregadas')}>Vacunas entregadas (Pfizer y Moderna)</p>
+        <p class='header' class:selected={sort === 'entregadas'} on:click={() => sortData('entregadas')}>Vacunas entregadas (Pfizer, Moderna y AstraZeneca)</p>
         <p class='header bold' class:selected={sort === 'administradas'} on:click={() => sortData('administradas')}>Vacunas administradas</p>
         <p class='header bold' class:selected={sort === 'admin_entregadas'} on:click={() => sortData('admin_entregadas')}>% de vacunas administradas</p>
         <p class='header' class:selected={sort === 'vacuna_completa'} on:click={() => sortData('vacuna_completa')}>Personas con la pauta completa</p>

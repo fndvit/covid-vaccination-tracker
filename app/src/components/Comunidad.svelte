@@ -72,7 +72,7 @@
         <img class="icon" src="img/{tardy}.svg" role="img" aria-roledescription={approxDate(data.latest.dateComplete)} aria-label="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa}" alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en ${data.latest.ccaa}" />
     </div>
     {#if data.latest.admin_entregadas > 100}
-        <p class='indent text'>¿Cómo se pueden administrar más del 100% de las vacunas entregadas? Cada vial entregado computa como cinco dosis, pero con <a href='https://www.europarl.europa.eu/doceo/document/P-9-2021-000394_ES.html' target='_blank' rel="noopener">jeringuillas especiales</a> (de volumen muerto bajo) se pueden extraer seis dosis y <a href='https://www.ema.europa.eu/en/news/extra-dose-vials-comirnaty-covid-19-vaccine' target='_blank' rel="noopener">las autoridades europeas lo permiten</a>.</p>
+        <p class='indent text'>Hasta el 27 de enero, cada vial entregado computaba como cinco dosis. A partir de esa fecha Pfizer cambia la ficha técnica para contar seis dosis por vial. ¿Por qué? Con <a href='https://www.europarl.europa.eu/doceo/document/P-9-2021-000394_ES.html' target='_blank' rel="noopener">jeringuillas especiales</a> (de volumen muerto bajo) se pueden extraer esas seis dosis y <a href='https://www.ema.europa.eu/en/news/extra-dose-vials-comirnaty-covid-19-vaccine' target='_blank' rel="noopener">las autoridades europeas lo permiten</a>.</p>
     {/if}
 
 </li>

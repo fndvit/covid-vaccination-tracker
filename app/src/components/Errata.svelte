@@ -1,6 +1,7 @@
 <div class='errata' >
     <h2>💩🤦 Errata</h2>
     <p role='complementary' class="text"><strong>1 Feb /</strong> Con el cambio de mes, el método para calcular la fecha en la que se completaría la primera fase se saltaba un mes y, durante unas horas esta mañana, esta página parecía haberse actualizado desde el futuro.</p>
+    <p role='complementary' class="text"><strong>10 Feb /</strong> Al añadir las dosis de AstraZeneca, la estructura de la tabla de datos mantenida por el Ministerio de Sanidad cambió y, durante unas horas, los porcentajes se disparaban.</p>
 </div>
 
 <style>

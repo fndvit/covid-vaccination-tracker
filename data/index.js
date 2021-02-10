@@ -110,14 +110,15 @@ Promise.all(
 const transform = (json) => {
 
   json.flat().forEach(d => {
-      d.entregadas = parser.parse(d.entregadas);
-      d.entregadas = (d.astrazeneca) ? d.entregadas - d.astrazeneca : d.entregadas;
       d.pfizer = (d.pfizer) ? parser.parse(d.pfizer) : '';
       d.moderna = (d.moderna) ? parser.parse(d.moderna) : '';
+      // d.astrazeneca = (d.astrazeneca) ? parser.parse(d.astrazeneca) : '';
+      d.entregadas = parser.parse(d.entregadas);
+      // d.entregadas = (d.astrazeneca) ? d.entregadas - d.astrazeneca : d.entregadas;
       d.administradas = parser.parse(d.administradas);
-      d.administradas = (d.astrazeneca) ? d.administradas - d.astrazeneca : d.administradas;
+      // d.administradas = (d.astrazeneca) ? d.administradas - d.astrazeneca : d.administradas;
       d.admin_entregadas = (d.admin_entregadas) ? parser.parse(d.admin_entregadas) : '';
-      d.admin_entregadas = (d.astrazeneca) ? d.administradas/d.entregadas * 100 : d.admin_entregadas;
+      // d.admin_entregadas = (d.astrazeneca) ? d.administradas/d.entregadas * 100 : d.admin_entregadas;
       d.vacuna_completa = (d.vacuna_completa) ? parser.parse(d.vacuna_completa) : '';
   });
 
