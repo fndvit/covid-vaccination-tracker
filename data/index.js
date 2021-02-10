@@ -8,7 +8,7 @@ const {writeCSV, writeJSON} = require('./utils/write');
 const {listDates, find, download, dateDiff, approxDate, sNumber} = require('./utils/utils');
 const groupby = require('lodash/groupBy');
 const d2lIntl = require('d2l-intl');
-const {extent} = require('d3-array');
+// const {extent} = require('d3-array');
 
 //List of days since January 4, 2021, the first date with data
 const days = listDates(new Date('2021-01-04'), new Date());
