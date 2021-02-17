@@ -359,6 +359,18 @@
       "vacuna_completa": 194477,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Andalucía",
+      "pfizer": 568710,
+      "moderna": 36300,
+      "astrazeneca": 74500,
+      "entregadas": 679510,
+      "administradas": 485673,
+      "admin_entregadas": 71.5,
+      "vacuna_completa": 198314,
+      "hasta": "2021-02-15T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Aragón": [
@@ -721,6 +733,18 @@
       "vacuna_completa": 37628,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Aragón",
+      "pfizer": 96255,
+      "moderna": 6300,
+      "astrazeneca": 11700,
+      "entregadas": 114255,
+      "administradas": 96987,
+      "admin_entregadas": 84.9,
+      "vacuna_completa": 39674,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Asturias": [
@@ -1083,6 +1107,18 @@
       "vacuna_completa": 34140,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Asturias",
+      "pfizer": 98015,
+      "moderna": 6300,
+      "astrazeneca": 9000,
+      "entregadas": 113315,
+      "administradas": 83128,
+      "admin_entregadas": 73.4,
+      "vacuna_completa": 34568,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Baleares": [
@@ -1445,6 +1481,18 @@
       "vacuna_completa": 19025,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Baleares",
+      "pfizer": 49500,
+      "moderna": 3200,
+      "astrazeneca": 10300,
+      "entregadas": 63000,
+      "administradas": 45348,
+      "admin_entregadas": 72,
+      "vacuna_completa": 19361,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Canarias": [
@@ -1807,6 +1855,18 @@
       "vacuna_completa": 44120,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Canarias",
+      "pfizer": 111120,
+      "moderna": 7000,
+      "astrazeneca": 19200,
+      "entregadas": 137320,
+      "administradas": 109051,
+      "admin_entregadas": 79.4,
+      "vacuna_completa": 45239,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Cantabria": [
@@ -2169,6 +2229,18 @@
       "vacuna_completa": 19000,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Cantabria",
+      "pfizer": 47535,
+      "moderna": 2900,
+      "astrazeneca": 5100,
+      "entregadas": 55535,
+      "administradas": 43913,
+      "admin_entregadas": 79.1,
+      "vacuna_completa": 19062,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Castilla y León": [
@@ -2531,6 +2603,18 @@
       "vacuna_completa": 80091,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla y León",
+      "pfizer": 211485,
+      "moderna": 13500,
+      "astrazeneca": 21100,
+      "entregadas": 246085,
+      "administradas": 196196,
+      "admin_entregadas": 79.7,
+      "vacuna_completa": 81422,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Castilla-La Mancha": [
@@ -2893,6 +2977,18 @@
       "vacuna_completa": 52826,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Castilla-La Mancha",
+      "pfizer": 143775,
+      "moderna": 9200,
+      "astrazeneca": 18000,
+      "entregadas": 170975,
+      "administradas": 132722,
+      "admin_entregadas": 77.6,
+      "vacuna_completa": 55447,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Cataluña": [
@@ -3255,6 +3351,18 @@
       "vacuna_completa": 166104,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Cataluña",
+      "pfizer": 489680,
+      "moderna": 31400,
+      "astrazeneca": 68600,
+      "entregadas": 589680,
+      "administradas": 427525,
+      "admin_entregadas": 72.5,
+      "vacuna_completa": 168254,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Com. Valenciana": [
@@ -3617,6 +3725,18 @@
       "vacuna_completa": 95559,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Com. Valenciana",
+      "pfizer": 247060,
+      "moderna": 15700,
+      "astrazeneca": 44500,
+      "entregadas": 307260,
+      "administradas": 228180,
+      "admin_entregadas": 74.3,
+      "vacuna_completa": 96040,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Extremadura": [
@@ -3979,6 +4099,18 @@
       "vacuna_completa": 32353,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Extremadura",
+      "pfizer": 88415,
+      "moderna": 5400,
+      "astrazeneca": 9300,
+      "entregadas": 103115,
+      "administradas": 82086,
+      "admin_entregadas": 79.6,
+      "vacuna_completa": 33415,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Galicia": [
@@ -4341,6 +4473,18 @@
       "vacuna_completa": 57383,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Galicia",
+      "pfizer": 153385,
+      "moderna": 9800,
+      "astrazeneca": 23800,
+      "entregadas": 186985,
+      "administradas": 138601,
+      "admin_entregadas": 74.1,
+      "vacuna_completa": 57397,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "La Rioja": [
@@ -4703,6 +4847,18 @@
       "vacuna_completa": 8523,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "La Rioja",
+      "pfizer": 23465,
+      "moderna": 1400,
+      "astrazeneca": 2800,
+      "entregadas": 27665,
+      "administradas": 22032,
+      "admin_entregadas": 79.6,
+      "vacuna_completa": 8529,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Madrid": [
@@ -5065,6 +5221,18 @@
       "vacuna_completa": 156682,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Madrid",
+      "pfizer": 398895,
+      "moderna": 25400,
+      "astrazeneca": 59800,
+      "entregadas": 484095,
+      "administradas": 354258,
+      "admin_entregadas": 73.2,
+      "vacuna_completa": 160202,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Murcia": [
@@ -5427,6 +5595,18 @@
       "vacuna_completa": 38970,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Murcia",
+      "pfizer": 103685,
+      "moderna": 6600,
+      "astrazeneca": 13300,
+      "entregadas": 123585,
+      "administradas": 93705,
+      "admin_entregadas": 75.8,
+      "vacuna_completa": 39879,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Navarra": [
@@ -5789,6 +5969,18 @@
       "vacuna_completa": 16062,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Navarra",
+      "pfizer": 46365,
+      "moderna": 2900,
+      "astrazeneca": 5800,
+      "entregadas": 55065,
+      "administradas": 42492,
+      "admin_entregadas": 77.2,
+      "vacuna_completa": 16873,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "País Vasco": [
@@ -6151,6 +6343,18 @@
       "vacuna_completa": 41758,
       "hasta": "2021-02-14T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "País Vasco",
+      "pfizer": 127350,
+      "moderna": 7900,
+      "astrazeneca": 19600,
+      "entregadas": 154850,
+      "administradas": 101147,
+      "admin_entregadas": 65.3,
+      "vacuna_completa": 43281,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Ceuta": [
@@ -6513,6 +6717,18 @@
       "vacuna_completa": 969,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Ceuta",
+      "pfizer": 4320,
+      "moderna": 400,
+      "astrazeneca": 800,
+      "entregadas": 5520,
+      "administradas": 4111,
+      "admin_entregadas": 74.5,
+      "vacuna_completa": 969,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Melilla": [
@@ -6875,6 +7091,18 @@
       "vacuna_completa": 1252,
       "hasta": "2021-02-15T00:00:00.000Z",
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Melilla",
+      "pfizer": 3150,
+      "moderna": 400,
+      "astrazeneca": 800,
+      "entregadas": 4350,
+      "administradas": 3302,
+      "admin_entregadas": 75.9,
+      "vacuna_completa": 1254,
+      "hasta": "2021-02-16T00:00:00.000Z",
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ],
   "Totales": [
@@ -7207,6 +7435,17 @@
       "admin_entregadas": 90,
       "vacuna_completa": 1096922,
       "fecha": "2021-02-16T00:00:00.000Z"
+    },
+    {
+      "ccaa": "Totales",
+      "pfizer": 3012165,
+      "moderna": 192000,
+      "astrazeneca": 418000,
+      "entregadas": 3622165,
+      "administradas": 2690457,
+      "admin_entregadas": 74.3,
+      "vacuna_completa": 1119180,
+      "fecha": "2021-02-17T00:00:00.000Z"
     }
   ]
 }
