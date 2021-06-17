@@ -35,16 +35,28 @@
 		.y(d => y(d[key.y[1]]))
 		.curve(curveStep);
 
-	$: areaPath = area()
+	$: aboveAreaPath1 = area()
 		.x(d => x(d[key.x]))
-		.y0(d => y(0))
+		.y0(0)
 		.y1(d => y(d[key.y[0]]))
 		.curve(curveStep);
 	
-	$: areaPath2 = area()
+	$: belowAreaPath1 = area()
 		.x(d => x(d[key.x]))
-		.y0(d => y(0))
+		.y0(d => y(d[key.y[0]]))
+		.y1(height)
+		.curve(curveStep);
+
+	$: aboveAreaPath2 = area()
+		.x(d => x(d[key.x]))
+		.y0(0)
 		.y1(d => y(d[key.y[1]]))
+		.curve(curveStep);
+	
+	$: belowAreaPath2 = area()
+		.x(d => x(d[key.x]))
+		.y0(d => y(d[key.y[1]]))
+		.y1(height)
 		.curve(curveStep);
 
 	const mouseMove = (m) => {
@@ -78,6 +90,28 @@
 	<title id='title'>{title}</title>
 	<desc id='desc'>{desc}</desc>
 	<g>
+		<clipPath id="abovearea">	
+			<path 
+				d={aboveAreaPath2(data)}
+			/>
+		</clipPath>
+		<clipPath id="belowarea">	
+			<path 
+				d={belowAreaPath2(data)}
+			/>
+		</clipPath>
+		<path 
+			clip-path="url(#abovearea)"
+			fill={color[0]}
+			fill-opacity= 0.25
+			d={belowAreaPath1(data)}
+		/>
+		<path 
+			clip-path="url(#belowarea)"
+			fill={color[1]}
+			fill-opacity= 0.25
+			d={aboveAreaPath1(data)}
+		/>
 		<path 
 			d={path(data)}
 			stroke={color[0]}
@@ -89,19 +123,6 @@
 			stroke={color[1]}
 			fill='none'
 			stroke-width=3
-		/>
-		<path 
-			d={areaPath(data)}
-			fill={colorDiff[0]}
-			stroke='none'
-		/>
-		<path 
-			d={areaPath2(data)}
-			fill={colorDiff[1]}
-			stroke='none'
-		/>
-		<clipPath
-			id="above"
 		/>
 	</g>
 
