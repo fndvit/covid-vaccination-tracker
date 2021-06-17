@@ -1,7 +1,7 @@
 <script>
 	import Axis from '../common/Axis.svelte';
 	import PointInteractive from '../common/PointInteractive.svelte';
-	import {line, curveStep,area} from 'd3-shape';
+	import {line, curveStep} from 'd3-shape';
 	import {scaleTime, scaleLinear} from 'd3-scale';
 	import {max, extent, bisector} from 'd3-array'
     
@@ -10,7 +10,6 @@
 	export let format;
 	export let key;
 	export let color;
-	export let colorDiff;
 	export let title;
 	export let desc;
 	export let layout;
@@ -22,41 +21,12 @@
 		.range([margin.left, width - margin.right]);
 	
 	$: y = scaleLinear()
-		.domain([0, max(data, d => d[key.y[0]])])
+		.domain([0, max(data, d => d[key.y])])
 		.range([height - margin.bottom - margin.top, margin.top]);
 
 	$: path = line()
 		.x(d => x(d[key.x]))
-		.y(d => y(d[key.y[0]]))
-		.curve(curveStep);
-
-	$: path2 = line()
-		.x(d => x(d[key.x]))
-		.y(d => y(d[key.y[1]]))
-		.curve(curveStep);
-
-	$: aboveAreaPath1 = area()
-		.x(d => x(d[key.x]))
-		.y0(0)
-		.y1(d => y(d[key.y[0]]))
-		.curve(curveStep);
-	
-	$: belowAreaPath1 = area()
-		.x(d => x(d[key.x]))
-		.y0(d => y(d[key.y[0]]))
-		.y1(height)
-		.curve(curveStep);
-
-	$: aboveAreaPath2 = area()
-		.x(d => x(d[key.x]))
-		.y0(0)
-		.y1(d => y(d[key.y[1]]))
-		.curve(curveStep);
-	
-	$: belowAreaPath2 = area()
-		.x(d => x(d[key.x]))
-		.y0(d => y(d[key.y[1]]))
-		.y1(height)
+		.y(d => y(d[key.y]))
 		.curve(curveStep);
 
 	const mouseMove = (m) => {
@@ -90,39 +60,10 @@
 	<title id='title'>{title}</title>
 	<desc id='desc'>{desc}</desc>
 	<g>
-		<clipPath id="abovearea">	
-			<path 
-				d={aboveAreaPath2(data)}
-			/>
-		</clipPath>
-		<clipPath id="belowarea">	
-			<path 
-				d={belowAreaPath2(data)}
-			/>
-		</clipPath>
-		<path 
-			clip-path="url(#abovearea)"
-			fill={color[0]}
-			fill-opacity= 0.25
-			d={belowAreaPath1(data)}
-		/>
-		<path 
-			clip-path="url(#belowarea)"
-			fill={color[1]}
-			fill-opacity= 0.25
-			d={aboveAreaPath1(data)}
-		/>
 		<path 
 			d={path(data)}
-			stroke={color[0]}
+			stroke={color}
 			fill='none'
-			stroke-width=3
-		/>
-		<path 
-			d={path2(data)}
-			stroke={color[1]}
-			fill='none'
-			stroke-width=3
 		/>
 	</g>
 

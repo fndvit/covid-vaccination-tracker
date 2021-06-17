@@ -39,14 +39,14 @@
     {#if position === 'bottom'}
     <g class='tick' transform='translate({tick.offset}, 0)'>
       <line y2=6 />
-      <text y=20 text-anchor={anchor(tick.offset)}>
+      <text class='label' y=20 text-anchor={anchor(tick.offset)}>
         {tick.value}
       </text>
     </g>
 		{:else if position === 'top'}
     <g class='tick' transform='translate({tick.offset}, 0)'>
       <line y2=-6 />
-      <text y=-10 text-anchor={anchor(tick.offset)}>
+      <text class='label' y=-10 text-anchor={anchor(tick.offset)}>
         {tick.value}
       </text>
     </g>
@@ -56,7 +56,7 @@
       <line x2={width}/>
 			{:else}
       <line x2={width} stroke-dasharray="2 3" />
-      <text x={width} y=-5 text-anchor='end'>
+      <text class='label' x={width} y=-5 text-anchor='end'>
         {tick.value}
       </text>
 			{/if}
@@ -67,7 +67,7 @@
       <line x2={width}/>
 			{:else}
       <line x2={width} stroke-dasharray="2 3" />
-      <text x=0 y=-5 text-anchor='start'>
+      <text class='label' x=0 y=-5 text-anchor='start'>
         {tick.value}
       </text>
 			{/if}
@@ -79,9 +79,5 @@
 <style>
 	line {
 		stroke: #DCDCDC;
-	}
-	text {
-		fill: #505050;
-		font-size: .75rem;
 	}
 </style>

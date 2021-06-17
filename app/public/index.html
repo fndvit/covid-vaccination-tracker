@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
-	<link rel="stylesheet" href="https://use.typekit.net/aqs1rmg.css">
+	<link defer rel="preconnect" href="https://use.typekit.net/aqs1rmg.css">
+	<link defer rel='stylesheet' href='global.css'>
 	<link defer rel='stylesheet' href='build/bundle.css'>
+	<script>
+	(function(document, window){
+		if (!document || !window) {
+			return;
+		}
+		
+		var styleText = '::-moz-focus-inner{border:0 !important;}:focus{outline: none !important;';
+		var unfocus_style = document.createElement('STYLE');
+	
+		window.unfocus = function(){
+			document.getElementsByTagName('HEAD')[0].appendChild(unfocus_style);
+	
+			document.addEventListener('mousedown', function(){
+				unfocus_style.innerHTML = styleText+'}';
+			});
+			document.addEventListener('keydown', function(){
+				unfocus_style.innerHTML = '';
+			});
+		};
+	
+		unfocus.style = function(style){
+			styleText += style;
+		};
+	
+		unfocus();
+	})(document, window);
+	</script>
 	<script defer src='build/bundle.js'></script>
-	<title>Evolución diaria de la vacunación contra la COVID-19 en España</title>
-
-	<meta name="theme-color" content='#00bbc4' />
-	<meta name="title" content='¿Cómo va la vacunación contra la COVID-19 en España?'/>
-	<meta name="description" content='Evolución del ritmo de vacunación contra la COVID-19, datos diarios por comunidades autónomas.'/>
-	<meta name="robots" content="index, follow"/>
-	<meta name="language" content='es'/>
-	<meta name="keywords" content='COVID-19, vacunación, España, visualización, transparencia, datos abiertos'/>
-
-	<meta property="og:type" content="website"/>
-	<meta property="og:url" content='https://vacunas.fndvit.org'/>
-	<meta property="og:title" content='¿Cómo va la vacunación contra la COVID-19 en España?'/>
-	<meta property="og:description" content='Evolución del ritmo de vacunación contra la COVID-19, datos diarios por comunidades autónomas.'/>
-	<meta property="og:image" content="https://vacunas.fndvit.org/img/poster_social.png" />
-	<meta property="og:image:width" content="1600" />
-	<meta property="og:image:height" content="900" />
-
-	<meta property="twitter:card" content="https://vacunas.fndvit.org/img/poster_social.png"/>
-	<meta property="twitter:url" content='https://vacunas.fndvit.org'/>
-	<meta property="twitter:title" content='¿Cómo va la vacunación contra la COVID-19 en España?'/>
-	<meta property="twitter:description" content=Evolución del ritmo de vacunación contra la COVID-19, datos diarios por comunidades autónomas.'//>
-	<meta property="twitter:image" content="https://vacunas.fndvit.org/img/poster_social.png"/>
-	<link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5e5b7eebeb83b746b6481a2d/1604671720103-EPJSELDNWVIPCWI63H7G/ke17ZwdGBToddI8pDm48kNCIUUInZz-JelovUC4TKJ9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpy2nmdcYIRqEQwGN8P7xrL_yE-hs8s0G614KmYuoTh2b5xIcJ7iebeF3-4wt8VfJy4/favicon.ico?format=100w"/>
-	<link rel="apple-touch-icon" href="https://vacunas.fndvit.org/img/poster_192.png"/>
-	<link rel="manifest" href="https://vacunas.fndvit.org/manifest.json"/>
-	<link rel="canonical" href="https://vacunas.fndvit.org" />
 </head>
 <body>
 </body>
