@@ -2,28 +2,73 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	font-size: 92.5%;
+	font-size: 100%;
+	text-align: left;
 }
-
 body {
-	color: #333;
+	color: #000;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'neue-haas-grotesk-display', sans-serif;
 	font-style: normal;
 }
 
-h1, h2, h4, p {
-	text-align: left;
+h1, h2, h3, h4 { font-family: 'neue-haas-grotesk-display', sans-serif; }
+
+h1 {
+	font-weight: 300;
+	font-size: 3rem;
+	line-height: 1.15;
+}
+h2, h3, h4, p { line-height: 1.5; }
+h2, h3 { font-weight: 400; }
+h2 { font-size: 2.2rem; }
+h3 { font-size: 1.6rem; }
+h4 {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+p { 
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'neue-haas-grotesk-text', sans-serif;
+}
+.label {
+	font-weight: 300;
+	font-size: .7rem;
+	color: #767676;
+	fill: #767676;
+	font-family: 'neue-haas-grotesk-display', sans-serif;
+}
+.value {
+	color: #333;
+	fill: #333;
+	font-size: .8rem;
+	font-weight: 600;
+	font-family: 'neue-haas-grotesk-display', sans-serif;
 }
 
-label {
-	display: block;
+.col, .wide {
+	margin: 0 auto;
+	width: 100%;
+}
+.col { width:34rem; }
+.wide { width:48rem; }
+.full {
+	width:100%;
+	margin: 0;
+}
+.fs {
+	width:100vw;
+	height:100vh;
+	margin:0;
+	margin-left:-1em;
+	padding:0;
 }
 
-@media screen and (min-width: 640px) {
-	html {
-		font-size: 100%;
-	}
+@media screen and (min-width: 34rem) {
+	html, body { font-size: 120%; }
+
+	h1 { font-size: 3.6rem; }
+	h2 { font-size: 2.7rem; }
 }

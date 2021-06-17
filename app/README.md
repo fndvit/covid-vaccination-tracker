@@ -1,43 +1,20 @@
-# Visualization of the COVID-19 vaccination in Spain
+*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
-Objectives:
-* Track the daily evolution of the vaccine rollout
-* Estimate when the rollout will be complete
+---
 
-To do:
-- [x] Explanatory intro
-- [x] Get `dateComplete` math checked
-- [x] Add logo, credits, and link to repo
-- [x] Hovers
-- [x] Legends and labels (partially done)
-- [x] X-axis sticky on top (maybe), and add Y-axis (partially done)
-- [x] ~~Search field or drop down to filter by region~~ Summary table navigation is best option
-- [x] Right now order is alphabetical, need to sort regions using headers
-- [x] Better touch events
-- [ ] Translate to Catalan
+# svelte app
 
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
-## Mockup
-Looks like this for now ... 
-
-<img alt='Mockup of the app' src='https://github.com/fndvit/covid-vaccination-tracker/blob/main/app/mockup.png?raw=true' width='698px' height='740px' />
-
-## Download
-
-You can grab this project using [degit](https://github.com/Rich-Harris/degit):
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit fndvit/covid-vaccination-tracker
-cd covid-vaccination-tracker
+npx degit sveltejs/template svelte-app
+cd svelte-app
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-The instructions below come from the project template for Svelte apps at https://github.com/sveltejs/template.
-
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
 
 ## Get started
 
