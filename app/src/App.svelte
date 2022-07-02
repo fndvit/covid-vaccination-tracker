@@ -85,7 +85,7 @@
 
 <Menu />
 
-<main role="main">
+<main>
   <svg
     xmlns:svg="https://www.w3.org/2000/svg"
     viewBox="0 0 0 0"
@@ -111,7 +111,7 @@
   </svg>
 
   <Total data={spainData} />
-
+  <header>
   <p class="text update">
     <strong
       >⚠️ Los datos de este projecto<br />se dejaron de actualizar en marzo de
@@ -156,7 +156,7 @@
       latestNumbers.length - 1
     ].ccaa} será la última.
   </p>
-
+  </header>
   <SummaryTable data={latestNumbers.filter((d) => d.ccaa !== "Totales")} />
 
   {#if width < 640}

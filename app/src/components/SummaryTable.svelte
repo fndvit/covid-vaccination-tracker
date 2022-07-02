@@ -24,14 +24,14 @@
     }
 </script>
 
-<div class="summary" role='navigation'>
-    <img class="icon" src="img/ontime.svg" role="img" aria-roledescription="Comunidades dentro del plazo" aria-label="Icono de un temporizador mostrando que está dentro del plazo previsto" alt="Icono de un temporizador mostrando que está dentro del plazo previsto" />
+<div class="summary">
+    <img class="icon" src="img/ontime.svg" aria-roledescription="Comunidades dentro del plazo" aria-label="Icono de un temporizador mostrando que está dentro del plazo previsto" alt="Icono de un temporizador mostrando que está dentro del plazo previsto" />
     <p class='text list'><strong>Dentro del plazo previsto:</strong> {@html toList(ontime)}</p>
 
-    <img class="icon" src="img/late.svg" role="img" aria-roledescription="Comunidades retrasadas en el plazo" aria-label="Icono de un temporizador mostrando retraso en la administración de vacunas"  alt="Icono de un temporizador mostrando retraso en la administración de vacunas" />
+    <img class="icon" src="img/late.svg" aria-roledescription="Comunidades retrasadas en el plazo" aria-label="Icono de un temporizador mostrando retraso en la administración de vacunas"  alt="Icono de un temporizador mostrando retraso en la administración de vacunas" />
     <p class='text list'><strong>Con retraso respecto al plazo previsto:</strong> {@html toList(late)}</p>
 
-    <img class="icon" src="img/verylate.svg" role="img" aria-roledescription="Comunidades muy retrasadas en el plazo" aria-label="Icono de un temporizador mostrando mucho retraso en la administración de vacunas"  alt="Icono de un temporizador mostrando mucho retraso en la administración de vacunas" />
+    <img class="icon" src="img/verylate.svg" aria-roledescription="Comunidades muy retrasadas en el plazo" aria-label="Icono de un temporizador mostrando mucho retraso en la administración de vacunas"  alt="Icono de un temporizador mostrando mucho retraso en la administración de vacunas" />
     <p class='text list'><strong>Con mucho retraso:</strong> {@html toList(verylate)}</p>
 </div>
 

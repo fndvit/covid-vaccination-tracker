@@ -1,16 +1,16 @@
-<div class="errata">
+<div class="errata" role="complementary" aria-label="Errata">
   <h2>💩🤦 Errata</h2>
-  <p role="complementary" class="text">
+  <p class="text">
     <strong>1 Feb 2021 /</strong> Con el cambio de mes, el método para calcular la
     fecha en la que se completaría la primera fase se saltaba un mes y, durante unas
     horas esta mañana, esta página parecía haberse actualizado desde el futuro.
   </p>
-  <p role="complementary" class="text">
+  <p class="text">
     <strong>10 Feb 2021</strong> Al añadir las dosis de AstraZeneca, la estructura
     de la tabla de datos mantenida por el Ministerio de Sanidad cambió y, durante
     unas horas, los porcentajes se disparaban.
   </p>
-  <p role="complementary" class="text">
+  <p class="text">
     <strong>2 Mar 2021</strong> Hemos dejado de mantener activamente el proyecto.
     Las cifras y las gráficas no tienen los datos actualizados.
   </p>
