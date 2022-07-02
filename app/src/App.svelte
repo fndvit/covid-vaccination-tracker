@@ -126,7 +126,7 @@
     <img
       class="icon"
       src="img/{spainTardy}.svg"
-      role="img"
+      width="87.43px" height="86.6px"
       aria-label="Icono de un temporizador mostrando el retraso en la administración de vacunas en España"
       aria-roledescription={approxDate(spainData.dateComplete)}
       alt="Icono de un temporizador mostrando el retraso en la administración de vacunas en España"
@@ -291,6 +291,7 @@
   }
   .icon {
     width: 80%;
+    height: auto;
     margin: 0.5rem auto;
   }
   .summary {
@@ -397,6 +398,7 @@
     }
     .icon {
       width: 50%;
+      height: auto;
       margin: 0 auto;
     }
   }
